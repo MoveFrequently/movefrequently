@@ -1,76 +1,39 @@
 <% colors = ['bg-blue-100', 'bg-cyan-100', 'bg-teal-100', 'bg-green-100', 'bg-yellow-100', 'bg-orange-100', 'bg-red-100', 'bg-pink-100', 'bg-purple-100', 'bg-indigo-100'] %>
 
-
-<div id="countdown-container" class="flex items-center justify-center min-h-screen <%= colors.sample %> w-full">
-  <div class="next-time">
-    <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono"></span>
-  </div>
-  <div class="utc-time" data-time="<%= @exercise.next_at.utc.iso8601 %>" style="display:none;"></div>
-</div>
-
-<div id="exercise-container" style="display:none;" class="mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl min-h-screen">
-    <div id="exercise-content" class="flex flex-col items-start justify-center px-8">
-      <h1 class="text-2xl md:text-4xl font-bold text-center w-full mb-12"><%= @exercise.exercise.name %></h1>
-
-      <ol class="steps space-y-4 list-none mb-8">
-        <% @exercise.exercise.steps.each_with_index do |step, index| %>
-          <% colors = ['bg-blue-100', 'bg-cyan-100', 'bg-teal-100', 'bg-green-100', 'bg-yellow-100', 'bg-orange-100', 'bg-red-100', 'bg-pink-100', 'bg-purple-100', 'bg-indigo-100'] %>
-          <% step_color = colors[index % colors.length] %>
-          <li class="text-base md:text-lg <%= step_color %> p-4 rounded-lg"><%= step %></li>
-        <% end %>
-      </ol>
-
-      <p class="description text-lg mb-8 w-full text-center"><%= @exercise.exercise.description %></p>
-
-    <div class="w-full flex justify-center">
-      <%= link_to done_text(@exercise.id), next_exercises_path, class: "bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-200", data: { turbo: false } %>
+<div class="flex w-full" data-controller="countdown">
+    <div id="countdown-container" class="flex items-center justify-center min-h-screen <%= colors.sample %> w-full">
+        <div class="next-time">
+            <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono"></span>
+        </div>
+        <div class="utc-time" data-time="<%= @exercise.next_at.utc.iso8601 %>" style="display:none;"></div>
     </div>
+
+    <div id="exercise-container" style="display:none;" class="mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl min-h-screen">
+        <div id="exercise-content" class="flex flex-col items-start justify-center px-8">
+            <h1 class="text-2xl md:text-4xl font-bold text-center w-full mb-12">
+            <%= @exercise.exercise.name %>
+            </h1>
+
+            <ol class="steps space-y-4 list-none mb-8">
+            <% @exercise.exercise.steps.each_with_index do |step, index| %>
+                <% colors = ['bg-blue-100', 'bg-cyan-100', 'bg-teal-100', 'bg-green-100', 'bg-yellow-100', 'bg-orange-100', 'bg-red-100', 'bg-pink-100', 'bg-purple-100', 'bg-indigo-100'] %>
+                <% step_color = colors[index % colors.length] %>
+                <li class="text-base md:text-lg <%= step_color %> p-4 rounded-lg">
+                <%= step %>
+                </li>
+            <% end %>
+            </ol>
+
+            <p class="description text-lg mb-8 w-full text-center">
+            <%= @exercise.exercise.description %>
+            </p>
+
+            <div class="w-full flex justify-center" data-controller="confetti">
+            <%= link_to done_text(@exercise.id), 
+                next_exercises_path, 
+                class: "bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-200", 
+                data: { turbo: false, action: "confetti#launch" } %>
+            </div>
+        </div>
     </div>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const timeElement = document.querySelector('.utc-time');
-  const exerciseTime = new Date(timeElement.dataset.time);
-  const exerciseContainer = document.getElementById('exercise-container');
-  const countdownContainer = document.getElementById('countdown-container');
-  const countdownElement = document.getElementById('countdown');
-  let notificationSent = false;
-
-  // Request notification permission on page load
-  if (Notification.permission === 'default') {
-    Notification.requestPermission();
-  }
-
-  function updateCountdown() {
-    const now = new Date();
-    const diff = exerciseTime - now;
-
-    if (diff <= 0) {
-      countdownContainer.style.display = 'none';
-      exerciseContainer.style.display = 'flex';
-      document.title = "LiveLonger - Time to Exercise!";
-      
-      // Send notification if not already sent
-      if (!notificationSent && Notification.permission === 'granted') {
-        new Notification('Time to Exercise!', {
-          body: 'Your next exercise is ready',
-          icon: '/icon.png'
-        });
-        notificationSent = true;
-      }
-      return;
-    }
-
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-    countdownElement.textContent = timeString;
-    document.title = `LiveLonger - Next in ${timeString}`;
-  }
-
-  updateCountdown();
-  setInterval(updateCountdown, 1000);
-});
-</script>
