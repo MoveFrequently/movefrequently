@@ -15,8 +15,29 @@ if __FILE__ == $0
         exit 1
     end
 
-    num_exercises.times do |i|
-        Exercise.generate_and_save!
+    num_batches = (num_exercises / 20.0).ceil
+    num_batches.times do |batch|
+      remaining = num_exercises - (batch * 20)
+      batch_size = [ 20, remaining ].min
+
+      puts "Generating batch #{batch + 1}/#{num_batches} (#{batch_size} exercises)..."
+
+      pool = Concurrent::FixedThreadPool.new(batch_size)
+      futures = []
+
+      batch_size.times do |i|
+        futures << Concurrent::Future.execute(executor: pool) do
+          puts "Starting exercise #{batch * 20 + i + 1}/#{num_exercises}..."
+          Exercise.generate_and_save!
+          puts "Completed exercise #{batch * 20 + i + 1}/#{num_exercises}"
+        end
+      end
+
+      futures.each(&:value)
+      pool.shutdown
+      pool.wait_for_termination
+
+      puts "Completed batch #{batch + 1}/#{num_batches}"
     end
 
     Exercise.dump_fixture

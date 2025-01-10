@@ -1,225 +1,3952 @@
 ---
-desk jive:
-  id: 1
+jolly jumping jacks:
+  id: 140
+  name: Jolly Jumping Jacks
+  description: A quick and fun exercise to get your heart rate up while standing at
+    your desk!
+  steps:
+  - Stand up with feet together and hands by your sides.
+  - Jump up, spreading your legs shoulder-width apart and raising your arms overhead
+    to make a star shape.
+  - Quickly jump back to the starting position with legs together and arms by your
+    sides.
+  - Repeat the jumps continuously for 30 seconds, then take a 10-second break.
+  - Repeat the full round once more for a total of 1 minute.
   created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:45.181936000 Z
+    utc: 2025-01-10 15:03:31.412816000 Z
     zone: &1 !ruby/object:ActiveSupport::TimeZone
       name: Etc/UTC
-    time: 2025-01-10 11:19:45.181936000 Z
-  description: A quick and fun standing exercise to get your blood pumping and add
-    some dance-like flair to your workday!
-  name: Desk Jive
-  steps:
-  - Start by standing up straight in front of your desk with feet shoulder-width apart.
-  - Begin by tapping your right foot to the side, then bring it back to the center.
-  - Next, tap your left foot to the side, then bring it back to the center.
-  - Now, sway your hips gently to the right, then to the left, as if you're doing
-    a little jive dance.
-  - Clap your hands twice above your head for added fun and excitement.
-  - Repeat these steps for a delightful and energetic 30 seconds.
-  - Take a deep breath and do a little victory pose before sitting back down.
+    time: 2025-01-10 15:03:31.412816000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:45.181936000 Z
+    utc: 2025-01-10 15:03:31.412816000 Z
     zone: *1
-    time: 2025-01-10 11:19:45.181936000 Z
-desk side squats:
+    time: 2025-01-10 15:03:31.412816000 Z
+the energizing twist:
   id: 2
+  name: The Energizing Twist
+  description: A quick full-body movement to increase mobility and strength by engaging
+    your core and legs.
+  steps:
+  - Stand up straight with your feet shoulder-width apart, facing your desk.
+  - Reach your arms out in front of you, parallel to the ground.
+  - Gently twist your torso to the right, keeping your hips square and extending your
+    left arm across your body.
+  - Return to center and repeat the twist to the left, extending your right arm.
+  - Swing back to center and perform a small squat, then stand straight back up.
+  - Repeat the entire sequence 3 times.
   created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:47.293972000 Z
+    utc: 2025-01-10 15:02:43.167860000 Z
     zone: *1
-    time: 2025-01-10 11:19:47.293972000 Z
-  description: Energize your legs and core with quick desk side squats. A perfect
-    way to break up your day with some movement!
-  name: Desk Side Squats
+    time: 2025-01-10 15:02:43.167860000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.167860000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.167860000 Z
+jumping jack twists:
+  id: 3
+  name: Jumping Jack Twists
+  description: A dynamic exercise that combines the classic jumping jack with a fun
+    twist to engage your oblique muscles.
+  steps:
+  - Start by standing straight with your feet together and arms by your sides.
+  - Jump up while twisting your torso to the right and spreading your arms and legs
+    apart simultaneously.
+  - Land softly back to the starting position with feet together and arms by your
+    sides.
+  - Immediately jump again, twisting your torso to the left this time.
+  - Repeat the twists continuously, alternating sides for 1 minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.210226000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.210226000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.210226000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.210226000 Z
+cactus stretch:
+  id: 4
+  name: Cactus Stretch
+  description: A dynamic stretch to improve your posture and release tension in the
+    shoulders and back while engaging your core.
+  steps:
+  - Stand up tall behind your desk with feet hip-width apart.
+  - Raise your arms to shoulder height with elbows bent at 90 degrees, forming a 'cactus'
+    shape.
+  - Gently squeeze your shoulder blades together as you open your chest.
+  - Engage your core and slightly bend your knees.
+  - Hold the position for a deep breath, then relax and repeat.
+  - Repeat this sequence five times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.215890000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.215890000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.215890000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.215890000 Z
+side_to_side lunges:
+  id: 5
+  name: Side-to-Side Lunges
+  description: Engage your leg muscles and improve mobility with a quick side-to-side
+    lunge routine that you can do next to your desk.
+  steps:
+  - Stand with feet hip-width apart, facing forward.
+  - Take a wide step to the right with your right foot, bending the right knee and
+    keeping the left leg straight.
+  - Push through your right foot to return to standing.
+  - Repeat the movement to the left, stepping wide with your left foot and bending
+    the left knee.
+  - Push through your left foot to return to standing.
+  - Perform 5 repetitions on each side, alternating as you go.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.266012000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.266012000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.266012000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.266012000 Z
+the energizing side stretch:
+  id: 6
+  name: The Energizing Side Stretch
+  description: A fun and simple side stretch to invigorate your body, improve flexibility,
+    and strengthen your oblique muscles, perfect for a quick desk break.
+  steps:
+  - Start by standing tall with your feet hip-width apart near your desk.
+  - Raise your arms overhead and interlock your fingers.
+  - Gently lean to the right, stretching your left side, and hold for a few seconds.
+  - Return to the center and lean to the left, stretching your right side.
+  - Repeat the side stretches back and forth 5 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.305108000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.305108000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.305108000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.305108000 Z
+happy leg lift and reach:
+  id: 7
+  name: Happy Leg Lift and Reach
+  description: A delightful exercise to stretch your legs and energize your body while
+    standing near your desk.
+  steps:
+  - Start by standing up tall with your feet shoulder-width apart.
+  - Lift your right leg and gently swing it forward while reaching out with your right
+    hand.
+  - Bring your right leg back to the ground and simultaneously lower your right hand.
+  - Repeat the motion on the left side by lifting your left leg and reaching with
+    your left hand.
+  - Continue alternating sides in a fluid motion for 30 seconds.
+  - Feel free to add a slight bounce on the supporting leg for some extra cheer!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.309597000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.309597000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.309597000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.309597000 Z
+jumping jack stretch:
+  id: 8
+  name: Jumping Jack Stretch
+  description: A dynamic stretch combining jumping jacks with reaching for the ceiling
+    to improve your strength and mobility.
+  steps:
+  - Stand up straight with your feet together and arms at your sides.
+  - Perform a mini squat by bending your knees slightly.
+  - Jump up to spread your legs shoulder-width apart while raising your arms above
+    your head in a wide arc.
+  - As you land, bring your feet back together and lower your arms to the sides.
+  - Repeat the jump and stretch sequence for a total of 10 times, feeling the stretch
+    and engaging your core.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.313143000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.313143000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.313143000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.313143000 Z
+happy hands jive:
+  id: 9
+  name: Happy Hands Jive
+  description: A lively exercise to get your arms and legs grooving in front of your
+    desk, boosting energy and mobility!
+  steps:
+  - Start standing up tall, with feet hip-width apart, and arms relaxed by your sides.
+  - Shake your hands vigorously as if you're waving water off them for 5 seconds.
+  - Now, lift your arms up overhead, and sway your hips side to side for a fun twist
+    for 10 seconds.
+  - Bring your arms back down, and march in place, lifting your knees high for 10
+    seconds.
+  - Repeat the shaking, swaying, and marching sequence twice more, keeping a cheerful
+    tempo!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.493254000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.493254000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.493254000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.493254000 Z
+twist and reach:
+  id: 83
+  name: Twist and Reach
+  description: An invigorating exercise to improve flexibility and core strength,
+    perfect for a quick break.
+  steps:
+  - Stand up straight with your feet shoulder-width apart, a step back from your desk.
+  - Raise your arms parallel to the floor and twist your torso gently to the left,
+    reaching your right hand toward the left side of your desk.
+  - Return to the starting position and then twist your torso gently to the right,
+    reaching your left hand toward the right side of your desk.
+  - Repeat these twists for a total of four times on each side, ensuring a smooth
+    and controlled motion.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:04.741445000 Z
+    zone: *1
+    time: 2025-01-10 15:03:04.741445000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:04.741445000 Z
+    zone: *1
+    time: 2025-01-10 15:03:04.741445000 Z
+chairless squats:
+  id: 11
+  name: Chairless Squats
+  description: A quick squat variation to strengthen leg muscles and improve mobility,
+    all in the comfort of your workspace!
+  steps:
+  - Stand up straight with your feet shoulder-width apart in front of your desk.
+  - Extend your arms forward for balance, keeping them parallel to the ground.
+  - Lower your body as if you're sitting back into a chair, keeping your chest up
+    and knees behind your toes.
+  - Pause for a moment when your thighs are parallel to the floor.
+  - Push through your heels to return to the standing position.
+  - Repeat the motion 5 to 10 times, maintaining a steady and controlled pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.577023000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.577023000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.577023000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.577023000 Z
+pepperoni twist:
+  id: 13
+  name: Pepperoni Twist
+  description: A fun and engaging full-body stretch with a twist, perfect to enhance
+    mobility and strength. No equipment needed!
+  steps:
+  - Stand up next to your desk with your feet shoulder-width apart.
+  - Extend your arms outward like a T-shape.
+  - Bend forward to touch your left foot with your right hand while lifting your left
+    arm towards the ceiling.
+  - Return to the standing T-shape position.
+  - Repeat the motion on the opposite side, touching your right foot with your left
+    hand.
+  - Continue alternating sides dynamically and repeat the entire sequence 8 times
+    for a fun twisty movement!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.714835000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.714835000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.714835000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.714835000 Z
+happy twists:
+  id: 14
+  name: Happy Twists
+  description: A quick energizing twist exercise to stretch your muscles and improve
+    mobility.
+  steps:
+  - Stand up straight with feet shoulder-width apart, facing your desk.
+  - Reach both arms towards the ceiling as you take a deep breath in.
+  - As you exhale, rotate your torso to the right, allowing your arms to follow, and
+    hold for a second.
+  - Inhale as you return to the center and reach up again.
+  - Exhale and rotate to the left, holding for a second.
+  - Return to the center with a deep breath in, completing one full cycle.
+  - Repeat these twists alternating sides for 30 seconds to 1 minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.840727000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.840727000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.840727000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.840727000 Z
+reach and rise:
+  id: 15
+  name: Reach and Rise
+  description: Boost your energy with a simple and fun full-body stretch that gets
+    you moving!
+  steps:
+  - Stand up in front of your desk with your feet shoulder-width apart.
+  - Raise your arms above your head and take a deep breath in, stretching your fingertips
+    towards the sky.
+  - While exhaling, bend forward and try to touch your toes or as far as you comfortably
+    can.
+  - Return to standing, raise your hands again towards the sky, and gently lift up
+    on your toes for an added stretch.
+  - Lower your heels back to the floor, relax your arms by your side, and repeat the
+    sequence 3 more times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.901077000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.901077000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.901077000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.901077000 Z
+happy hip swings:
+  id: 16
+  name: Happy Hip Swings
+  description: Enjoy a quick burst of movement with hip swings meant to unlock your
+    hips and get you energized.
+  steps:
+  - Stand up straight and position yourself an arm’s length away from your desk.
+  - Place your hands on your hips for stability.
+  - Swing your hips gently to the right, then to the left, like a pendulum.
+  - Keep your upper body relatively still and focus the movement in your lower body.
+  - Engage your core slightly and keep a soft bend in your knees.
+  - Swing your hips side to side for about 30 seconds.
+  - Return to a neutral standing position, shake it off, and repeat the set one or
+    two more times!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.942483000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.942483000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:43.942483000 Z
+    zone: *1
+    time: 2025-01-10 15:02:43.942483000 Z
+happy hip circles:
+  id: 178
+  name: Happy Hip Circles
+  description: Loosen up your hips and add some flair to your day with this quick
+    and fun hip circle exercise!
+  steps:
+  - Stand up tall behind or to the side of your desk, with feet about hip-width apart.
+  - Place your hands on your hips for stability, and imagine drawing a big circle
+    with your hips.
+  - Gently push your hips to the right, forward, left, and then back to complete a
+    full circular motion.
+  - Continue circling your hips smoothly for 30 seconds, then switch direction to
+    balance out the movement.
+  - Smile and enjoy the liberating motion, feeling the stretch and movement in your
+    lower back and hips.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:43.435122000 Z
+    zone: *1
+    time: 2025-01-10 15:03:43.435122000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:43.435122000 Z
+    zone: *1
+    time: 2025-01-10 15:03:43.435122000 Z
+twist and reach stretch:
+  id: 18
+  name: Twist and Reach Stretch
+  description: A dynamic stretch to loosen up your upper body and improve your mobility.
+  steps:
+  - Stand up straight with your feet shoulder-width apart, close to your desk.
+  - Extend your arms out in front of you, palms facing each other.
+  - Slowly rotate your torso to the left while reaching your right arm across your
+    body, as if trying to grab something on the left side.
+  - Return to the starting position and then rotate to the right, reaching your left
+    arm across your body.
+  - Repeat the twist and reach on each side for about 15 seconds, continuing to alternate
+    sides.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:44.090024000 Z
+    zone: *1
+    time: 2025-01-10 15:02:44.090024000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:44.090024000 Z
+    zone: *1
+    time: 2025-01-10 15:02:44.090024000 Z
+the energetic side_to_side shuffle:
+  id: 19
+  name: The Energetic Side-to-Side Shuffle
+  description: Boost your energy with this quick and lively side-to-side shuffle exercise,
+    perfect for a mid-workday pick-me-up.
+  steps:
+  - Stand up, ensuring there's a little space around you.
+  - Place your feet shoulder-width apart.
+  - Bend your knees slightly and engage your core.
+  - Shuffle your feet twice to the right, tapping your right foot near your desk.
+  - Shuffle your feet twice back to the left, tapping your left foot near your chair.
+  - Keep a lively pace, moving your arms naturally to maintain balance.
+  - Repeat the side-to-side shuffle 10 times for a quick burst of energy.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:44.136322000 Z
+    zone: *1
+    time: 2025-01-10 15:02:44.136322000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:44.136322000 Z
+    zone: *1
+    time: 2025-01-10 15:02:44.136322000 Z
+twist and stretch:
+  id: 20
+  name: Twist and Stretch
+  description: This exercise combines twisting and stretching to enhance mobility
+    and relieve tension.
+  steps:
+  - Stand up with feet shoulder-width apart, slightly bending your knees.
+  - Extend your arms out to the side, parallel to the floor.
+  - Gently twist your torso to the right, keeping your hips facing forward. Hold for
+    a moment and feel the stretch.
+  - Return to center and then twist to the left. Hold for a moment and return to center.
+  - Reach up with both arms, stretching upward while taking a deep breath.
+  - Lower your arms slowly, breathing out.
+  - Repeat this cycle 2-3 times in a minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:44.541707000 Z
+    zone: *1
+    time: 2025-01-10 15:02:44.541707000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:44.541707000 Z
+    zone: *1
+    time: 2025-01-10 15:02:44.541707000 Z
+cheerful calf raises:
+  id: 36
+  name: Cheerful Calf Raises
+  description: An energizing exercise to get the blood flowing and strengthen your
+    calves, perfect for a quick desk break.
+  steps:
+  - Stand tall with your feet hip-width apart, near your desk for balance if needed.
+  - Engage your core and keep your shoulders relaxed.
+  - Slowly rise up onto your toes, lifting your heels as high as you can.
+  - Hold the top position for a moment, feeling the stretch in your calves.
+  - Lower your heels back to the ground gently.
+  - Repeat this movement for 10-12 times, aiming to maintain a smooth and controlled
+    pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.751140000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.751140000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.751140000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.751140000 Z
+dynamic desk lunges:
+  id: 22
+  name: Dynamic Desk Lunges
+  description: An invigorating lower body exercise to boost mobility and leg strength
+    while near your desk.
+  steps:
+  - Stand upright with your desk in front of you for balance.
+  - Step your right foot forward into a lunge position, keeping your back straight
+    and your front knee directly above your ankle.
+  - Push off your right foot to return to a standing position.
+  - Repeat with your left foot stepping forward into a lunge.
+  - Perform each side for a total of 5 lunges to complete the set.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:47.929778000 Z
+    zone: *1
+    time: 2025-01-10 15:02:47.929778000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:47.929778000 Z
+    zone: *1
+    time: 2025-01-10 15:02:47.929778000 Z
+quick calm calf raises:
+  id: 23
+  name: Quick Calm Calf Raises
+  description: A quick and fun exercise to improve strength and mobility in your calf
+    muscles, perfect for a quick break at your desk.
+  steps:
+  - Stand up straight behind your desk with your feet hip-width apart and your arms
+    relaxed.
+  - Slowly rise up onto your tiptoes, lifting your heels as high as you can for a
+    nice calf stretch.
+  - Hold this position for a couple of seconds, feeling the stretch in your calf muscles.
+  - Gently lower your heels back down to the floor.
+  - Repeat this motion in a controlled manner for 10 times, making sure to maintain
+    your balance.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:47.934834000 Z
+    zone: *1
+    time: 2025-01-10 15:02:47.934834000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:47.934834000 Z
+    zone: *1
+    time: 2025-01-10 15:02:47.934834000 Z
+quick desk march:
+  id: 25
+  name: Quick Desk March
+  description: This is a fun and simple exercise to get your blood pumping while standing
+    at your desk.
+  steps:
+  - Stand up straight with your feet hip-width apart in front of your desk.
+  - Begin marching in place by lifting your knees alternately to hip height.
+  - Swing your arms naturally as you march to engage more muscles.
+  - Continue marching with energy, picking up your pace slightly if comfortable.
+  - Keep your back straight and your core engaged throughout the exercise.
+  - March for one minute, aiming to get your heart rate up and have fun!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:47.940796000 Z
+    zone: *1
+    time: 2025-01-10 15:02:47.940796000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:47.940796000 Z
+    zone: *1
+    time: 2025-01-10 15:02:47.940796000 Z
+clap and lift:
+  id: 26
+  name: Clap and Lift
+  description: A quick exercise that combines clapping and leg lifting to increase
+    mobility and energy in a fun and engaging way.
+  steps:
+  - Stand up tall in front of your desk with feet hip-width apart.
+  - Clap your hands together above your head with a cheerful spirit.
+  - Lift your right knee up towards your chest, maintaining balance.
+  - Lower your right leg and repeat the clap.
+  - Now lift your left knee towards your chest.
+  - Repeat the clapping and knee lifting alternately for 1 minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.044382000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.044382000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.044382000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.044382000 Z
+dynamic leg swings:
+  id: 27
+  name: Dynamic Leg Swings
+  description: A lively leg exercise to improve strength and balance, perfect for
+    a quick desk break!
+  steps:
+  - Stand tall with one hand resting lightly on your desk for support.
+  - Swing your right leg forward and backward in a comfortable rhythm, keeping your
+    leg straight.
+  - Engage your core as you maintain balance, and feel the stretch in your hip and
+    hamstring.
+  - Repeat the swinging motion for 30 seconds.
+  - Switch to your left leg and repeat the swinging motion for another 30 seconds.
+  - Finish by shaking out your legs and feeling energized!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.083937000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.083937000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.083937000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.083937000 Z
+standing desk sway:
+  id: 29
+  name: Standing Desk Sway
+  description: Boost your energy and loosen up muscles with this simple swaying motion
+    exercise.
+  steps:
+  - Stand up straight in front of your desk.
+  - Place your feet shoulder-width apart, arms relaxed at your sides.
+  - Gently sway your hips from side to side, keeping your upper body nice and relaxed.
+  - Lift your arms slowly up to shoulder height, letting them follow the swaying motion
+    of your hips.
+  - Continue swaying for 30 seconds, feeling the flow and rhythm in your movements.
+  - Finish by gradually slowing down the sway, bringing your arms back to your sides.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.481132000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.481132000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.481132000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.481132000 Z
+dynamic desk dips:
+  id: 30
+  name: Dynamic Desk Dips
+  description: A fun and easy dip exercise to engage your triceps and shoulder muscles
+    while standing close to your desk.
+  steps:
+  - Stand up straight and face the desk with about a foot of distance between you
+    and the desk.
+  - Place your hands shoulder-width apart on the desk edge, fingers facing forward.
+  - Step backward a bit to create a diagonal line from your head to your heels.
+  - Slowly bend your elbows and lower your chest towards the desk, keeping your body
+    straight.
+  - Press back up to the starting position, engaging your triceps.
+  - Repeat the dip movement 8-10 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.499549000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.499549000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.499549000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.499549000 Z
+desk power pulses:
+  id: 31
+  name: Desk Power Pulses
+  description: A quick burst of energy exercise that combines squats and arm pulses
+    to improve strength and mobility.
+  steps:
+  - Stand up with your feet shoulder-width apart, facing your desk.
+  - Lower into a squat by bending your knees and pushing your hips back, keeping your
+    chest up.
+  - Extend your arms forward at shoulder height and start pulsing your arms up and
+    down rapidly.
+  - Stay in the squat position as you pulse your arms, engaging your core and keeping
+    your weight in your heels.
+  - Continue pulsing for 30 seconds, then stand up to rest.
+  - Repeat the entire sequence two more times for a total of three sets.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.881422000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.881422000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:48.881422000 Z
+    zone: *1
+    time: 2025-01-10 15:02:48.881422000 Z
+star power march:
+  id: 33
+  name: Star Power March
+  description: A lively march in place with star-like arm movements to boost energy
+    and mobility.
+  steps:
+  - Stand up straight with feet hip-width apart.
+  - Begin marching in place, lifting your knees high with each step.
+  - As you march, extend your arms out to the sides and then bring them overhead,
+    forming a star shape.
+  - Continue marching and repeating the star arm movements for about 30 seconds.
+  - Finally, slow down and march in place with relaxed arms for the remaining 30 seconds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.271756000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.271756000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.271756000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.271756000 Z
+joyful knee lifts:
+  id: 34
+  name: Joyful Knee Lifts
+  description: Boost your energy and stretch your legs with these engaging knee lifts,
+    perfect for a quick break.
+  steps:
+  - Stand up comfortably behind your desk.
+  - Lift your right knee towards your chest while balancing on your left foot.
+  - Lower your right leg back down.
+  - Lift your left knee towards your chest while balancing on your right foot.
+  - Lower your left leg back down.
+  - Repeat the alternating knee lifts briskly for 30 seconds.
+  - Keep your arms relaxed or swing them gently with each lift to maintain balance.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.325037000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.325037000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.325037000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.325037000 Z
+cheerful arm swings:
+  id: 35
+  name: Cheerful Arm Swings
+  description: A quick and energizing way to loosen up your shoulders and get your
+    blood flowing!
+  steps:
+  - Stand with your feet shoulder-width apart near your desk.
+  - Let your arms hang loosely at your sides.
+  - Swing your arms forward and up until they are parallel to the ground.
+  - Let them fall back behind you in a gentle swing, feeling the stretch in your shoulders.
+  - Repeat the swinging motion for 30 seconds, gradually increasing your arm speed.
+  - Smile and take a deep breath as you sway!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.374442000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.374442000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:49.374442000 Z
+    zone: *1
+    time: 2025-01-10 15:02:49.374442000 Z
+cheerful leg pendulum:
+  id: 37
+  name: Cheerful Leg Pendulum
+  description: A fun exercise to stretch and engage your legs while standing.
+  steps:
+  - Stand up straight in front of your desk with both feet firmly on the ground.
+  - Lift your right leg slightly off the ground, gently swinging it forward and backward
+    like a pendulum.
+  - Maintain balance by lightly touching the desk with your hands if needed.
+  - Swing your right leg for about 20-30 seconds, feeling the stretch in your hip
+    and leg.
+  - Lower your right leg and switch to your left leg, swinging it forward and backward.
+  - After swinging your left leg for another 20-30 seconds, stand evenly on both feet
+    and take a deep breath to finish.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.154957000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.154957000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.154957000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.154957000 Z
+desk jive step up:
+  id: 38
+  name: Desk Jive Step Up
+  description: A lively exercise that combines stepping and gentle jiving to boost
+    your energy and mobility.
+  steps:
+  - Stand up straight next to your desk with feet shoulder-width apart.
+  - Lift your right knee as if you are stepping onto an imaginary step, then place
+    it back.
+  - Immediately follow with the left knee, mirroring the stepping motion.
+  - Once both feet are down, perform a gentle hip twist to the right, then to the
+    left, imagining you’re jiving.
+  - Repeat this stepping and jiving motion for a total of five times each side, moving
+    rhythmically and smoothly.
+  - Finish with a gentle shake of the arms to release tension and get back to your
+    desk with a smile.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.289447000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.289447000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.289447000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.289447000 Z
+sunshine squats:
+  id: 39
+  name: Sunshine Squats
+  description: A quick and energizing squat variation that mimics the sun rising and
+    setting, perfect to boost mobility and strength near your desk!
+  steps:
+  - Stand up straight with your feet shoulder-width apart, close to your desk.
+  - Raise your arms overhead, forming a 'V' with your fingers reaching for the sky.
+  - Lower into a squat as if you're sitting in an invisible chair, keeping your arms
+    extended overhead.
+  - Make sure your knees are aligned with your toes and your back stays straight.
+  - Rise back up to the standing position with a gentle hop, bringing your arms back
+    to the 'V' position.
+  - Repeat the sequence 5 times, feeling like you're reaching up towards the sun and
+    grounding back down.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.386570000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.386570000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.386570000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.386570000 Z
+skyward lunge:
+  id: 40
+  name: Skyward Lunge
+  description: Get ready to boost your energy with this fun and invigorating standing
+    lunge that gets you reaching for the sky!
+  steps:
+  - Stand tall in front of your desk with your feet hip-width apart.
+  - Step one foot back into a comfortable lunge position, keeping your front knee
+    aligned with your ankle.
+  - Reach both arms up towards the sky, extending as high as you can, feeling a nice
+    stretch in your back and shoulders.
+  - Hold this position for a moment, taking a deep breath in.
+  - Bring your back foot forward to stand up straight again.
+  - Switch legs and repeat the lunge and skyward reach on the other side.
+  - Perform the sequence three times on each side, enjoying that stretch and strengthening
+    your legs.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.458692000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.458692000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:50.458692000 Z
+    zone: *1
+    time: 2025-01-10 15:02:50.458692000 Z
+happy toe taps:
+  id: 41
+  name: Happy Toe Taps
+  description: This exercise boosts your mobility and energy by alternating toe taps
+    while standing.
+  steps:
+  - Stand comfortably behind your desk with feet hip-width apart.
+  - Raise your right foot and tap your toe gently on the desk's edge.
+  - Return your foot to the ground and immediately raise your left foot to tap the
+    desk.
+  - Continue alternating toe taps in a rhythmic pattern.
+  - Repeat this sequence for one minute while maintaining a light and fun rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:52.937968000 Z
+    zone: *1
+    time: 2025-01-10 15:02:52.937968000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:52.937968000 Z
+    zone: *1
+    time: 2025-01-10 15:02:52.937968000 Z
+happy hops:
+  id: 42
+  name: Happy Hops
+  description: A quick burst of cheerful hops to get your blood pumping and lift your
+    spirits.
+  steps:
+  - Stand tall with your feet hip-width apart and arms relaxed by your sides.
+  - Take a gentle hop in place, swinging your arms forward as you go.
+  - Land softly with your knees slightly bent to cushion the impact.
+  - Repeat the hop, and aim to do this continuously and joyfully for 30 seconds.
+  - Remember to smile and enjoy the energy boost you're giving yourself!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.138847000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.138847000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.138847000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.138847000 Z
+energetic arm circles:
+  id: 43
+  name: Energetic Arm Circles
+  description: A quick and fun way to invigorate your arms and shoulders, perfect
+    to do next to your desk.
+  steps:
+  - Stand up straight with your feet shoulder-width apart.
+  - Extend both arms out to your sides, keeping them parallel to the floor.
+  - Start making small circles with your arms, gradually increasing the size of the
+    circles.
+  - After 15 seconds, reverse the direction of the circles, decreasing back to smaller
+    circles.
+  - Shake out your arms gently and repeat the sequence again.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.238179000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.238179000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.238179000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.238179000 Z
+sky stretch reach:
+  id: 44
+  name: Sky Stretch Reach
+  description: A refreshing exercise to stretch and energize your body by reaching
+    for the sky.
+  steps:
+  - Stand up straight with feet shoulder-width apart, close to your desk.
+  - Raise both arms overhead and stand on your tiptoes, reaching as high as you can.
+  - Hold this stretch for a moment and feel the energy flowing through your body.
+  - Gently lower your heels back to the ground while bringing your arms down to your
+    sides.
+  - Repeat the reach and stretch movement 5 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.277506000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.277506000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.277506000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.277506000 Z
+punch and pivot:
+  id: 45
+  name: Punch and Pivot
+  description: A lively exercise that combines punches with foot pivots to enhance
+    mobility and coordination.
+  steps:
+  - Stand up with feet shoulder-width apart, arms by your side.
+  - Step back from the desk to allow room.
+  - Punch forward with your right hand while pivoting on your right foot.
+  - Quickly switch to punch forward with your left hand while pivoting on your left
+    foot.
+  - Continue alternating punches and pivots in a rhythmic motion.
+  - Stay light on your feet, and keep a steady pace.
+  - Repeat this fun sequence for one minute to energize your body and mind.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.319908000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.319908000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.319908000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.319908000 Z
+joyful arm circles:
+  id: 53
+  name: Joyful Arm Circles
+  description: Engage your arms and shoulders with this lively exercise that enhances
+    mobility and boosts energy.
+  steps:
+  - Stand up tall with feet shoulder-width apart, keeping your core engaged.
+  - Extend your arms out to the sides to form a T-shape.
+  - Start making small circles forward with your arms, gradually increasing the size
+    of the circles.
+  - Circle your arms for 15 seconds, then switch directions and circle backward for
+    another 15 seconds.
+  - Feel the energy flowing through your arms and shoulders as you circle them joyfully.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.843203000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.843203000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.843203000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.843203000 Z
+energetic desk hops:
+  id: 47
+  name: Energetic Desk Hops
+  description: A lively exercise to get your heart pumping and improve leg strength
+    and coordination.
+  steps:
+  - Stand up straight with your feet hip-width apart, facing your desk.
+  - Bend your knees slightly and gently hop from side to side.
+  - Swing your arms naturally as you hop for added balance.
+  - Land softly each time to reduce impact on your joints.
+  - Continue hopping from side to side for 1 minute, maintaining a steady rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.452183000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.452183000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.452183000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.452183000 Z
+vibrant desk balance:
+  id: 48
+  name: Vibrant Desk Balance
+  description: A simple exercise to boost your balance and core strength right by
+    your desk!
+  steps:
+  - Stand tall with your feet hip-width apart facing your desk
+  - Gently place your fingertips on the desk to maintain balance
+  - Lift your right knee to hip height as you find your balance on your left leg
+  - Hold this position for five seconds, engaging your core for stability
+  - Lower your right knee back down and switch to lift your left knee, holding for
+    another five seconds
+  - Repeat the sequence 3 times for each leg, focusing on staying balanced and centered
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.456592000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.456592000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.456592000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.456592000 Z
+joyful hip circles:
+  id: 49
+  name: Joyful Hip Circles
+  description: A quick and rejuvenating exercise to enhance hip mobility and bring
+    a smile to your face.
+  steps:
+  - Stand up straight with your feet shoulder-width apart, close to your desk.
+  - Place your hands on your hips for balance and start moving your hips in a circular
+    motion.
+  - Rotate your hips clockwise for 5 circles, focusing on keeping your upper body
+    steady.
+  - Switch direction and move your hips counterclockwise for another 5 circles.
+  - Engage your core muscles throughout the exercise for stability.
+  - Repeat the entire sequence twice, feeling the tension dissolve with each rotation.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.550140000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.550140000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.550140000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.550140000 Z
+joyful torso twists:
+  id: 55
+  name: Joyful Torso Twists
+  description: Turn up the fun with this quick and effective torso twist exercise
+    to enhance mobility and engage core muscles.
+  steps:
+  - Start standing with your feet hip-width apart and slightly bend your knees.
+  - Place your hands on your hips or extend them out in front of you, whichever feels
+    more comfortable.
+  - Engage your core and gently twist your torso to the right, letting your hips move
+    slightly.
+  - Return to the center, and then twist to the left.
+  - Repeat the twisting motion from side to side for 30 seconds.
+  - Remember to breathe steadily and keep the movements controlled and fluid.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.161353000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.161353000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.161353000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.161353000 Z
+bouncing skier:
+  id: 51
+  name: Bouncing Skier
+  description: A fun and dynamic exercise that engages your legs and core, designed
+    to be done near your desk.
+  steps:
+  - Stand up tall with feet together and arms at your sides.
+  - Pretend you're skiing by slightly bending your knees and leaning forward.
+  - Gently hop side to side, as if you're bouncing between ski slopes.
+  - Swing your arms from side to side for added momentum and coordination.
+  - Repeat the movement quickly, 8 times for each side, keeping a steady rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.656832000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.656832000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.656832000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.656832000 Z
+wave and bend:
+  id: 52
+  name: Wave and Bend
+  description: A fun and quick exercise to boost your mood and energy by combining
+    a wave gesture with a soothing bend.
+  steps:
+  - Stand up straight with feet shoulder-width apart near your desk.
+  - Raise your arms as if you are enthusiastically waving hello to someone.
+  - While waving, slowly bend at the waist towards your desk, keeping your back straight.
+  - Return to a standing position and repeat the wave.
+  - Continue for six to eight repetitions, enjoying the movement and the energy it
+    brings!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.709179000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.709179000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.709179000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.709179000 Z
+high_five jumps:
+  id: 54
+  name: High-Five Jumps
+  description: A quick and engaging exercise to boost energy and improve mobility.
+  steps:
+  - Stand up straight with your feet shoulder-width apart in front of your desk.
+  - Raise both hands as if you're ready to give a high-five to the ceiling.
+  - Gently bend your knees and prepare to jump.
+  - Jump up while reaching your hands upwards, as if giving a high-five to an imaginary
+    friend.
+  - Land softly back into a standing position, bending your knees slightly for cushioning.
+  - Repeat the jump and hand movement four more times to complete the set.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.879562000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.879562000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:53.879562000 Z
+    zone: *1
+    time: 2025-01-10 15:02:53.879562000 Z
+joyful shoulder shimmy:
+  id: 56
+  name: Joyful Shoulder Shimmy
+  description: A quick and lively exercise to improve shoulder mobility and relieve
+    tension.
+  steps:
+  - Stand up straight with your feet shoulder-width apart in front of your desk.
+  - Relax your shoulders and let your arms hang naturally by your side.
+  - Begin to gently shimmy your shoulders forward and backward alternately, adding
+    a little bounce.
+  - Keep the movement smooth and controlled while maintaining good posture.
+  - As you shimmy, feel the rhythm and let yourself have fun with the motion!
+  - Continue shimmying for about 30 seconds, then pause and take a deep breath.
+  - Repeat the shoulder shimmy for one more round to complete the minute-long exercise.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.170160000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.170160000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.170160000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.170160000 Z
+the joyful desk bounce:
+  id: 57
+  name: The Joyful Desk Bounce
+  description: A lively exercise that helps improve strength and mobility with a touch
+    of fun.
+  steps:
+  - Stand up from your chair with a smile, facing the desk.
+  - Place your hands lightly on the desk for balance if needed.
+  - Bounce slightly on your toes, keeping your knees soft and relaxed.
+  - Incorporate gentle arm swings forward and back as you bounce.
+  - Imagine you are a joyful kangaroo, adding a little hop for extra fun.
+  - Continue the bounce and arm swings for 30 seconds.
+  - Pause for a moment, take a deep breath, and repeat the sequence one more time!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.271951000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.271951000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.271951000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.271951000 Z
+joyful desk glide:
+  id: 58
+  name: Joyful Desk Glide
+  description: A quick and fun exercise to enhance your lower body strength and flexibility
+    while engaging your core.
+  steps:
+  - Start by standing straight next to your desk with your feet together, arms relaxed
+    by your sides.
+  - Gently slide your right foot out to the side, keeping it flat on the ground and
+    bending your left leg slightly.
+  - Engage your core as you swing your right foot back in and stand back up straight.
+  - Repeat the glide with your left foot, sliding it to the side while slightly bending
+    your right leg.
+  - Make sure to keep your upper body tall and your core engaged throughout the movement.
+  - Switch sides and perform the glide 5 times on each side, feeling the playful flow!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.508830000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.508830000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.508830000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.508830000 Z
+happy heel taps:
+  id: 59
+  name: Happy Heel Taps
+  description: A quick and enjoyable exercise to boost your energy and mobility by
+    stepping and tapping your heels behind you.
+  steps:
+  - Stand up straight with your feet hip-width apart, in front of your desk.
+  - Gently lift your right foot and tap your heel behind your left leg.
+  - Return to the starting position and switch to lift your left foot, tapping your
+    heel behind your right leg.
+  - Repeat this alternating heel tap at a comfortable pace for 30 seconds.
+  - End with a gentle march in place to cool down for the remaining 30 seconds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.772930000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.772930000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.772930000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.772930000 Z
+uplifting arm circles:
+  id: 60
+  name: Uplifting Arm Circles
+  description: A delightful exercise to improve shoulder mobility and increase blood
+    circulation.
+  steps:
+  - Stand a small distance away from your desk with your feet shoulder-width apart.
+  - Extend your arms out to the sides so they are parallel with the floor.
+  - Begin by making small circles with your arms in a forward direction.
+  - Gradually increase the size of the circles as you continue the motion.
+  - After 15 seconds, switch to making circles in a backward direction.
+  - As you circle your arms, keep your core engaged and breathe deeply.
+  - For an extra challenge, try raising your arms above your head at the end of the
+    exercise and hold for a brief moment before lowering.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.964130000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.964130000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:54.964130000 Z
+    zone: *1
+    time: 2025-01-10 15:02:54.964130000 Z
+energetic sky jumps:
+  id: 61
+  name: Energetic Sky Jumps
+  description: This invigorating exercise combines a gentle jump with a delightful
+    reach towards the sky to enhance mobility and energy levels.
+  steps:
+  - Stand tall in front of your desk with feet shoulder-width apart.
+  - Gently bend your knees and prepare to jump.
+  - Push through your feet and jump upwards, reaching your arms towards the sky.
+  - Land softly on the balls of your feet with a slight bend in the knees.
+  - Repeat the jump and sky reach continuously for 1 minute, maintaining a steady
+    rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.612065000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.612065000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.612065000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.612065000 Z
+jolly chair lift:
+  id: 62
+  name: Jolly Chair Lift
+  description: A quick and fun exercise to engage your legs and core while lifting
+    an imaginary chair.
+  steps:
+  - Stand up straight with your feet shoulder-width apart.
+  - Imagine there's an invisible chair behind you.
+  - Lower your body as if you're going to sit in the imaginary chair, keeping your
+    back straight and eyes forward.
+  - Hold this position for a few seconds, ensuring your knees don't go past your toes.
+  - Push through your heels to stand back up.
+  - Repeat these steps for three to four rounds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.622435000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.622435000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.622435000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.622435000 Z
+celebration jump jacks:
+  id: 63
+  name: Celebration Jump Jacks
+  description: Get your blood pumping with this quick burst of classic jumping jacks
+    to energize your moments at the desk!
+  steps:
+  - Stand up straight with your feet together and arms at your sides.
+  - Jump up, spreading your feet wide while simultaneously raising your arms overhead
+    to form an 'X' shape.
+  - Quickly jump again to return to the starting position with your feet together
+    and arms by your sides.
+  - Repeat this energetic move for 30 seconds, aiming to complete 8-10 repetitions.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.844319000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.844319000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.844319000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.844319000 Z
+radiant side steps:
+  id: 64
+  name: Radiant Side Steps
+  description: A quick and fun exercise to engage your core and legs, perfect for
+    a burst of energy during the workday.
+  steps:
+  - Stand up tall next to your desk with feet hip-width apart
+  - Step to the right with your right foot, bringing your left foot to meet it
+  - Clap your hands above your head as your feet come together
+  - Step to the left with your left foot, bringing your right foot to meet it
+  - Clap your hands above your head again
+  - Repeat the side steps and claps for a total of 30 seconds
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.863043000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.863043000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:57.863043000 Z
+    zone: *1
+    time: 2025-01-10 15:02:57.863043000 Z
+cheerful leg kickbacks:
+  id: 65
+  name: Cheerful Leg Kickbacks
+  description: A simple and fun exercise to enhance leg strength and mobility by performing
+    playful kickbacks while standing near your desk.
+  steps:
+  - Stand tall in front of your desk with feet shoulder-width apart and arms relaxed
+    at your sides
+  - Shift your weight to your left leg and gently kick your right leg backward like
+    you're trying to touch your heel to the ceiling
+  - Bring your right leg back down and switch to your left leg, performing the same
+    kickback motion
+  - Alternate legs with rhythmic movements, keeping the pace lively and joyful
+  - Continue to kick back and forth for 1 minute while keeping a smile on your face
+    to make it more enjoyable!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.043596000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.043596000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.043596000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.043596000 Z
+joyful desk jumps:
+  id: 66
+  name: Joyful Desk Jumps
+  description: A quick burst of energy with a simple jump near your desk to boost
+    strength and mobility.
+  steps:
+  - Stand up tall with a little space in front of your desk.
+  - Slightly bend your knees, bringing your arms back.
+  - Jump up softly, reaching your hands upwards, as if you're trying to touch the
+    sky.
+  - Land gently with your knees slightly bent to absorb the impact.
+  - Repeat the jump in a rhythmic motion for about a minute, aiming for 10-15 jumps.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.057885000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.057885000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.057885000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.057885000 Z
+energetic side steps:
+  id: 67
+  name: Energetic Side Steps
+  description: A fun and lively exercise to improve mobility and invigorate your day,
+    perfect for a quick energy boost!
+  steps:
+  - Stand up straight with your feet shoulder-width apart, close to your desk.
+  - Raise your arms to shoulder height and keep them bent at the elbows.
+  - Take a large step to the right, bringing your left foot to meet your right, then
+    clap your hands.
+  - Repeat by stepping to the left, bringing your right foot to meet your left, and
+    clap again.
+  - Continue stepping side to side, getting into a rhythmic groove. Repeat each side
+    5 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.413317000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.413317000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.413317000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.413317000 Z
+jolly desk leg lifts:
+  id: 68
+  name: Jolly Desk Leg Lifts
+  description: This quick and energizing exercise will engage your lower body and
+    core while offering a delightful break from desk work.
+  steps:
+  - Stand up straight behind your chair with your feet hip-width apart.
+  - Gently place your hands on the back of your chair for support.
+  - Lift your right leg straight out in front of you, keeping it as straight as possible.
+  - Lower your right leg back down and immediately lift your left leg in the same
+    manner.
+  - Continue alternating leg lifts at a steady pace for one minute, keeping your core
+    engaged and posture tall.
+  - Feel free to add a little smile and enjoy the movement!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.608769000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.608769000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.608769000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.608769000 Z
+cheerful desk kickbacks:
+  id: 69
+  name: Cheerful Desk Kickbacks
+  description: A quick exercise to engage your legs and core by kicking back with
+    energy and joy.
+  steps:
+  - Stand up straight facing your desk, keeping a comfortable distance
+  - Place your hands lightly on your desk for balance
+  - Lift your right foot slightly off the ground and kick it back behind you, engaging
+    your core
+  - Bring your right foot back down and switch to your left foot, kicking it back
+    with the same energy
+  - Alternate these kicks back and forth, maintaining a steady rhythm
+  - Repeat the kickbacks for 1 minute, aiming for as many repetitions as feels comfortable
+    and joyful
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.796727000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.796727000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.796727000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.796727000 Z
+wiggle and wave:
+  id: 70
+  name: Wiggle and Wave
+  description: A fun, quick movement routine to release tension and boost your energy,
+    right by your desk!
+  steps:
+  - Stand up tall with your feet hip-width apart
+  - Start by wiggling your hips side to side for a few seconds
+  - Raise your arms and wave them gently overhead like you're waving to a friend
+  - Shift your weight onto your toes and hold for a moment, feeling your calf muscles
+    engage
+  - Lower back onto your heels and continue to wave your arms side to side
+  - Return to the starting position and repeat the sequence two more times
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.973785000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.973785000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:58.973785000 Z
+    zone: *1
+    time: 2025-01-10 15:02:58.973785000 Z
+lively knee highs:
+  id: 71
+  name: Lively Knee Highs
+  description: A spirited exercise designed to boost your energy by engaging your
+    core and legs, right in front of your desk!
+  steps:
+  - Stand up and ensure you have a comfortable space in front of your desk.
+  - Lift your right knee as high as you can in front of you, engaging your core.
+  - Lower your right knee and instantly lift your left knee high, following the same
+    motion.
+  - Continue alternating knees at a brisk pace, as if you’re marching in place.
+  - Add a joyful swing of your arms for extra engagement and fun.
+  - Repeat the sequence for one minute, maintaining steady breath and smiling throughout!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.171434000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.171434000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.171434000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.171434000 Z
+standing star taps:
+  id: 72
+  name: Standing Star Taps
+  description: A fun exercise to energize your body by combining gentle stretches
+    with dynamic star-like movements.
+  steps:
+  - Stand up tall near the front of your desk, ensuring a comfortable space around
+    you.
+  - Lift your right arm and left leg outward, reaching for the stars like a diagonal
+    stretch.
+  - Bring your arm and leg back to the center position.
+  - Now, switch sides! Lift your left arm and right leg outward with the same starry
+    enthusiasm.
+  - Return to the center, feeling balanced and strong.
+  - Continue alternating sides for a total of 8 taps on each side, maintaining a rhythmic,
+    fun pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.359339000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.359339000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.359339000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.359339000 Z
+energetic desk leans:
+  id: 73
+  name: Energetic Desk Leans
+  description: A quick and fun exercise to improve your balance and strengthen your
+    core.
+  steps:
+  - Stand up straight with your feet hip-width apart, facing your desk.
+  - Place your hands gently on the edge of the desk for support.
+  - Lean your body forward slightly, engaging your core muscles.
+  - Shift your weight onto your left foot, lifting your right leg a few inches off
+    the ground.
+  - Hold the position for a moment, then return to the standing position.
+  - Repeat the lean and leg lift on the opposite side by shifting your weight onto
+    your right foot and lifting your left leg.
+  - Continue alternating sides for one minute, focusing on maintaining balance and
+    core engagement.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.469143000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.469143000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.469143000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.469143000 Z
+lively leg kicks:
+  id: 74
+  name: Lively Leg Kicks
+  description: Energize your day with some lively leg kicks designed to boost lower
+    body strength and flexibility.
+  steps:
+  - Stand up and position yourself comfortably in front of your desk with your feet
+    hip-width apart.
+  - Engage your core and lift your right knee up towards your chest.
+  - Gently but quickly extend your right leg out in front of you in a kicking motion,
+    keeping it parallel to the floor.
+  - Retract your leg back and lower it to starting position.
+  - Repeat the kick with your left leg.
+  - Continue alternating legs for about 30 seconds, ensuring to maintain a lively
+    pace.
+  - Wrap up the exercise by marching in place for the remaining 30 seconds, swinging
+    your arms gently for added momentum.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.944663000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.944663000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:02:59.944663000 Z
+    zone: *1
+    time: 2025-01-10 15:02:59.944663000 Z
+joyful desk kick:
+  id: 75
+  name: Joyful Desk Kick
+  description: A fun and quick kick exercise to invigorate your legs and improve balance.
+  steps:
+  - Stand up straight in front of your desk with feet shoulder-width apart.
+  - Raise your right knee, then extend your leg forward as if kicking something gently.
+  - Return your foot to the ground and repeat with your left leg.
+  - Continue alternating kicks with a steady rhythm for one minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:00.100878000 Z
+    zone: *1
+    time: 2025-01-10 15:03:00.100878000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:00.100878000 Z
+    zone: *1
+    time: 2025-01-10 15:03:00.100878000 Z
+skyward reaches:
+  id: 76
+  name: Skyward Reaches
+  description: A quick and fun exercise to stretch and invigorate your upper body
+    while standing.
+  steps:
+  - Stand up straight with your feet shoulder-width apart in front of your desk.
+  - Raise your arms straight up towards the sky, stretching your fingertips as high
+    as possible.
+  - Hold the stretch for a moment and feel the elongation in your torso.
+  - Gently lower your arms back down to your sides.
+  - Repeat the reach and stretch 5 times to invigorate your whole body.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:00.142321000 Z
+    zone: *1
+    time: 2025-01-10 15:03:00.142321000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:00.142321000 Z
+    zone: *1
+    time: 2025-01-10 15:03:00.142321000 Z
+cheerful desk clap:
+  id: 77
+  name: Cheerful Desk Clap
+  description: A quick, engaging exercise to boost your energy and get your body moving
+    in just under a minute.
+  steps:
+  - Stand up straight in front of your desk, feet shoulder-width apart.
+  - Raise your arms out to the sides to shoulder height.
+  - Clap your hands above your head while stretching up on your toes.
+  - Bring your arms back down to the side and lower your heels back to the floor.
+  - Repeat the clapping motion with a slight bounce for rhythm and fun,
+  - Continue for 10 energetic claps, aiming to finish within one minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:00.880476000 Z
+    zone: *1
+    time: 2025-01-10 15:03:00.880476000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:00.880476000 Z
+    zone: *1
+    time: 2025-01-10 15:03:00.880476000 Z
+zesty leg kicks:
+  id: 78
+  name: Zesty Leg Kicks
+  description: A fun and dynamic exercise to energize your legs and improve flexibility.
+  steps:
+  - Stand up tall near your desk with your feet hip-width apart.
+  - Shift your weight to your left leg and gently kick your right leg forward at a
+    comfortable height.
+  - Bring your right leg back down and switch to the left leg, gently kicking forward.
+  - Continue alternating legs at a steady pace, keeping your movements controlled.
+  - Repeat the leg kicks for 30 seconds, trying to increase the height of your kicks
+    each time.
+  - Finish by shaking out your legs and standing still for a deep breath.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:01.012282000 Z
+    zone: *1
+    time: 2025-01-10 15:03:01.012282000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:01.012282000 Z
+    zone: *1
+    time: 2025-01-10 15:03:01.012282000 Z
+the energetic desk wiggle:
+  id: 79
+  name: The Energetic Desk Wiggle
+  description: An engaging exercise that energizes your body while promoting balance
+    and coordination.
+  steps:
+  - Stand up straight with feet hip-width apart and arms relaxed at your sides.
+  - Wiggle your hips side-to-side like you're dancing to your favorite tune.
+  - As you wiggle, gently shift your weight from one foot to the other.
+  - Add a slight bend to your knees while wiggling to enhance the effect.
+  - Keep your arms loose and let them naturally sway with your movements.
+  - Continue wiggling and shifting for 30 seconds with enthusiasm and energy.
+  - Take a deep breath, smile, and repeat the wiggle for another 30 seconds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:01.249130000 Z
+    zone: *1
+    time: 2025-01-10 15:03:01.249130000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:01.249130000 Z
+    zone: *1
+    time: 2025-01-10 15:03:01.249130000 Z
+sunshine stance stretch:
+  id: 80
+  name: Sunshine Stance Stretch
+  description: This exercise energizes and stretches your body while making you feel
+    like you're basking in the sun's warmth!
   steps:
   - Stand up next to your desk with feet shoulder-width apart.
-  - Keep your back straight and chest up, then lower your body into a squat.
-  - Imagine you're sitting back into an invisible chair - go as low as you comfortably
-    can.
-  - Rise back to the standing position while squeezing your glutes.
-  - Repeat the squat movement for 10-12 times.
-  updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:47.293972000 Z
-    zone: *1
-    time: 2025-01-10 11:19:47.293972000 Z
-desk rainbow stretch:
-  id: 3
+  - Raise your arms above your head, interlocking your fingers with palms facing upward.
+  - Stretch up on your toes, reaching as high as you can, and hold the position for
+    a few seconds.
+  - Lower your heels back to the ground and bend your torso to the right side, feeling
+    the stretch along your left side.
+  - Return to the center, then bend your torso to the left side, feeling the stretch
+    along your right side.
+  - Repeat the sequence 3 times, imagining you're soaking up the sunshine with every
+    stretch!
   created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:49.444827000 Z
+    utc: 2025-01-10 15:03:01.944238000 Z
     zone: *1
-    time: 2025-01-10 11:19:49.444827000 Z
-  description: A colorful stretch to boost your mobility and energy while you stand
-    and sway like a beautiful rainbow.
-  name: Desk Rainbow Stretch
-  steps:
-  - Stand up next to your desk with feet hip-width apart.
-  - Reach your arms overhead, gently clasp one wrist with the opposite hand.
-  - Lean to one side, creating a rainbow arc with your upper body, hold for a moment.
-  - Return to the center, switch wrists, and lean to the opposite side, forming another
-    arc.
-  - Repeat this side-to-side action 3 to 4 times, feeling the gentle stretch and enjoying
-    the movement.
+    time: 2025-01-10 15:03:01.944238000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:49.444827000 Z
+    utc: 2025-01-10 15:03:01.944238000 Z
     zone: *1
-    time: 2025-01-10 11:19:49.444827000 Z
-desk star jumps:
-  id: 4
-  created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:51.786369000 Z
-    zone: *1
-    time: 2025-01-10 11:19:51.786369000 Z
-  description: An invigorating exercise to boost energy levels and improve mobility
-    while standing in front of your desk.
-  name: Desk Star Jumps
+    time: 2025-01-10 15:03:01.944238000 Z
+fun shake and stand:
+  id: 81
+  name: Fun Shake and Stand
+  description: A quick and fun whole-body shake and stand to invigorate your day.
   steps:
-  - Stand up straight with feet together and arms at your sides.
-  - Jump up, spreading your legs as wide as your comfortable range allows, while bringing
-    your arms overhead in a star shape.
-  - Land softly with your feet shoulder-width apart and bring your arms back down
-    to your sides.
-  - Quickly jump again to return to the starting position.
-  - Repeat this movement continuously for 30 seconds, then pause and take a deep breath.
-  - Repeat the star jumps for another 30 seconds, keeping the rhythm lively and engaging.
+  - Stand up from your chair with a big smile.
+  - Shake your arms gently to your sides, as if you’re getting rid of tension.
+  - Move your shoulders up and down with a fun groove.
+  - Alternate bending your knees slightly to shake your legs from tension.
+  - End with a gentle head nod, as if agreeing with how awesome you are.
+  - Take a deep, invigorating breath in and let it out with a sigh.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:04.449336000 Z
+    zone: *1
+    time: 2025-01-10 15:03:04.449336000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:51.786369000 Z
+    utc: 2025-01-10 15:03:04.449336000 Z
     zone: *1
-    time: 2025-01-10 11:19:51.786369000 Z
-desk rumba twist:
-  id: 5
-  created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:54.172834000 Z
-    zone: *1
-    time: 2025-01-10 11:19:54.172834000 Z
-  description: A quick and fun dance-inspired exercise to improve your core and mobility
-    right by your desk.
-  name: Desk Rumba Twist
+    time: 2025-01-10 15:03:04.449336000 Z
+rainbow side twists:
+  id: 82
+  name: Rainbow Side Twists
+  description: A fun and dynamic twist movement to improve your spinal flexibility
+    and posture.
   steps:
-  - Stand up tall with feet hip-width apart and gently bend your knees.
-  - Place your hands on your hips and start swaying your hips side to side like you're
-    doing a little dance.
-  - Twist your upper body to the right by pivoting on your left foot while swinging
-    your arms around, mimicking a rumba dance move.
-  - Return to the center and twist to the left by pivoting on your right foot, letting
-    your arms swing freely.
-  - Repeat these twists to each side 5 times, enjoying the rhythm and movement you
-    create.
+  - Stand up tall with your feet shoulder-width apart, slightly away from your desk.
+  - Extend your arms out to your sides, parallel to the ground.
+  - Gently twist your torso to the right as you sweep your right arm upward over your
+    head like a rainbow.
+  - Return to the center and repeat on the left side, sweeping your left arm upward.
+  - Continue alternating sides, completing 5 twists to each side.
+  - Remember to engage your core and breathe deeply as you move.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:04.615242000 Z
+    zone: *1
+    time: 2025-01-10 15:03:04.615242000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:54.172834000 Z
+    utc: 2025-01-10 15:03:04.615242000 Z
     zone: *1
-    time: 2025-01-10 11:19:54.172834000 Z
-desk windmill circles:
-  id: 6
-  created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:56.304984000 Z
-    zone: *1
-    time: 2025-01-10 11:19:56.304984000 Z
-  description: A quick and engaging exercise that activates the body with a combination
-    of bending and stretching while you stand up and move away from your desk.
-  name: Desk Windmill Circles
+    time: 2025-01-10 15:03:04.615242000 Z
+bouncy side twists:
+  id: 84
+  name: Bouncy Side Twists
+  description: A quick and fun exercise to boost your energy and improve torso mobility.
   steps:
-  - Stand up straight with your feet hip-width apart in front of your desk
-  - Extend your arms out horizontally on both sides, forming a T shape with your body
-  - Bend forward slightly at the waist, ensuring your back remains straight
-  - Rotate your torso and arms in a circular motion, as if tracing a large windmill
-    with your fingers
-  - Complete the circular motion for 30 seconds in one direction
-  - Switch directions and perform windmill circles in the opposite direction for another
-    30 seconds
-  - Return to an upright standing position, smiling as you feel the stretch throughout
-    your whole body
+  - Stand up with feet shoulder-width apart, near your desk
+  - Gently twist your torso to one side while lifting your opposite heel
+  - Bounce lightly in place as you twist to the opposite side, lifting the other heel
+  - Repeat this twisting motion back and forth, keeping your arms relaxed at your
+    sides or clasp them in front of you for balance
+  - Continue twisting and bouncing for 30 seconds to 1 minute, enjoying the rhythm
+    and looseness in your torso
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:04.761252000 Z
+    zone: *1
+    time: 2025-01-10 15:03:04.761252000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:56.304984000 Z
+    utc: 2025-01-10 15:03:04.761252000 Z
     zone: *1
-    time: 2025-01-10 11:19:56.304984000 Z
-desk dancing lunges:
-  id: 7
-  created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:59.624696000 Z
-    zone: *1
-    time: 2025-01-10 11:19:59.624696000 Z
-  description: A fun, quick exercise combining lunges with a little dance move. This
-    move engages your legs and improves your balance right next to your desk.
-  name: Desk Dancing Lunges
+    time: 2025-01-10 15:03:04.761252000 Z
+happy desk twist:
+  id: 85
+  name: Happy Desk Twist
+  description: A lively and simple twist exercise that improves mobility and engages
+    your core, perfect for a quick office break.
   steps:
-  - Stand up tall next to your desk with feet hip-width apart.
-  - Take a big step back with your right foot, bending both knees into a lunge.
-  - While in the lunge, sway your arms above your head like you're conducting a little
-    orchestra.
-  - Return to standing and bring your right foot next to your left.
-  - Quickly repeat the lunge on the opposite side by stepping back with your left
-    foot.
-  - Sway your arms above your head again for a touch of fun.
-  - Come back to standing and bring your left foot next to your right.
-  - Repeat this sequence for a total of 5 times on each side.
+  - Stand up straight with feet shoulder-width apart and slightly away from the desk
+  - Place your hands on your hips for balance
+  - Gently twist your torso to the right, engaging your core
+  - Return to the center position
+  - Twist your torso to the left in the same manner
+  - Return to the center position
+  - Repeat these alternating twists for 30 seconds to 1 minute, keeping the movement
+    fluid and controlled
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:04.872041000 Z
+    zone: *1
+    time: 2025-01-10 15:03:04.872041000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:19:59.624696000 Z
+    utc: 2025-01-10 15:03:04.872041000 Z
     zone: *1
-    time: 2025-01-10 11:19:59.624696000 Z
-desk samba steps:
-  id: 8
-  created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:20:02.699561000 Z
-    zone: *1
-    time: 2025-01-10 11:20:02.699561000 Z
-  description: Groove your way through a quick and fun dance-inspired workout beside
-    your desk, engaging your legs and boosting mobility.
-  name: Desk Samba Steps
+    time: 2025-01-10 15:03:04.872041000 Z
+gleeful step and sway:
+  id: 86
+  name: Gleeful Step and Sway
+  description: A quick and fun exercise blending stepping and swaying to energize
+    your body near your desk.
   steps:
-  - Stand up from your chair with feet hip-width apart.
-  - Slide your right foot out to the side, keeping your chest lifted and arms at your
+  - Stand up straight with your feet hip-width apart, facing your desk.
+  - Take a step forward with your right foot, gently swaying your hips to the right.
+  - Return to the starting position with a slight bounce.
+  - Repeat the step with your left foot, swaying your hips to the left.
+  - Continue alternating steps and hip sways for a total of 10 times.
+  - Finish with a gentle sway side-to-side and a big smile!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.011499000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.011499000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.011499000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.011499000 Z
+happy dance bounce:
+  id: 87
+  name: Happy Dance Bounce
+  description: Get ready to energize your body and brighten your day with the Happy
+    Dance Bounce, a quick and joyful exercise to boost your mobility and strength.
+  steps:
+  - Stand up beside your desk with feet hip-width apart, feeling tall and strong.
+  - Bend your knees slightly and start bouncing gently up and down, as if you’re on
+    a small trampoline.
+  - As you bounce, swing your arms side to side in a lively dance motion.
+  - Keep a gentle rhythm and feel the joy in your bouncing for 30 seconds.
+  - Rest for 15 seconds and repeat the sequence one more time.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.542684000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.542684000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.542684000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.542684000 Z
+joyful desk squat twists:
+  id: 88
+  name: Joyful Desk Squat Twists
+  description: A fun and engaging exercise combining squats and torso twists, perfect
+    for improving strength and mobility while taking a quick break.
+  steps:
+  - Stand up straight in front of your desk with feet hip-width apart
+  - Lower yourself into a squat position, making sure your knees don't go beyond your
+    toes
+  - Rise back up to standing and twist your torso to the right, gently swinging your
+    arms to follow
+  - Return to the center position, squat again, and as you stand back up, twist to
+    the left
+  - Repeat the full sequence for a total of 4 times on each side, ensuring smooth
+    movements and controlled breathing
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.606943000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.606943000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.606943000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.606943000 Z
+energetic desk twists:
+  id: 89
+  name: Energetic Desk Twists
+  description: A quick and fun way to boost your energy and improve your core strength
+    right beside your desk.
+  steps:
+  - Stand up straight with your feet hip-width apart, facing your desk
+  - Place your hands behind your head with elbows out to the sides
+  - Twist your torso gently to the right as you lift your right knee towards your
+    left elbow
+  - Return to start position and twist your torso to the left, lifting your left knee
+    towards your right elbow
+  - Repeat these alternating twists quickly and smoothly for a total of 10 times on
+    each side
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.724770000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.724770000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.724770000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.724770000 Z
+twisting toe touch:
+  id: 90
+  name: Twisting Toe Touch
+  description: A quick and fun exercise that combines a core twist with an invigorating
+    stretch, perfect for energizing your entire body.
+  steps:
+  - Stand up tall with your feet shoulder-width apart in front of your desk.
+  - Raise your arms overhead and take a deep breath in.
+  - As you exhale, twist your torso to the right and reach your left hand down towards
+    your right toes, while keeping your right arm extended upwards.
+  - Come back to the starting position with arms overhead.
+  - Repeat the twist to the left side, reaching your right hand towards your left
+    toes.
+  - Return to the starting position to complete one repetition.
+  - Repeat this movement for a total of 8-10 reps, alternating sides.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.751075000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.751075000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.751075000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.751075000 Z
+bouncy heel hops:
+  id: 91
+  name: Bouncy Heel Hops
+  description: Bounce into joy with fast heel raises that provide a quick cardio boost
+    while standing at your desk!
+  steps:
+  - Stand up straight with your feet hip-width apart and close to your desk for balance
+    support
+  - Raise your heels off the ground so you're on your toes and hold for a second
+  - Drop your heels back down quickly creating a bouncing motion
+  - Repeat this up-and-down bouncing action for 30 seconds, maintaining a comfortable
+    pace
+  - While bouncing, engage your core and keep your shoulders relaxed
+  - Finish by standing flat-footed and taking a deep, calming breath
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.788594000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.788594000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.788594000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.788594000 Z
+joyful desk sways:
+  id: 92
+  name: Joyful Desk Sways
+  description: Activate your core and improve balance with gentle side-to-side sways.
+  steps:
+  - Stand up tall with feet slightly apart and knees relaxed.
+  - Raise your arms out to the side and up to shoulder height.
+  - Shift your weight to your right foot, gently swaying your body to the right.
+  - Pause briefly, engaging your core for stability.
+  - Shift your weight to your left foot, swaying your body to the left.
+  - Continue swaying side to side for 30-60 seconds, enjoying the gentle motion.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.793409000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.793409000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.793409000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.793409000 Z
+rainbow arm sways:
+  id: 93
+  name: Rainbow Arm Sways
+  description: A delightful exercise to stretch your arms and enhance mobility while
+    adding a splash of color to your desk routine.
+  steps:
+  - Stand up in front of your desk with feet shoulder-width apart.
+  - Extend your arms out to your sides, parallel to the floor, forming a T-shape.
+  - Sway your arms upwards in an arc, as if drawing a rainbow over your head.
+  - Bring arms back to the starting T-position.
+  - Repeat the swaying motion 5 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.826304000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.826304000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.826304000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.826304000 Z
+happy side sways:
+  id: 94
+  name: Happy Side Sways
+  description: A fun and dynamic movement to loosen up those hips and engage your
+    core, perfect for a quick energy boost.
+  steps:
+  - Stand tall with feet hip-width apart, near your desk for balance if needed.
+  - Gently sway your hips to the right, shifting your weight onto the right foot.
+  - Bring your hips back to the center.
+  - Sway your hips to the left, shifting your weight onto the left foot.
+  - Bring your hips back to the center.
+  - Continue alternating sides in a rhythmic motion for one full minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.838357000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.838357000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.838357000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.838357000 Z
+happy desk sway:
+  id: 95
+  name: Happy Desk Sway
+  description: A delightful exercise to improve balance and flexibility while having
+    a bit of fun near your desk.
+  steps:
+  - Stand up tall with your feet hip-width apart and arms relaxed by your sides.
+  - Gently sway your hips side to side like a happy dance, feeling the stretch in
+    your sides.
+  - Raise your arms above your head and sway a little more, letting your whole body
+    enjoy the motion.
+  - Lower your arms back down and keep swaying your hips.
+  - Repeat the swaying motion four to five times, each time getting a bit more relaxed
+    and loose.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.908602000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.908602000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:05.908602000 Z
+    zone: *1
+    time: 2025-01-10 15:03:05.908602000 Z
+joyful desk twists:
+  id: 96
+  name: Joyful Desk Twists
+  description: A fun and dynamic twist exercise to boost your energy and mobility,
+    perfect for a quick break during your workday!
+  steps:
+  - Stand up straight and keep a comfortable distance from your desk.
+  - Extend your arms out to the sides at shoulder height.
+  - Gently twist your torso to the right while keeping your hips facing forward.
+  - Return to the center and then twist to the left.
+  - Imagine you're wringing out stress as you perform each twist!
+  - Repeat this twisting motion 10 times for a refreshing energy boost.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:07.439769000 Z
+    zone: *1
+    time: 2025-01-10 15:03:07.439769000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:07.439769000 Z
+    zone: *1
+    time: 2025-01-10 15:03:07.439769000 Z
+happy twist and reach:
+  id: 97
+  name: Happy Twist and Reach
+  description: A dynamic exercise that combines a gentle twist with a reach to improve
+    mobility and engage your core.
+  steps:
+  - Stand up tall with your feet hip-width apart in front of your desk.
+  - Gently twist your torso to the left while extending your right arm overhead, reaching
+    as far as comfortable.
+  - Come back to the starting position and repeat the twist to the right, extending
+    your left arm overhead this time.
+  - Return to the starting position.
+  - Repeat the sequence for 30 seconds on each side for a total of 1 minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:07.605204000 Z
+    zone: *1
+    time: 2025-01-10 15:03:07.605204000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:07.605204000 Z
+    zone: *1
+    time: 2025-01-10 15:03:07.605204000 Z
+happy hand shakes:
+  id: 98
+  name: Happy Hand Shakes
+  description: A quick and fun way to boost your energy and stretch your arms while
+    standing.
+  steps:
+  - Stand up comfortably in front of your desk, feet hip-width apart.
+  - Extend your right hand in the air as if you're about to shake hands with an imaginary
+    friend.
+  - Move your hand up and down energetically, like a cheerful handshake, for 5 seconds.
+  - Switch to your left hand and repeat the energetic handshake motion for another
+    5 seconds.
+  - Alternate hands and repeat the sequence three times to enjoy a joyful energy boost
+    and a delightful arm stretch.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:08.091297000 Z
+    zone: *1
+    time: 2025-01-10 15:03:08.091297000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:08.091297000 Z
+    zone: *1
+    time: 2025-01-10 15:03:08.091297000 Z
+joyful arm raise and twist:
+  id: 99
+  name: Joyful Arm Raise and Twist
+  description: A fun and energizing exercise to boost your mobility and strength while
+    standing and engaging the core.
+  steps:
+  - Begin by standing up straight, with feet hip-width apart, close to your desk.
+  - Raise both arms above your head with a smile, reaching towards the sky.
+  - Twist your torso gently to the right, keeping hips facing forward, and hold for
+    a moment.
+  - Return to the center with arms still raised.
+  - Twist your torso gently to the left, and hold for a moment.
+  - Repeat the twists from side to side five times each, maintaining the fun and energy.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:08.604379000 Z
+    zone: *1
+    time: 2025-01-10 15:03:08.604379000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:08.604379000 Z
+    zone: *1
+    time: 2025-01-10 15:03:08.604379000 Z
+pepper dance sway:
+  id: 100
+  name: Pepper Dance Sway
+  description: A lively sway paired with a subtle dance at your desk to boost mobility
+    and strength.
+  steps:
+  - Stand up with your feet shoulder-width apart and slightly bend your knees.
+  - Gently sway your hips from side to side, imagining you're dancing to your favorite
+    tune.
+  - As you sway, lightly tap your toes to the side with each movement, alternating
+    between left and right.
+  - Keep your arms relaxed and let them sway naturally along with your body.
+  - Aim for a lively rhythm and keep moving for about one minute.
+  - Feel the energy boost? Repeat the sway dance up to three times for more fun!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:08.720723000 Z
+    zone: *1
+    time: 2025-01-10 15:03:08.720723000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:08.720723000 Z
+    zone: *1
+    time: 2025-01-10 15:03:08.720723000 Z
+cheerful leg swing:
+  id: 101
+  name: Cheerful Leg Swing
+  description: A short and fun exercise to engage your legs and improve mobility,
+    perfect for a quick break near your desk.
+  steps:
+  - Stand up straight near your desk with your feet hip-width apart.
+  - Gently swing your right leg forward and backward, keeping your balance using your
+    desk if needed.
+  - Switch to your left leg, swinging it forward and backward with control.
+  - Repeat the swings 10 times on each leg while wearing a smile!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.450399000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.450399000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.450399000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.450399000 Z
+happy leg swing:
+  id: 102
+  name: Happy Leg Swing
+  description: A fun exercise to strengthen your legs and enhance balance, perfect
+    for a short break.
+  steps:
+  - Stand next to your desk with one hand lightly resting on it for balance.
+  - Gently swing your right leg forward and backward in a comfortable range of motion.
+  - Switch legs and swing the left leg in the same manner.
+  - Repeat each leg swing for 30 seconds for a total of 1 minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.479730000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.479730000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.479730000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.479730000 Z
+cheerful leg stretches:
+  id: 112
+  name: Cheerful Leg Stretches
+  description: This fun and engaging leg stretch routine will boost your energy and
+    improve flexibility. Perfect to do next to your desk and in just one minute!
+  steps:
+  - Stand up tall with feet hip-width apart.
+  - Shift your weight onto your left foot and gently swing your right leg forward
+    and back.
+  - Keep your core engaged to maintain balance as you swing your leg.
+  - Repeat the swing 5 times, then switch to the other leg.
+  - Throughout the motion, keep a light smile and think positive thoughts to keep
+    it fun!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.662107000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.662107000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.662107000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.662107000 Z
+sunny leg swings:
+  id: 104
+  name: Sunny Leg Swings
+  description: A fun balance and mobility exercise to boost your energy and leg strength.
+  steps:
+  - Stand up straight in front of your desk, placing one hand lightly on the desk
+    for balance.
+  - Gently swing your right leg forward and backward, keeping your core engaged.
+  - Switch to swinging your left leg after a few swings.
+  - Repeat these swings for 30 seconds on each leg, keeping a light and fun rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.820863000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.820863000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.820863000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.820863000 Z
+uplifting leg swings:
+  id: 105
+  name: Uplifting Leg Swings
+  description: A fun swinging exercise to engage your legs and boost your balance
+    while working on mobility.
+  steps:
+  - Stand tall beside your desk, hands lightly touching for balance.
+  - Swing your right leg forward and backward with a smooth motion.
+  - Engage your core as you swing for better stability.
+  - Repeat the swings 5 times, then switch to your left leg.
+  - Mix it up by gently swinging side to side for added fun.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.882840000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.882840000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:18.882840000 Z
+    zone: *1
+    time: 2025-01-10 15:03:18.882840000 Z
+breezy hip swirls:
+  id: 106
+  name: Breezy Hip Swirls
+  description: Get those hips moving and grooving with this swift and engaging exercise
+    that boosts mobility and energy.
+  steps:
+  - Stand up tall with your feet hip-width apart, close enough to your desk for balance
+    if needed.
+  - Place your hands on your hips and gently sway them from side to side, warming
+    up your joints.
+  - Begin making small circles with your hips, gradually increasing the size as you
+    feel more comfortable.
+  - Switch directions and swirl your hips the other way, feeling the stretch all around.
+  - Continue swirling your hips in each direction for about 30 seconds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.071884000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.071884000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.071884000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.071884000 Z
+cheerful desk bounces:
+  id: 107
+  name: Cheerful Desk Bounces
+  description: A quick and fun way to activate your muscles and enhance mobility with
+    gentle bounces.
+  steps:
+  - Stand up in front of your desk with feet shoulder-width apart.
+  - Gently bounce on your toes, keeping your knees soft and relaxed.
+  - Swing your arms naturally as you bounce to get a full-body movement.
+  - Engage your core muscles and maintain a straight posture.
+  - Continue to bounce for 30 seconds, then take a short break and repeat the sequence.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.101781000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.101781000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.101781000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.101781000 Z
+cheerful calf lifts:
+  id: 108
+  name: Cheerful Calf Lifts
+  description: Boost your energy and strengthen your calves by lifting up onto your
+    toes and back down. Perfect for a quick desk-side exercise!
+  steps:
+  - Stand up straight with your feet hip-width apart, near your desk for balance if
+    needed.
+  - Lift your heels off the ground to rise onto your toes, engaging your calf muscles.
+  - Hold this position briefly for a moment, feeling the stretch.
+  - Lower your heels back to the ground gently.
+  - Repeat these steps 10 times to enjoy a quick, refreshing leg workout!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.403244000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.403244000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.403244000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.403244000 Z
+merry leg stretch:
+  id: 109
+  name: Merry Leg Stretch
+  description: A quick and uplifting exercise to stretch and strengthen the legs while
+    standing near your desk.
+  steps:
+  - Stand tall with your feet hip-width apart, close to your desk.
+  - Lift your right leg forward, keeping it straight and pointing your toes.
+  - Hold onto the desk for balance if needed, and feel the stretch in your hamstrings.
+  - Lower your right leg and repeat the stretch with your left leg.
+  - Once both legs are stretched, gently swing your right leg back and forth a few
+    times.
+  - Switch to your left leg, swinging it back and forth to enhance mobility.
+  - Repeat the entire sequence 3 times for each leg, alternating between leg stretches
+    and swings.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.412182000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.412182000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.412182000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.412182000 Z
+hop and stretch delight:
+  id: 110
+  name: Hop and Stretch Delight
+  description: A fun exercise that combines hops and a side stretch to enhance mobility
+    and provide an energy boost.
+  steps:
+  - Stand up straight with feet shoulder-width apart.
+  - Lightly hop in place three times.
+  - On the third hop, land and stretch your right arm overhead while leaning to the
+    left.
+  - Return to starting position.
+  - Lightly hop in place three more times.
+  - On the third hop, land and stretch your left arm overhead while leaning to the
+    right.
+  - Repeat the sequence two times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.545758000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.545758000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.545758000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.545758000 Z
+glee knee lifts:
+  id: 111
+  name: Glee Knee Lifts
+  description: A quick and engaging exercise to boost your energy and strengthen your
+    legs.
+  steps:
+  - Stand up tall with your feet hip-width apart, making sure there's a little space
+    around you.
+  - Lift your right knee towards your chest while reaching forward with your left
+    hand.
+  - Lower your right leg back to the ground.
+  - Immediately lift your left knee towards your chest while reaching forward with
+    your right hand.
+  - Continue alternating knees in a rhythmic motion at a brisk pace.
+  - Repeat these steps for 1 minute, keeping a joyful spirit and a smile on your face!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.597573000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.597573000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:19.597573000 Z
+    zone: *1
+    time: 2025-01-10 15:03:19.597573000 Z
+joyful star reaches:
+  id: 113
+  name: Joyful Star Reaches
+  description: A quick exercise to energize you, improving your mobility and strength
+    with fun star-like movements.
+  steps:
+  - Stand up next to your desk with feet shoulder-width apart.
+  - Raise your arms out to the sides and then up, forming a star shape with your body.
+  - Quickly bring your arms down by your sides as you bend at the knees slightly into
+    a half-squat.
+  - Straighten your legs and raise your arms back to the star position.
+  - Repeat this star reach and squat sequence 5 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:20.411197000 Z
+    zone: *1
+    time: 2025-01-10 15:03:20.411197000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:20.411197000 Z
+    zone: *1
+    time: 2025-01-10 15:03:20.411197000 Z
+surfer swings:
+  id: 114
+  name: Surfer Swings
+  description: Ride the imaginary waves with this engaging and energizing exercise
+    that strengthens your legs and improves your balance.
+  steps:
+  - Stand up tall with feet shoulder-width apart, facing your desk
+  - Bend your knees slightly and plant your feet as if you're balancing on a surfboard
+  - Lift your right foot and swing it slightly to the right side, keeping balance
+    on your left foot
+  - Bring your right foot back to the starting position
+  - Lift your left foot and swing it slightly to the left side, maintaining balance
+    on your right foot
+  - Repeat for a total of 5 swings on each side, keeping the rhythm fun as if you're
+    surfing the waves!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:20.544043000 Z
+    zone: *1
+    time: 2025-01-10 15:03:20.544043000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:20.544043000 Z
+    zone: *1
+    time: 2025-01-10 15:03:20.544043000 Z
+cheerful side punches:
+  id: 115
+  name: Cheerful Side Punches
+  description: Boost your energy and stretch your muscles with these dynamic side
+    punches.
+  steps:
+  - Stand up straight facing your desk, keeping a comfortable distance.
+  - Raise your fists to shoulder height, bending the elbows comfortably.
+  - Punch your right fist sideways to the left, twisting your torso slightly.
+  - Return to the starting position and then punch your left fist to the right.
+  - Perform this punching movement in a flowing rhythm.
+  - Repeat the side punches 10 times per side for a full-body invigorating stretch.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:20.689171000 Z
+    zone: *1
+    time: 2025-01-10 15:03:20.689171000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:20.689171000 Z
+    zone: *1
+    time: 2025-01-10 15:03:20.689171000 Z
+playful desk step touch:
+  id: 116
+  name: Playful Desk Step Touch
+  description: A lively and quick routine to boost energy and mobility in just one
+    minute, suitable to perform near your desk.
+  steps:
+  - Stand up tall with a light and joyful posture.
+  - Take a step to the right and tap your left foot beside your right.
+  - Clap your hands above your head with enthusiasm.
+  - Step back to the left and tap your right foot beside your left.
+  - Clap your hands once more, smiling as you go.
+  - Repeat these steps back and forth with a gentle rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.192765000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.192765000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.192765000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.192765000 Z
+cheerful desk dips:
+  id: 117
+  name: Cheerful Desk Dips
+  description: A fun and quick exercise to strengthen your triceps and improve your
+    mobility while standing up.
+  steps:
+  - Stand in front of your desk with your hands resting on the edge and your feet
+    together.
+  - Walk your feet slightly forward and bend your elbows to lower your body down,
+    keeping your back close to the desk.
+  - Push through your palms to straighten your arms and lift your body back to the
+    starting position.
+  - Repeat this dipping motion joyfully and rhythmically for a total of 8 to 10 reps.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.271084000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.271084000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.271084000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.271084000 Z
+playful knee swings:
+  id: 118
+  name: Playful Knee Swings
+  description: Get moving with this playful lower body exercise that boosts your energy
+    and flexibility around your desk space!
+  steps:
+  - Stand up and position yourself close to your desk with your feet hip-width apart
+  - Gently swing your right knee forward and slightly upward, like you're marching
+    in place
+  - Lower your right foot back down and immediately swing your left knee forward in
+    the same manner
+  - Alternate between each leg, maintaining a rhythm that's comfortable and keeps
+    you balanced
+  - Keep your arms relaxed by your side, or swing them slightly to add a bit more
+    fun
+  - Repeat the knee swings for about 30 seconds, aiming for a smooth and steady pace
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.585036000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.585036000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.585036000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.585036000 Z
+cheery chair swings:
+  id: 119
+  name: Cheery Chair Swings
+  description: A delightful and quick exercise to get you moving and smiling right
+    by your desk.
+  steps:
+  - Stand up from your chair and step back so you're clear of your desk.
+  - Plant your feet shoulder-width apart, arms hanging loosely by your sides.
+  - Gently swing your arms back and forth while bending your knees slightly, like
+    you're going for a playful swing.
+  - Keep the momentum, and each time you swing forward, come up onto your toes for
+    a fun little bounce.
+  - Swing and bounce for about 30 seconds, feeling the joy in your movements.
+  - Return to standing on flat feet and give your arms a gentle shake.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.734742000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.734742000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:21.734742000 Z
+    zone: *1
+    time: 2025-01-10 15:03:21.734742000 Z
+cheerful side stretches:
+  id: 120
+  name: Cheerful Side Stretches
+  description: A delightful exercise that stretches your side muscles and helps to
+    improve your posture. Perfect for a quick break to energize your body!
+  steps:
+  - Stand up straight with feet hip-width apart near your desk.
+  - Raise your right arm over your head, reaching towards the left side.
+  - Feel the stretch along your right side as you gently lean to the left.
+  - Hold for 5 seconds while breathing deeply.
+  - Return to the starting position and switch arms.
+  - Raise your left arm and reach towards the right side.
+  - Hold for another 5 seconds, then return to the starting position.
+  - Repeat this side-to-side stretch sequence 3 times, keeping the movements gentle
+    and controlled.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:22.584247000 Z
+    zone: *1
+    time: 2025-01-10 15:03:22.584247000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:22.584247000 Z
+    zone: *1
+    time: 2025-01-10 15:03:22.584247000 Z
+festive desk jumps:
+  id: 121
+  name: Festive Desk Jumps
+  description: A quick, fun exercise to invigorate and energize the body with a gentle
+    jump close to your desk.
+  steps:
+  - Stand up straight with your feet together, facing your desk.
+  - Bend your knees slightly and jump lightly off the ground.
+  - As you jump, swing your arms up to add momentum and fun.
+  - Land softly on the balls of your feet and soften your knees to absorb the impact.
+  - Repeat the jumps and arm swings continuously for 30 seconds, then take a deep
+    breath and relax.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.085935000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.085935000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.085935000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.085935000 Z
+happy arm circles:
+  id: 122
+  name: Happy Arm Circles
+  description: Get ready to boost your mood and improve your shoulder mobility with
+    these joyful arm circles.
+  steps:
+  - Stand up straight with plenty of space on either side of you.
+  - Extend your arms out to the sides like you're forming a T shape.
+  - Begin to make small circles with both arms, gradually increasing to larger circles.
+  - Keep your shoulders relaxed and your core engaged.
+  - Reverse the direction of the circles after 15 seconds and repeat.
+  - Feel the energy flowing and enjoy the movement!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.295970000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.295970000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.295970000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.295970000 Z
+festive jumping jacks:
+  id: 123
+  name: Festive Jumping Jacks
+  description: A quick burst of energy with a standing jumping jack variation, perfect
+    for a short break in your day!
+  steps:
+  - Stand up straight with your feet together and arms at your sides.
+  - Jump up, spreading your legs shoulder-width apart while bringing your arms overhead
+    in a clapping motion.
+  - Quickly jump again, bringing your feet back together and your arms back to your
     sides.
-  - Bring your right foot back to the center, then slide your left foot out to the
-    side.
-  - Alternate between right and left, adding a gentle swing of your hips for extra
-    movement.
-  - Lift your arms slightly, mimicking a samba dance move to add rhythm and engage
-    your core.
-  - Repeat the steps for a total of 10 side-to-side slides or one minute of dancing
-    fun.
-  updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:20:02.699561000 Z
-    zone: *1
-    time: 2025-01-10 11:20:02.699561000 Z
-desk ballet reach:
-  id: 9
+  - Continue for about 30 seconds, keeping a steady pace that feels comfortable.
+  - Finish with a deep breath and a big smile!
   created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:20:05.175770000 Z
+    utc: 2025-01-10 15:03:25.650670000 Z
     zone: *1
-    time: 2025-01-10 11:20:05.175770000 Z
-  description: A graceful stretch to improve your balance and flexibility, perfect
-    for a quick break at your desk!
-  name: Desk Ballet Reach
+    time: 2025-01-10 15:03:25.650670000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.650670000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.650670000 Z
+sunny step and reach:
+  id: 124
+  name: Sunny Step and Reach
+  description: A dynamic exercise that combines stepping and reaching to boost energy
+    and mobility.
   steps:
-  - Stand up straight with your feet together, close to your desk for support if needed.
-  - Lift your right leg to the side while reaching your right arm overhead in a fluid
+  - Stand up comfortably in front of your desk with your feet shoulder-width apart.
+  - Step forward with your right foot as if you're taking a large step and extend
+    your left arm overhead, reaching towards the sky.
+  - Return to the starting position and repeat the movement on the opposite side,
+    stepping forward with your left foot and reaching with your right arm.
+  - Continue alternating steps and reaches for 30 seconds, aiming for fluid and joyful
+    movements.
+  - Engage your core and breathe in rhythm with your movements to enhance balance
+    and stability.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.654245000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.654245000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.654245000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.654245000 Z
+happy desk march:
+  id: 125
+  name: Happy Desk March
+  description: A quick and fun exercise that gets your legs moving and improves circulation
+    while you stand near your desk.
+  steps:
+  - Stand up straight beside your desk with feet hip-width apart.
+  - Start marching in place, lifting your knees as high as comfortable.
+  - Swing your arms in conjunction with your legs for added energy.
+  - Keep your gaze forward and engage your core as you march.
+  - Continue marching with enthusiasm for 30 seconds.
+  - Relax for a moment, then repeat the march for another 30 seconds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.788858000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.788858000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.788858000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.788858000 Z
+jolly upper body jiggles:
+  id: 126
+  name: Jolly Upper Body Jiggles
+  description: An energetic and lively movement to get those shoulders and arms activated.
+    Perfect for a quick energy boost!
+  steps:
+  - Start by standing up straight with your feet hip-width apart, facing your desk.
+  - Lift your arms and open them wide, as if you’re about to give the world a big
+    hug!
+  - Now, move your shoulders in a small circular motion, engaging your upper body.
+  - Add some fun by wiggling your fingers as you move your shoulders.
+  - Continue these joyful jiggles for 30 seconds.
+  - To finish, bring your arms back down and take a deep, refreshing breath.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.811891000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.811891000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:25.811891000 Z
+    zone: *1
+    time: 2025-01-10 15:03:25.811891000 Z
+bouncy desk jumps:
+  id: 128
+  name: Bouncy Desk Jumps
+  description: Boost your energy with quick, playful jumps! This simple exercise can
+    be done near your desk to invigorate your body in just a minute.
+  steps:
+  - Stand up straight with your feet shoulder-width apart, close to your desk.
+  - Bend your knees slightly and swing your arms back for momentum.
+  - Push off the ground with both feet, jumping gently upward and slightly forward.
+  - Land softly on the balls of your feet, bending your knees to absorb the impact.
+  - Repeat the jumping motion continuously for 30 seconds.
+  - For an added challenge, try to touch your toes during each jump!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.011092000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.011092000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.011092000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.011092000 Z
+bendy balance stands:
+  id: 129
+  name: Bendy Balance Stands
+  description: Engage your balance and flexibility with this quick and energizing
+    stand-up routine.
+  steps:
+  - Stand up straight with feet hip-width apart, arms relaxed at your sides.
+  - Lift your right knee up towards your chest while balancing on your left leg.
+  - Hold the position for a count of three, engaging your core for stability.
+  - Gently lower your right foot while raising your left knee towards your chest.
+  - Balance again for another count of three.
+  - Swing each arm in a playful arc as you switch sides, keeping the motion fluid
+    and fun.
+  - Repeat the alternating knee lifts 5 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.039790000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.039790000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.039790000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.039790000 Z
+joyful jump and twist:
+  id: 130
+  name: Joyful Jump and Twist
+  description: A quick and fun exercise to boost your energy and mobility while keeping
+    things light.
+  steps:
+  - Stand up straight with your feet hip-width apart in front of your desk.
+  - Gently bend your knees and jump up lightly, keeping it small and safe.
+  - As you jump, twist your torso and hips to the right while letting your arms swing
+    naturally.
+  - Land softly on your feet, immediately jumping again and twisting to the left.
+  - Repeat these jumps and twists side by side in a rhythmic motion for about 30 seconds.
+  - Finish by standing still and taking a deep breath, feeling refreshed and energized!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.056509000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.056509000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.056509000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.056509000 Z
+jolly desk jumps:
+  id: 131
+  name: Jolly Desk Jumps
+  description: A lively burst of energy to get your blood pumping and lift your mood!
+  steps:
+  - Stand up straight and position yourself a step away from your desk.
+  - Gently bend your knees as if you were about to sit.
+  - Push upwards and off the ground with a light jump, reaching your arms towards
+    the ceiling.
+  - Land softly on the balls of your feet, bending your knees slightly to absorb the
+    impact.
+  - Repeat this fun jump continuously for about 45 seconds to a minute, ensuring you
+    maintain a steady pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.459817000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.459817000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:26.459817000 Z
+    zone: *1
+    time: 2025-01-10 15:03:26.459817000 Z
+sunny shoulder rolls:
+  id: 132
+  name: Sunny Shoulder Rolls
+  description: An exercise that loosens up your shoulders and upper back, perfect
+    for a quick break near your desk.
+  steps:
+  - Stand up straight with feet shoulder-width apart, close to your desk.
+  - Relax your arms by your sides.
+  - Gently roll your shoulders forward in a circular motion.
+  - Continue rolling forward for 10 seconds.
+  - Now change direction and roll your shoulders backward for another 10 seconds.
+  - Feel the tension release as you breathe deeply.
+  - Repeat both forward and backward rolls two more times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.125273000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.125273000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.125273000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.125273000 Z
+happy desk skips:
+  id: 133
+  name: Happy Desk Skips
+  description: This exercise gets you energized and on your feet with fun side-to-side
+    skipping steps.
+  steps:
+  - Stand up straight in front of your desk with a bit of space on either side.
+  - Shift your weight to your right foot.
+  - Gently skip to the left by hopping onto your left foot, bringing your right knee
+    up towards your chest.
+  - Now, skip back to the right by hopping onto your right foot, bringing your left
+    knee up towards your chest.
+  - Continue this side-to-side skipping motion for 30 seconds.
+  - Finish with a gentle shake off your legs and arms, then take a deep breath and
+    smile!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.411422000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.411422000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.411422000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.411422000 Z
+joyful step stretches:
+  id: 134
+  name: Joyful Step Stretches
+  description: A delightful exercise to enhance your mobility and energy, perfect
+    for a quick break!
+  steps:
+  - Stand up straight with your feet hip-width apart and your arms relaxed by your
+    sides.
+  - Take a big step forward with your right foot, bending your left knee to lower
+    your body slightly.
+  - Reach both arms overhead as you stretch your left leg behind you, feeling a gentle
+    pull.
+  - Hold the stretch for a couple of seconds, then step back to the starting position.
+  - Repeat the step and stretch with your left foot forward and right leg stretched
+    behind.
+  - Keep alternating steps and stretches for a total of 6 times with each leg.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.843721000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.843721000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.843721000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.843721000 Z
+happy desk push & rise:
+  id: 135
+  name: Happy Desk Push & Rise
+  description: A fun and engaging exercise to improve upper body strength and mobility
+    with a touch of happiness! Short and effective, perfect for a quick energy boost.
+  steps:
+  - Start by standing in front of your desk with your feet shoulder-width apart.
+  - Place your hands on the edge of the desk, slightly wider than shoulder-width.
+  - Push your hips back as if you're sitting on an invisible stool, lowering yourself
+    into a mini squat.
+  - Return to standing position with a joyful rise, pushing through your feet and
+    slightly pulling against the desk.
+  - Repeat this push and rise movement joyfully 8-10 times, maintaining a comfortable
+    pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.966839000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.966839000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:27.966839000 Z
+    zone: *1
+    time: 2025-01-10 15:03:27.966839000 Z
+jolly leg lifts:
+  id: 136
+  name: Jolly Leg Lifts
+  description: An engaging exercise to improve balance and leg strength while having
+    fun near your desk.
+  steps:
+  - Stand up straight with your desk in front of you.
+  - Gently hold the desk edge for balance.
+  - Lift your right leg forward while keeping it straight, forming a gentle right
+    angle with your body.
+  - Lower your leg back down.
+  - Lift your left leg forward, mirroring the previous action.
+  - Lower your left leg back down.
+  - Repeat the sequence, alternating legs, for a total of 5 lifts per leg.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:28.086606000 Z
+    zone: *1
+    time: 2025-01-10 15:03:28.086606000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:28.086606000 Z
+    zone: *1
+    time: 2025-01-10 15:03:28.086606000 Z
+cheery desk hops:
+  id: 137
+  name: Cheery Desk Hops
+  description: A fun and quick exercise to energize your legs and improve balance.
+    Perfect for a short break near your desk!
+  steps:
+  - Stand up tall with feet shoulder-width apart, facing your desk
+  - Gently bend your knees a little, and get ready to hop
+  - Hop lightly, lifting both feet off the ground at the same time and landing softly
+  - As you land, bend your knees slightly to cushion the impact
+  - Repeat the hop continuously for 30 seconds
+  - Use your arms to help with balance by slightly swinging them naturally as you
+    hop
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:28.397015000 Z
+    zone: *1
+    time: 2025-01-10 15:03:28.397015000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:28.397015000 Z
+    zone: *1
+    time: 2025-01-10 15:03:28.397015000 Z
+happy hop and claps:
+  id: 138
+  name: Happy Hop and Claps
+  description: An invigorating exercise that combines hopping with clapping to boost
+    energy and mood.
+  steps:
+  - Stand up straight in front of your desk with feet shoulder-width apart.
+  - Gently bend your knees and hop upward while clapping your hands above your head.
+  - As you land softly back on your feet, bring your hands down and slightly bend
+    your knees again.
+  - Repeat the hop and clap sequence continuously for about 30 seconds.
+  - Feel free to vary the speed or add a small dance move for more fun!
+  - Remember to keep your movements controlled and breathe naturally.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:31.116084000 Z
+    zone: *1
+    time: 2025-01-10 15:03:31.116084000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:31.116084000 Z
+    zone: *1
+    time: 2025-01-10 15:03:31.116084000 Z
+cheerful knee march:
+  id: 139
+  name: Cheerful Knee March
+  description: A quick and fun way to get moving and boost your mood right at your
+    desk.
+  steps:
+  - Stand up straight with a smile on your face, feet hip-width apart
+  - March in place by lifting your knees towards your waist, one at a time
+  - Swing your arms naturally as you march for extra engagement
+  - Keep your core engaged and back straight as you move
+  - March briskly for 1 minute to get your heart rate up and feel energized
+  - Feel free to add a little bounce or rhythm to make it even more fun
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:31.409194000 Z
+    zone: *1
+    time: 2025-01-10 15:03:31.409194000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:31.409194000 Z
+    zone: *1
+    time: 2025-01-10 15:03:31.409194000 Z
+giggly knee raises:
+  id: 141
+  name: Giggly Knee Raises
+  description: Boost your energy with these fun knee raises, perfect for a quick stretch
+    during breaks.
+  steps:
+  - Stand up straight beside your desk, keeping feet hip-width apart.
+  - Lift one knee towards your chest, bringing it as high as you comfortably can.
+  - Lower the knee back down and repeat with the other leg.
+  - Continue alternating knees, aim for a rhythm that feels engaging and fun.
+  - Repeat for 30 seconds, then do a joyful little dance to celebrate!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:33.647458000 Z
+    zone: *1
+    time: 2025-01-10 15:03:33.647458000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:33.647458000 Z
+    zone: *1
+    time: 2025-01-10 15:03:33.647458000 Z
+cheery calf raises:
+  id: 142
+  name: Cheery Calf Raises
+  description: Boost your energy with these fun calf raises that improve balance and
+    leg strength!
+  steps:
+  - Stand up tall behind your desk with feet hip-width apart.
+  - Gently lift your heels off the ground, rising onto the balls of your feet.
+  - Hold the position for a moment and engage your core.
+  - Lower your heels back down softly.
+  - Repeat the raises for about 10-12 times, ensuring smooth and controlled movements.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:33.804585000 Z
+    zone: *1
+    time: 2025-01-10 15:03:33.804585000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:33.804585000 Z
+    zone: *1
+    time: 2025-01-10 15:03:33.804585000 Z
+cheerful toe taps:
+  id: 143
+  name: Cheerful Toe Taps
+  description: An engaging exercise to boost circulation and flexibility, perfect
+    for a quick pick-me-up.
+  steps:
+  - Stand up straight near your desk with your feet hip-width apart.
+  - Gently tap your left toe forward and touch the ground lightly.
+  - Return your left foot to the starting position, then tap your right toe forward.
+  - Continue alternating toe taps at a cheerful, rhythmic pace.
+  - Aim to complete 20 toe taps in total, keeping your movements light and lively.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:33.855027000 Z
+    zone: *1
+    time: 2025-01-10 15:03:33.855027000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:33.855027000 Z
+    zone: *1
+    time: 2025-01-10 15:03:33.855027000 Z
+delightful desk squats:
+  id: 144
+  name: Delightful Desk Squats
+  description: Engage your leg muscles and improve your mobility with this quick and
+    fun squat exercise.
+  steps:
+  - Stand up straight with your feet shoulder-width apart, positioned a short distance
+    from your desk.
+  - Extend your arms forward to help maintain balance.
+  - Bend your knees and lower your hips as if you're sitting back in a chair.
+  - Pause for a moment when your thighs are parallel to the floor.
+  - Press through your heels to stand back up, engaging your core.
+  - Repeat these squats for about 30 seconds, and feel the energy in your legs.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.004522000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.004522000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.004522000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.004522000 Z
+gleeful desk squats:
+  id: 145
+  name: Gleeful Desk Squats
+  description: A fun and effective full-body workout that strengthens your legs and
+    engages your core.
+  steps:
+  - Stand up tall with your feet shoulder-width apart near your desk.
+  - Engage your core, and keep your chest up as you lower your hips back and down,
+    like you're about to sit on an imaginary chair.
+  - Ensure your knees do not go past your toes and go as low as you're comfortable
+    with.
+  - Press through your heels to return to a standing position.
+  - Repeat the movement for about 10 times, focusing on engaging your legs and core
+    with each squat.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.039637000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.039637000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.039637000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.039637000 Z
+energetic arm wavers:
+  id: 146
+  name: Energetic Arm Wavers
+  description: A lively exercise to boost energy and mobility by waving your arms
+    and engaging your body.
+  steps:
+  - Stand up straight with your feet shoulder-width apart a step away from your desk.
+  - Start by raising both arms above your head.
+  - Wave your arms side to side energetically, like you're a cheerleader encouraging
+    your team.
+  - Bend your knees slightly with each wave to engage your legs.
+  - Smile as you move, and feel free to add a little bounce for extra fun.
+  - Repeat the waving motion for 1 minute, feeling the rhythm and energy boost throughout
+    your body.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.066130000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.066130000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.066130000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.066130000 Z
+lively leg lift kicks:
+  id: 147
+  name: Lively Leg Lift Kicks
+  description: A quick and fun exercise that enhances leg strength and mobility by
+    incorporating controlled kicks.
+  steps:
+  - Stand tall with a little space in front of your desk
+  - Hold onto the desk lightly for support if needed
+  - Lift your right knee up, then extend your leg forward into a gentle kick
+  - Bring your leg back down and repeat with your left leg
+  - Continue alternating legs with enthusiasm
+  - Perform this sequence for about 30 seconds
+  - Feel the energy and enjoy the moment with big smiles!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.122322000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.122322000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.122322000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.122322000 Z
+jumpy toe taps:
+  id: 148
+  name: Jumpy Toe Taps
+  description: A quick and fun exercise to boost mobility and energy, featuring dynamic
+    foot movements.
+  steps:
+  - Stand tall in front of your desk with feet hip-width apart
+  - Lift your right knee and tap your toes on the floor
+  - Quickly switch to lift the left knee and tap your toes on the floor
+  - Continue tapping alternately and increase speed for a fun challenge
+  - Keep your core engaged and arms moving naturally to maintain balance
+  - Repeat the movements for 1 minute, enjoying the rhythm and flow
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.145342000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.145342000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.145342000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.145342000 Z
+merry toe taps:
+  id: 149
+  name: Merry Toe Taps
+  description: A fun exercise to improve leg strength and coordination by alternating
+    toe taps near your desk.
+  steps:
+  - Stand up straight with feet shoulder-width apart, facing your desk
+  - Gently tap your right toe on the edge of the desk, then bring it back
+  - Immediately switch and tap your left toe on the desk, then bring it back
+  - Continue alternating toe taps, maintaining a rhythm
+  - Repeat the toe taps for 1 minute while keeping a light bounce in your step for
+    added fun
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.253263000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.253263000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.253263000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.253263000 Z
+energetic step and reach:
+  id: 150
+  name: Energetic Step and Reach
+  description: A dynamic and fun exercise to improve mobility and energize your body
+    by reaching up high and stepping side to side.
+  steps:
+  - Stand up tall in front of your desk with your feet hip-width apart.
+  - Step to the right with your right foot, reaching your left arm up and over your
+    head, as if you're reaching for the sky.
+  - Return to the starting position and repeat the movement on the opposite side,
+    stepping to the left with your left foot and reaching your right arm up and over.
+  - Continue alternating sides in a fluid motion for about 1 minute, focusing on extending
+    fully with each reach.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.367334000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.367334000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.367334000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.367334000 Z
+joyful desk wave:
+  id: 151
+  name: Joyful Desk Wave
+  description: A light and enjoyable movement routine incorporating a full-body wave
+    to energize and stretch.
+  steps:
+  - Stand up from your chair with a smile and take a couple of steps back from your
+    desk.
+  - Begin by gently swaying your arms upwards, like you're drawing a wave in the air.
+  - Allow your body to follow the motion, rolling gently from your fingertips down
+    to your torso, creating a soft wave motion.
+  - As you wave, shift your weight slightly from one foot to the other, keeping it
+    playful.
+  - Repeat the wave motion for 30 seconds, gradually increasing your range of motion
+    and smile.
+  - Finally, settle back into a standing position and take a deep breath in and out
+    to finish.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.446047000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.446047000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.446047000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.446047000 Z
+sunny toe taps:
+  id: 152
+  name: Sunny Toe Taps
+  description: Get energized with this quick toe-tapping exercise to improve your
+    balance and coordination!
+  steps:
+  - Stand up straight and position yourself close to your desk.
+  - Lift your right foot and gently tap your toes on the edge of the desk.
+  - Return your right foot to the floor and switch to your left foot.
+  - Repeat the toe tapping action, alternating feet, at a lively pace.
+  - Continue alternating for a total of 10 taps per foot.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.619219000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.619219000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.619219000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.619219000 Z
+happy desk squats:
+  id: 153
+  name: Happy Desk Squats
+  description: A fun and energizing exercise to strengthen your legs and improve mobility
+    in just a minute.
+  steps:
+  - Stand up tall with feet shoulder-width apart, facing your desk clearly.
+  - Extend your arms forward for balance, making sure not to lean on the desk.
+  - Lower your body into a squat position by bending your knees and pushing your hips
+    back as if sitting in a chair.
+  - Ensure your knees don't go beyond your toes, and keep your chest lifted.
+  - Hold for a second and then rise back up to standing position.
+  - Repeat this process for as many repetitions as possible in one minute, ensuring
+    good form throughout.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.718432000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.718432000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.718432000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.718432000 Z
+sunny twist and tap:
+  id: 154
+  name: Sunny Twist and Tap
+  description: A lively and invigorating exercise to enhance your core flexibility
+    and balance.
+  steps:
+  - Stand up straight and plant your feet shoulder-width apart near your desk.
+  - Gently twist your torso to the right, extending your left hand to tap your desk
+    lightly.
+  - Return to the center, then twist to the left and tap the desk with your right
+    hand.
+  - Continue alternating sides, aiming for a smooth and rhythmic motion.
+  - Repeat this twist and tap sequence for a total of 10 times on each side.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.778294000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.778294000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.778294000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.778294000 Z
+laughing lunge pulses:
+  id: 155
+  name: Laughing Lunge Pulses
+  description: A fun and dynamic way to strengthen and mobilize your legs while standing
+    near your desk.
+  steps:
+  - Stand tall with feet hip-width apart, close to your desk or chair for balance
+    if needed
+  - Step one foot back into a comfortable lunge position, bending both knees
+  - Keep your upper body upright and your hands on your hips or lightly resting on
+    your desk
+  - Engage your core and pulse up and down gently in the lunge position
+  - Continue pulsing for 15 seconds, then return to standing
+  - Switch legs and repeat the pulsing on the other side for another 15 seconds
+  - Enjoy the energizing movement and repeat the set once more if time allows
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.868043000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.868043000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:34.868043000 Z
+    zone: *1
+    time: 2025-01-10 15:03:34.868043000 Z
+energetic chair sways:
+  id: 156
+  name: Energetic Chair Sways
+  description: A lively and engaging exercise to improve mobility and stretch your
+    legs and arms while standing near your desk.
+  steps:
+  - Stand up tall beside your desk back straight and feet hip-width apart.
+  - Sway your hips gently to the left while raising your right arm overhead, feeling
+    a nice stretch.
+  - Sway back to the right, bringing your left arm overhead while lowering your right
+    arm.
+  - Add a slight bend in your knees as you sway for a more dynamic movement.
+  - Repeat this swaying motion back and forth at a comfortable pace.
+  - Continue for 1 minute, enjoying the rhythm and movement.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:35.717101000 Z
+    zone: *1
+    time: 2025-01-10 15:03:35.717101000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:35.717101000 Z
+    zone: *1
+    time: 2025-01-10 15:03:35.717101000 Z
+joyful toe tap and twist:
+  id: 157
+  name: Joyful Toe Tap and Twist
+  description: A fun and energizing exercise that involves tapping your toes and twisting
+    your torso to engage and strengthen your core and improve mobility.
+  steps:
+  - Stand up straight in front of your desk, feet hip-width apart, and arms relaxed
+    beside you.
+  - Gently tap your right toes on the ground while twisting your torso to the left.
+    Let your right arm follow the twist naturally.
+  - Return to the standing position, then tap your left toes and twist your torso
+    to the right.
+  - Continue alternating toe taps and torso twists in a smooth, flowing motion.
+  - Aim for a total of 8-10 toe taps and twists on each side.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:35.844245000 Z
+    zone: *1
+    time: 2025-01-10 15:03:35.844245000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:35.844245000 Z
+    zone: *1
+    time: 2025-01-10 15:03:35.844245000 Z
+chipper chair shadowboxing:
+  id: 158
+  name: Chipper Chair Shadowboxing
+  description: A lively standing exercise that combines shadowboxing with light foot
+    movements, perfect for a quick energy boost beside your desk.
+  steps:
+  - Stand up and position yourself an arm's length away from your desk for safety.
+  - Adopt a light boxing stance with your feet hip-width apart and slightly bend your
+    knees.
+  - Begin with a gentle bounce on your toes to keep your body moving and your heart
+    rate up.
+  - Throw light punches in the air in front of you, alternating hands in a rhythmic
     motion.
-  - Feel the stretch through your side and hold for a few seconds.
-  - Lower your leg and arm back to the starting position.
-  - Repeat on the left side, lifting your left leg and reaching your left arm overhead.
-  - Perform this fluid movement 5 times on each side.
-  updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:20:05.175770000 Z
-    zone: *1
-    time: 2025-01-10 11:20:05.175770000 Z
-desk hip circles:
-  id: 10
+  - Keep your core engaged to maintain balance and enhance stability.
+  - Continue for one minute, mixing in a few jabs, crosses, and hooks as you become
+    more comfortable.
   created_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:20:07.805894000 Z
+    utc: 2025-01-10 15:03:36.078633000 Z
     zone: *1
-    time: 2025-01-10 11:20:07.805894000 Z
-  description: A simple standing exercise to enhance hip mobility and core strength
-    while having fun.
-  name: Desk Hip Circles
-  steps:
-  - Start by standing up, with your feet shoulder-width apart, close to your desk.
-  - Place your hands on your hips.
-  - Slowly begin to rotate your hips in a circular motion, as if you are hula-hooping.
-  - Make small circles at first, gradually increasing the size of the circle.
-  - Complete 5 circles in one direction, then switch and do 5 circles in the opposite
-    direction.
-  - Feel free to add a little jiggle to make it more fun!
+    time: 2025-01-10 15:03:36.078633000 Z
   updated_at: !ruby/object:ActiveSupport::TimeWithZone
-    utc: 2025-01-10 11:20:07.805894000 Z
+    utc: 2025-01-10 15:03:36.078633000 Z
     zone: *1
-    time: 2025-01-10 11:20:07.805894000 Z
+    time: 2025-01-10 15:03:36.078633000 Z
+uplifted knee raises:
+  id: 159
+  name: Uplifted Knee Raises
+  description: Get your blood pumping with these dynamic knee raising movements that
+    will engage your core and improve your balance!
+  steps:
+  - Stand up tall with your feet hip-width apart.
+  - Lift your right knee towards your chest, feeling the stretch in your hip.
+  - Lower your right foot back down and immediately lift your left knee towards your
+    chest.
+  - Continue to alternate knee raises at a steady pace.
+  - Use your arms for balance, gently swinging them as you raise each knee.
+  - Repeat this energetic motion for 30 seconds, aiming for a smooth and lively rhythm.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:36.604163000 Z
+    zone: *1
+    time: 2025-01-10 15:03:36.604163000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:36.604163000 Z
+    zone: *1
+    time: 2025-01-10 15:03:36.604163000 Z
+lively side step sashay:
+  id: 160
+  name: Lively Side Step Sashay
+  description: Engage your core and legs with a fun side-stepping routine that adds
+    a little dance flavor to your day.
+  steps:
+  - Stand up straight behind your desk, feet hip-width apart.
+  - Move to your right by taking a wide step with your right foot and bringing your
+    left foot to meet it.
+  - Raise your arms in a playful swaying motion as you step.
+  - Reverse this action by stepping left, leading with your left foot and following
+    with your right.
+  - Add a gentle sashay or sway of your hips as you move.
+  - Repeat the side-to-side movements for a total of 8 times.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:37.049437000 Z
+    zone: *1
+    time: 2025-01-10 15:03:37.049437000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:37.049437000 Z
+    zone: *1
+    time: 2025-01-10 15:03:37.049437000 Z
+merry march and stretch:
+  id: 161
+  name: Merry March and Stretch
+  description: A fun and invigorating exercise that combines marching on the spot
+    with dynamic stretching to boost energy and flexibility.
+  steps:
+  - Stand up straight with a little space in front of your desk.
+  - Begin marching in place, bringing your knees up comfortably high.
+  - As you march, extend your arms overhead, reaching towards the sky.
+  - Switch to gently swinging your arms in front of your chest.
+  - Continue marching for 30 seconds while alternating arm movements.
+  - Finish with a big stretch by reaching both arms up and taking a deep breath.
+  - Repeat the sequence two times for an invigorating burst of energy.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:39.863772000 Z
+    zone: *1
+    time: 2025-01-10 15:03:39.863772000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:39.863772000 Z
+    zone: *1
+    time: 2025-01-10 15:03:39.863772000 Z
+giggle shoulder shakes:
+  id: 162
+  name: Giggle Shoulder Shakes
+  description: Loosen up that tension with this playful shoulder-shaking dance. Perfect
+    for a quick pick-me-up by your desk!
+  steps:
+  - Stand up straight with feet hip-width apart.
+  - Start gently shaking your shoulders up and down to a rhythm you enjoy.
+  - Add a little twist by rotating your shoulders forward and backward.
+  - Move your arms lightly to the beat, keeping it fun and loose.
+  - Repeat the shoulder shake for 30 seconds, then take a deep breath and let it all
+    out!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:39.967948000 Z
+    zone: *1
+    time: 2025-01-10 15:03:39.967948000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:39.967948000 Z
+    zone: *1
+    time: 2025-01-10 15:03:39.967948000 Z
+dancey desk wiggles:
+  id: 163
+  name: Dancey Desk Wiggles
+  description: A quick and fun exercise to get your body moving with some wiggles
+    and stretches.
+  steps:
+  - Stand up and position yourself in front of your desk.
+  - Start by gently wiggling your hips from side to side with your arms raised.
+  - Extend one arm overhead and reach to the opposite side for a side stretch.
+  - Bring your arm down and wiggle your shoulders forwards and backwards.
+  - Repeat the side stretch with the other arm reaching over.
+  - Finish with a joyful dance wiggle, shaking your body and smiling wide.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:39.971376000 Z
+    zone: *1
+    time: 2025-01-10 15:03:39.971376000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:39.971376000 Z
+    zone: *1
+    time: 2025-01-10 15:03:39.971376000 Z
+bouncy side shuffles:
+  id: 164
+  name: Bouncy Side Shuffles
+  description: A quick and fun exercise to boost your energy and get your legs moving.
+    Perfect for a short break near your desk!
+  steps:
+  - Stand up tall with your feet together and room to each side.
+  - Bend your knees slightly and shuffle two steps to your right.
+  - Clap your hands above your head and then return to starting position.
+  - Shuffle two steps to your left and clap above your head.
+  - Repeat these side shuffles with claps for 1 minute, alternating sides.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.400475000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.400475000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.400475000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.400475000 Z
+zippy desk zigs:
+  id: 165
+  name: Zippy Desk Zigs
+  description: Get ready to energize and zig-zag your way to fun and fitness right
+    by your desk with this delightful exercise.
+  steps:
+  - Stand tall with your feet together, a small distance from your desk.
+  - Step your right foot diagonally forward to the right, creating a wide, playful
+    step.
+  - Quickly follow with your left foot, bringing it next to your right.
+  - Repeat the zig movement to the left, leading with your left foot then your right.
+  - Move enthusiastically from side to side, keeping a lively rhythm.
+  - Continue for 1 minute, maintaining a cheerful pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.517164000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.517164000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.517164000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.517164000 Z
+bouncy knee hops:
+  id: 166
+  name: Bouncy Knee Hops
+  description: A lively exercise to boost your energy and get your heart pumping,
+    all while improving leg strength and balance.
+  steps:
+  - Stand up straight with feet hip-width apart in front of your desk.
+  - Bend your knees slightly and hop lightly on the balls of your feet.
+  - Bring one knee up towards your chest as you hop, then switch to the other knee.
+  - Keep your arms relaxed and swing them naturally to maintain balance.
+  - Alternate knee hops for 60 seconds, keeping a steady pace.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.619326000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.619326000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.619326000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.619326000 Z
+bouncing back stretches:
+  id: 167
+  name: Bouncing Back Stretches
+  description: A fun routine to wake up your back and hips, while keeping your energy
+    levels high and spirits uplifted!
+  steps:
+  - Stand up with your feet hip-width apart, keeping your desk behind you.
+  - Reach both arms up, stretching towards the ceiling.
+  - Gently bend backwards at the waist, looking upward and feeling a nice stretch
+    in your back and core.
+  - Come back to standing position, and then slightly bend forward, letting your arms
+    dangle towards the floor.
+  - Bounce back to the standing position with a little spring, raise your shoulders
+    up and give them a playful shake.
+  - Repeat this back-and-forth flow a total of 5 times to reap the benefits of a stretched
+    back and happy hips.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.744395000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.744395000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.744395000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.744395000 Z
+zesty zigzag sways:
+  id: 168
+  name: Zesty Zigzag Sways
+  description: A brisk standing exercise that enhances agility and coordination by
+    swaying side-to-side with a touch of flair.
+  steps:
+  - Begin by standing behind your desk with feet shoulder-width apart.
+  - Shift your weight to your left leg and step your right foot across in front of
+    your left.
+  - Swing your arms wide as you sway your body to follow the movement.
+  - Now shift to your right leg, stepping your left foot across in front.
+  - Repeat this zigzag swaying motion briskly back and forth.
+  - Continue the movement for a minute with a rhythm that feels fun and lively!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.747055000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.747055000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.747055000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.747055000 Z
+joyful desk heel raises:
+  id: 169
+  name: Joyful Desk Heel Raises
+  description: Boost your mood and energize your legs with this quick and fun exercise,
+    perfect for a brief energizing break.
+  steps:
+  - Stand up straight behind your desk or at the side, placing your hands lightly
+    on the desk for balance
+  - Lift your heels off the ground, coming up onto your toes, and hold the position
+    for a moment
+  - Lower your heels back to the ground slowly, feeling a gentle stretch in your calves
+  - Repeat these heel raises for about 30 seconds, maintaining a steady rhythm
+  - Finish with a big smile and a deep breath, enjoying the quick burst of energy
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.762219000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.762219000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.762219000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.762219000 Z
+bouncy skater hops:
+  id: 170
+  name: Bouncy Skater Hops
+  description: A lively exercise to increase agility and strength with a playful twist.
+  steps:
+  - Stand tall next to your desk with feet together.
+  - Hop to the right, bringing your left foot behind your right as if doing a skating
+    motion.
+  - Swing your arms naturally as you hop.
+  - Quickly hop to the left, bringing your right foot behind your left.
+  - Continue alternating hops, maintaining a steady rhythm.
+  - Repeat these dynamic movements for about 1 minute to have fun and stay fit!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.779654000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.779654000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:40.779654000 Z
+    zone: *1
+    time: 2025-01-10 15:03:40.779654000 Z
+bouncy desk hops:
+  id: 171
+  name: Bouncy Desk Hops
+  description: A quick and fun activity that boosts your energy and enhances your
+    balance and coordination.
+  steps:
+  - Stand up tall with a smile just a step away from your desk
+  - Lightly bounce on your toes, shifting your weight from one foot to the other
+  - Gently swing your arms side to side as you hop, letting loose and feeling the
+    rhythm
+  - Keep your knees soft and enjoy the lightness of the movement
+  - Imagine yourself bouncing with joy, like you're enjoying a playful dance
+  - Continue the bouncy hop for 30 seconds or repeat for two rounds with a brief pause
+    in between to catch your breath and chuckle
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.048390000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.048390000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.048390000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.048390000 Z
+bubbly arm swirls:
+  id: 172
+  name: Bubbly Arm Swirls
+  description: A delightful way to get your arms moving and your spirits lifted!
+  steps:
+  - Stand up straight with a smile, feet hip-width apart, in front of your desk.
+  - Extend your arms straight out to the sides, parallel to the ground.
+  - Begin to make small circles with your arms, rotating them forwards.
+  - Gradually increase the size of the circles and pick up the pace for added fun.
+  - After 20 seconds, reverse the direction of your arm circles.
+  - Keep your core engaged and maintain a steady breathing pattern all throughout.
+  - To finish, slow down the circles and bring your arms gently back to your sides.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.111891000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.111891000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.111891000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.111891000 Z
+jubilant arm swirls:
+  id: 173
+  name: Jubilant Arm Swirls
+  description: Get ready to swirl those arms and invigorate your energy levels! This
+    fun exercise combines movement and gentle stretching to wake your body up and
+    refresh your mind.
+  steps:
+  - Stand up straight with feet shoulder-width apart near your desk.
+  - Extend your arms out to your sides at shoulder height, making a 'T' shape.
+  - Begin swirling your arms in small forward circles, gradually increasing the size
+    of the circles.
+  - Continue the circles for 15 seconds, then switch direction and swirl your arms
+    in backward circles.
+  - As you swirl, sway your body gently from side to side for added flow.
+  - Smile and keep breathing deeply throughout this movement.
+  - Repeat the entire sequence twice for a jubilant energy boost!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.269524000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.269524000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.269524000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.269524000 Z
+jolly jump and jiggle:
+  id: 174
+  name: Jolly Jump and Jiggle
+  description: This quick and fun exercise gets you moving with a mix of jumps and
+    jiggly body movements to boost your mood and get your blood flowing!
+  steps:
+  - Start by standing up straight with your feet shoulder-width apart near your desk.
+  - Jump lightly while gently jiggling your arms and shoulders.
+  - Continue the movement by bending your knees slightly as you jump.
+  - Add a playful jiggle with your hips as you land each jump.
+  - Keep the rhythm fun and light, letting go of any tension.
+  - Repeat the sequence for 1 minute, aiming for as many jump and jiggle combos as
+    you can comfortably do!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.315283000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.315283000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.315283000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.315283000 Z
+radiant heel raises:
+  id: 175
+  name: Radiant Heel Raises
+  description: A fun and simple exercise to enhance your balance and strengthen your
+    calves right at your desk.
+  steps:
+  - Stand up tall behind your desk with your feet hip-width apart.
+  - Slowly raise your heels off the ground, standing on your tiptoes.
+  - Hold the position for a moment, feeling a gentle stretch.
+  - Lower your heels back down slowly and repeat the movement.
+  - Try to perform the sequence for about 10 times with a smile!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.374859000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.374859000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:41.374859000 Z
+    zone: *1
+    time: 2025-01-10 15:03:41.374859000 Z
+twinkle toe hops:
+  id: 176
+  name: Twinkle Toe Hops
+  description: A lively and engaging exercise to boost mobility and strength while
+    sparking joy, perfect for a quick break at your desk.
+  steps:
+  - Stand tall, feeling light and bouncy on your feet near your desk.
+  - Gently hop from one foot to the other, like a twinkling star, ensuring soft landings.
+  - As you hop, sway your arms joyfully in the air, imagining you're dancing on clouds.
+  - Repeat the hops, maintaining a cheerful rhythm and a smile on your face.
+  - Continue for 1 minute, enjoying the playful movement and energy boost!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:42.081501000 Z
+    zone: *1
+    time: 2025-01-10 15:03:42.081501000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:42.081501000 Z
+    zone: *1
+    time: 2025-01-10 15:03:42.081501000 Z
+perky penguin waddle:
+  id: 177
+  name: Perky Penguin Waddle
+  description: Get ready to channel your inner penguin! This fun exercise will boost
+    your mood and get you moving quickly.
+  steps:
+  - Stand tall with feet shoulder-width apart, close to your desk for balance.
+  - Waddle from side to side, shifting your weight onto each leg as you imitate a
+    penguin walking playfully.
+  - Add a little twist by gently swinging your arms for extra fun.
+  - Continue waddling from side to side for 30 seconds, then stand straight and take
+    a deep breath.
+  - Repeat the waddle and twist routine one more time for a total of 1 minute.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:43.054290000 Z
+    zone: *1
+    time: 2025-01-10 15:03:43.054290000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:43.054290000 Z
+    zone: *1
+    time: 2025-01-10 15:03:43.054290000 Z
+bouncy heel lifts:
+  id: 179
+  name: Bouncy Heel Lifts
+  description: A quick and engaging exercise to strengthen your calves and improve
+    balance.
+  steps:
+  - Stand comfortably in front of your desk with your feet hip-width apart.
+  - Gently raise your heels so that you’re on your tiptoes, keeping your core engaged
+    for balance.
+  - Hold the position briefly, then lower your heels back down to the ground, softly.
+  - Add a little bounce as you lift your heels again, creating a fun rhythm.
+  - Repeat this heel-lifting and lowering motion for a total of 10 repetitions.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:44.356611000 Z
+    zone: *1
+    time: 2025-01-10 15:03:44.356611000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:44.356611000 Z
+    zone: *1
+    time: 2025-01-10 15:03:44.356611000 Z
+dapper desk dips:
+  id: 180
+  name: Dapper Desk Dips
+  description: Boost your arm strength and engage your core with this quick and lively
+    desk dip routine.
+  steps:
+  - Stand up in front of your desk with your back towards it.
+  - Place your palms on the edge of the desk, fingers facing forward, and step your
+    feet out, ensuring your legs are straight.
+  - Lower your body by bending the elbows, keeping them close to your sides, and let
+    your hips dip down towards the floor.
+  - Push back up to straighten your arms and lift your body to the starting position.
+  - Repeat the dip and lift sequence for 10 times, keeping your movements controlled
+    and smooth.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:45.134755000 Z
+    zone: *1
+    time: 2025-01-10 15:03:45.134755000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:45.134755000 Z
+    zone: *1
+    time: 2025-01-10 15:03:45.134755000 Z
+peppy leg swings:
+  id: 181
+  name: Peppy Leg Swings
+  description: A fun and engaging exercise to improve your balance and leg strength.
+  steps:
+  - Stand behind your desk with your feet hip-width apart.
+  - Lightly rest your hands on the desk for balance.
+  - Swing your right leg forward and backward in a controlled manner.
+  - Switch to your left leg and repeat the swing.
+  - Perform the swings 10 times for each leg, maintaining good posture.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:47.489120000 Z
+    zone: *1
+    time: 2025-01-10 15:03:47.489120000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:47.489120000 Z
+    zone: *1
+    time: 2025-01-10 15:03:47.489120000 Z
+vibrant victory pose:
+  id: 182
+  name: Vibrant Victory Pose
+  description: A quick and energetic routine to stretch your full body and boost your
+    spirit.
+  steps:
+  - Start by standing up tall behind your desk, feet hip-width apart.
+  - Raise your arms overhead and clasp your hands together, forming a 'V' shape with
+    your body.
+  - Take a deep breath in and stretch upwards as if you're reaching for the sky.
+  - Hold the stretch for a few seconds, feeling the elongation in your torso and arms.
+  - On your next exhale, release your arms back down to your sides.
+  - Repeat this uplifting stretch for six repetitions to revive your energy.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:47.704357000 Z
+    zone: *1
+    time: 2025-01-10 15:03:47.704357000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:47.704357000 Z
+    zone: *1
+    time: 2025-01-10 15:03:47.704357000 Z
+vibrant leg swings:
+  id: 183
+  name: Vibrant Leg Swings
+  description: This fun exercise helps improve flexibility and coordination while
+    adding a touch of liveliness to your day.
+  steps:
+  - Stand up straight behind your desk for support, with your hands lightly resting
+    on the desk.
+  - Shift your weight onto your left leg and gently swing your right leg forward and
+    backward in a smooth motion.
+  - Engage your core and keep your upper body still as your leg swings.
+  - Swing the leg for 5 to 7 times, maintaining a comfortable pace and range of motion.
+  - Switch to your right leg and repeat the swinging motion with your left leg for
+    another 5 to 7 swings.
+  - Enjoy the lightness and freedom as your legs swing like a gentle pendulum.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:47.893206000 Z
+    zone: *1
+    time: 2025-01-10 15:03:47.893206000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:47.893206000 Z
+    zone: *1
+    time: 2025-01-10 15:03:47.893206000 Z
+peppy side step swings:
+  id: 184
+  name: Peppy Side Step Swings
+  description: A lively step and swing combo to boost mobility and add a dash of fun
+    to your day.
+  steps:
+  - Stand up close to your desk with a bit of space around you.
+  - Step sideways to the right, keeping your core engaged.
+  - As you step, swing your arms gently from left to right, like you're tracing a
+    rainbow.
+  - Bring your feet back together, return to your starting position.
+  - Step sideways to the left and swing your arms from right to left.
+  - Repeat the side steps and arm swings 4 times each side, be sure to smile and enjoy
+    your mini dance moment!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.017342000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.017342000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.017342000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.017342000 Z
+vibrant v_step:
+  id: 185
+  name: Vibrant V-Step
+  description: A delightful and lively exercise to engage your legs and improve coordination
+    right by your desk.
+  steps:
+  - Stand up tall in front of your desk, with feet hip-width apart.
+  - Step your right foot forward and out to the side, forming the right side of a
+    'V'.
+  - Bring your left foot to meet your right foot.
+  - Step your left foot forward and out to the side, forming the left side of a 'V'.
+  - Bring your right foot to meet your left foot.
+  - Continue alternating sides, embodying a rhythmic and dynamic V-step for 60 seconds.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.072183000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.072183000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.072183000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.072183000 Z
+playful power pulses:
+  id: 186
+  name: Playful Power Pulses
+  description: Boost your energy and mobility with these lively power pulses!
+  steps:
+  - Stand up straight with feet hip-width apart in front of your desk
+  - Bend your knees slightly and push your hips back into a mini squat
+  - Raise your arms forward for balance as you pulse up and down gently
+  - Engage your core and keep your back straight during the pulses
+  - Repeat the pulsing motion for 60 seconds, maintaining a steady rhythm
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.498800000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.498800000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.498800000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.498800000 Z
+sunny side sway:
+  id: 187
+  name: Sunny Side Sway
+  description: A fun and easy exercise to improve balance and core strength by swaying
+    side to side!
+  steps:
+  - Stand up straight with your feet shoulder-width apart, arms relaxed by your sides.
+  - Gently sway your upper body to the left while lifting your right heel off the
+    ground.
+  - Return to the center and then sway your upper body to the right, lifting your
+    left heel.
+  - Keep your core engaged and maintain a smooth rhythm.
+  - Repeat the sway for 30 seconds, aiming for a graceful and fluid motion.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.613491000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.613491000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.613491000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.613491000 Z
+playful knee twists:
+  id: 188
+  name: Playful Knee Twists
+  description: A quick and energizing exercise to improve mobility and strengthen
+    your legs and core.
+  steps:
+  - Stand up straight with your feet hip-width apart in front of your desk.
+  - Place your hands on your hips for balance.
+  - Lift your right knee towards your chest and twist your torso slightly to the left.
+  - Return to the starting position and switch legs, lifting your left knee and twisting
+    to the right.
+  - Repeat these alternating knee lifts and twists for 30 seconds.
+  - Feel the energy as you twist and groove!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.693625000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.693625000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.693625000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.693625000 Z
+playful side leg swings:
+  id: 189
+  name: Playful Side Leg Swings
+  description: This quick exercise activates your core and improves hip mobility while
+    brightening your mood.
+  steps:
+  - Stand upright next to your desk, lightly resting one hand on the desk for support
+  - Shift your weight onto one leg and gently swing the opposite leg forward and backward,
+    staying controlled and balanced
+  - Engage your core to maintain stability and swing your leg with ease
+  - Swing your leg for about 30 seconds then switch to the other leg
+  - Challenge yourself to swing slightly higher with each pass, keeping it safe and
+    comfortable
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.707957000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.707957000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.707957000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.707957000 Z
+cheerful chair twists:
+  id: 200
+  name: Cheerful Chair Twists
+  description: A fun and energizing exercise to boost your core flexibility and strength
+    right at your workspace.
+  steps:
+  - Stand up from your chair, keeping a slight bend in your knees.
+  - Place your hands on your hips or extend them out to the sides for balance.
+  - Twist your upper body to the right, engaging your core.
+  - Return to center smoothly.
+  - Twist your upper body to the left, keeping your movements controlled.
+  - Repeat these alternate twists 6-8 times for a refreshing burst of energy.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:52.486365000 Z
+    zone: *1
+    time: 2025-01-10 15:03:52.486365000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:52.486365000 Z
+    zone: *1
+    time: 2025-01-10 15:03:52.486365000 Z
+zany leg circles:
+  id: 191
+  name: Zany Leg Circles
+  description: This energizing leg exercise will get you moving and grooving, perfect
+    for a quick desk break!
+  steps:
+  - Stand up next to your desk and hold onto it for support.
+  - Lift one leg slightly off the ground, keeping it straight.
+  - Begin making small circles with your leg in the air.
+  - Gradually increase the size of the circles.
+  - Reverse the direction of the circles after 30 seconds.
+  - Switch to the other leg and repeat the circling motion.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.752050000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.752050000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.752050000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.752050000 Z
+peppy punch & twist:
+  id: 192
+  name: Peppy Punch & Twist
+  description: A quick exercise to boost your mood and get the blood pumping by incorporating
+    gentle punches and twists.
+  steps:
+  - Stand up straight with feet shoulder-width apart, slightly away from the desk.
+  - Raise your fists lightly in front of you, as if ready to playfully box the air.
+  - With a gentle twist from the waist, throw a light punch with your right hand across
+    your body.
+  - Return to the starting position and repeat with your left hand.
+  - Continue alternating punches and twists, feeling the rhythm and engaging your
+    core.
+  - Perform the punch and twist pattern for about 30 seconds, keeping a moderate pace.
+  - Finish with a deep breath, inhaling through the nose and exhaling through the
+    mouth.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.792550000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.792550000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.792550000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.792550000 Z
+sunny shoulder pops:
+  id: 193
+  name: Sunny Shoulder Pops
+  description: A quick and lively exercise to loosen up your shoulders and improve
+    mobility right by your desk.
+  steps:
+  - Stand up tall and stretch your arms out to the side at shoulder height.
+  - Gently raise your shoulders to your ears and then quickly drop them back down.
+  - As you lower your shoulders, lightly pop them forward in a circular motion.
+  - Return to the starting position and repeat the movement with a little bounce.
+  - Continue the pops for about a minute, enjoying the feel of tension leaving your
+    shoulders.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.947544000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.947544000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.947544000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.947544000 Z
+vibrant desk twists:
+  id: 194
+  name: Vibrant Desk Twists
+  description: A delightful twist exercise that energizes your body and enhances mobility—all
+    while keeping you in tune with your playful side.
+  steps:
+  - Stand up straight with a bit of space between you and your desk.
+  - Place your hands on your hips and keep your feet shoulder-width apart.
+  - Gently twist your torso to the right, looking over your shoulder.
+  - Return to the center and then twist to the left.
+  - As you twist, you can raise your arms to shoulder height and move them in the
+    twisting direction for added fun.
+  - Repeat the twisting motion side to side for 1 minute, enjoying each stretch.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.968581000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.968581000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:48.968581000 Z
+    zone: *1
+    time: 2025-01-10 15:03:48.968581000 Z
+peppy peek_a_boo squats:
+  id: 195
+  name: Peppy Peek-A-Boo Squats
+  description: A quick and fun squat variation that incorporates a peek-a-boo hand
+    movement to engage both the lower body and upper body.
+  steps:
+  - Stand up straight in front of your desk with feet hip-width apart
+  - Lower into a squat, keeping your back straight and weight on your heels
+  - As you squat, bring your hands up to cover your eyes like playing peek-a-boo
+  - Stand back up, lowering your hands to your sides
+  - Repeat the peek-a-boo squat movement for 10-12 times, maintaining a cheerful tempo
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.071742000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.071742000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.071742000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.071742000 Z
+vibrant victory raises:
+  id: 196
+  name: Vibrant Victory Raises
+  description: Stand tall and stretch your body to the sky in a fun victory pose to
+    improve your flexibility and boost your mood.
+  steps:
+  - Stand up straight with your feet shoulder-width apart in front of your desk.
+  - Raise both arms overhead into a V shape, reaching towards the ceiling.
+  - Keep your chest open and shoulders relaxed as you stretch upwards.
+  - Hold this position for a few seconds, feeling the stretch in your torso.
+  - Lower your arms and return to the starting position.
+  - Repeat this movement for 6-8 times, feeling energized with each stretch.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.075763000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.075763000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.075763000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.075763000 Z
+cheerful desk side lifts:
+  id: 197
+  name: Cheerful Desk Side Lifts
+  description: Engage your core and sides with these uplifting desk side lifts that
+    will energize and refresh you.
+  steps:
+  - Stand up tall next to your desk with your feet hip-width apart.
+  - Place your left hand on your desk for support.
+  - Lift your right leg gently to the side, keeping it straight.
+  - Lower your right leg back down with control.
+  - Switch sides, place your right hand on the desk and lift your left leg.
+  - Repeat 5 times on each side, keeping your core engaged and your posture tall.
+  - Add a little smile for an extra boost of energy!
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.249033000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.249033000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.249033000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.249033000 Z
+cheery leg wiggles:
+  id: 198
+  name: Cheery Leg Wiggles
+  description: This fun exercise will spice up your routine, improving leg strength
+    and flexibility while spreading smiles. Get ready to wiggle and move!
+  steps:
+  - Stand up straight with your feet shoulder-width apart, close to your desk for
+    balance.
+  - Extend your right leg forward slightly and start wiggling it like you're shaking
+    off loose sand from your shoes.
+  - Wiggle for about 5 seconds, then switch to your left leg and repeat the wiggling
+    motion.
+  - Imagine you're doing a happy dance! Wiggle the right leg and left leg once more
+    for additional flair.
+  - Return to the starting position and take a deep breath, feeling energized and
+    ready to continue your day.
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.563428000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.563428000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:49.563428000 Z
+    zone: *1
+    time: 2025-01-10 15:03:49.563428000 Z
+bouncy quad kicks:
+  id: 199
+  name: Bouncy Quad Kicks
+  description: Get your legs moving and heart pumping with some energetic kicks that
+    require you to stand up and move around your desk area!
+  steps:
+  - Stand up tall with a slight distance from your desk for balance
+  - Gently kick your right leg out in front of you, keeping your foot flexed
+  - Return your right foot to the ground
+  - Immediately follow with a gentle kick of your left leg
+  - Continue alternating kicks, feeling the stretch in your quads
+  - Repeat for 30 seconds at a moderate pace
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:50.680253000 Z
+    zone: *1
+    time: 2025-01-10 15:03:50.680253000 Z
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 15:03:50.680253000 Z
+    zone: *1
+    time: 2025-01-10 15:03:50.680253000 Z
