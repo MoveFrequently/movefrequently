@@ -6,7 +6,7 @@ class NextExercise < ApplicationRecord
   PERIOD = Rails.env.development? ? 20.seconds : 45.minutes
 
   def self.demo
-    new(id: 1, next_at: Time.now.utc + 10.seconds, exercise: Exercise.first)
+    new(id: 1, next_at: Time.now.utc + 5.seconds, exercise: Exercise.first)
   end
 
   def self.record

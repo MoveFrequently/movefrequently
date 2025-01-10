@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get "demo", to: "demo#index"
+  get "test", to: "demo#test"
 
   resources :exercises do
     collection do
