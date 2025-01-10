@@ -1,7 +1,7 @@
 <% demo ||= false %>
 
 <div class="flex w-full" data-controller="countdown" data-worker-path="<%= asset_path('workers/countdown.js') %>" data-time="<%= exercise.next_at.utc.iso8601 %>">
-    <div class="flex flex-col items-center justify-center min-h-full <%= bg_color(exercise.id) %> w-full" data-countdown-target="countdown">
+    <div class="flex flex-col items-center justify-center min-h-full <%= bg_color(exercise.id) %> w-full p-8" data-countdown-target="countdown">
         <div class="next-time">
             <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>                        
         </div>        
@@ -16,7 +16,7 @@
         <% end %>
     </div>
 
-    <div style="display:none;" class="mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl min-h-[calc(100vh-6rem)]" data-countdown-target="exercise">
+    <div style="display:none;" class="mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl min-h-[calc(100vh-6rem)] p-8" data-countdown-target="exercise">
         <div class="flex flex-col items-start justify-center px-8">
             <h1 class="text-4xl md:text-4xl font-bold text-center w-full mb-12">
             <%= exercise.name %>
