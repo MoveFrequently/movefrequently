@@ -1,7 +1,7 @@
 class NextExercise < ApplicationRecord
   belongs_to :exercise
 
-  PERIOD = Rails.env.development? ? 1.minute : 45.minutes
+  PERIOD = Rails.env.development? ? 10.seconds : 45.minutes
 
   def self.record
     self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
