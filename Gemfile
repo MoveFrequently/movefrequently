@@ -50,6 +50,7 @@ gem "concurrent-ruby-edge", "~> 0.7.1", require: "concurrent/edge/promises"
 gem "faraday"
 gem "faraday-follow_redirects"
 gem "httpx", "~> 1.3"
+gem "ostruct"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -88,6 +89,6 @@ end
 
 gem "tailwindcss-rails", "~> 3.1"
 
-gem "dockerfile-rails", ">= 1.7", :group => :development
+gem "dockerfile-rails", ">= 1.7", group: :development
 
 gem "redis", "~> 5.3"

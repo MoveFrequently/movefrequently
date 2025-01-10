@@ -1,13 +1,12 @@
 require "test_helper"
 
 class ExercisesControllerTest < ActionDispatch::IntegrationTest
-  test "should get sync" do
-    get exercises_sync_url
-    assert_response :success
-  end
+  include Factories
 
   test "should get next" do
-    get exercises_next_url
+    create_exercise
+    get next_exercises_url
     assert_response :success
+    assert_match "Joined by 1 people", response.body
   end
 end
