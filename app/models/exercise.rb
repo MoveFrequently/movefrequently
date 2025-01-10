@@ -1,7 +1,7 @@
 class Exercise < ApplicationRecord
     def self.dump_fixture
         File.open("#{Rails.root}/test/fixtures/exercises.yml", "w") do |file|
-            file.write self.all.to_a.map(&:attributes).to_yaml
+            file.write self.all.to_a.map { |e| [ e.name.underscore, e.attributes ] }.to_h.to_yaml
         end
     end
 
@@ -19,7 +19,7 @@ class Exercise < ApplicationRecord
 
     def self.generate(previous_exercises = [])
         output_schema = schema do
-            string :name, description: "A name for the exercise"
+            string :name, description: "A name for the exercise, don't include the word desk or desk exercise, just the name of the exercise"
             string :description, description: "A description of the exercise, should be concise and to the point"
             array :steps, items: :string, description: "Key instructions for step-by-step performing of the exercise. Don't include numbers or any other formatting"
          end
