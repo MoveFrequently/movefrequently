@@ -1,0 +1,51 @@
+<div id="countdown-container">
+  <h2>Next Exercise Coming Up!</h2>
+  <div class="next-time">
+    Time until next exercise: <span id="countdown"></span>
+  </div>
+  <div class="utc-time" data-time="<%= @exercise.next_at.utc.iso8601 %>" style="display:none;"></div>
+</div>
+
+<div id="exercise-container" style="display:none;">
+  <h1><%= @exercise.exercise.name %></h1>
+
+  <p class="description"><%= @exercise.exercise.description %></p>
+
+  <h2>Steps:</h2>
+  <ol class="steps">
+    <% @exercise.exercise.steps.each do |step| %>
+      <li><%= step %></li>
+    <% end %>
+  </ol>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const timeElement = document.querySelector('.utc-time');
+  const exerciseTime = new Date(timeElement.dataset.time);
+  const exerciseContainer = document.getElementById('exercise-container');
+  const countdownContainer = document.getElementById('countdown-container');
+  const countdownElement = document.getElementById('countdown');
+
+  function updateCountdown() {
+    const now = new Date();
+    const diff = exerciseTime - now;
+
+    if (diff <= 0) {
+      countdownContainer.style.display = 'none';
+      exerciseContainer.style.display = 'block';
+      return;
+    }
+
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    countdownElement.textContent = 
+      `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+});
+</script>

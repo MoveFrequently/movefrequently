@@ -11,6 +11,10 @@ class Exercise < ApplicationRecord
     validates :name, presence: true
     validates :description, presence: true
 
+    def self.next
+        NextExercise.record
+    end
+
     def self.generate_and_save!
         previous_exercises = self.order(created_at: :desc).limit(50).select(:name)
         res = generate(previous_exercises)

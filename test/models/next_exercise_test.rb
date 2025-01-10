@@ -54,4 +54,41 @@ class NextExerciseTest < ActiveSupport::TestCase
 
     assert_in_delta Time.now.utc + NextExercise::PERIOD, new_next.next_at, 1.second
   end
+
+  test "record returns upcoming exercise" do
+    exercise = create_exercise
+    upcoming = NextExercise.create!(
+      exercise: exercise,
+      next_at: 30.minutes.from_now
+    )
+
+    assert_equal upcoming, NextExercise.next
+  end
+
+  test "record creates new exercise if none upcoming" do
+    exercise = create_exercise
+    old = NextExercise.create!(
+      exercise: exercise,
+      next_at: 1.hour.ago
+    )
+
+    next_exercise = NextExercise.next
+
+    assert_not_equal old, next_exercise
+    assert_in_delta Time.now.utc + NextExercise::PERIOD, next_exercise.next_at, 1.second
+  end
+
+  test "record returns earliest upcoming exercise" do
+    exercise = create_exercise
+    earlier = NextExercise.create!(
+      exercise: exercise,
+      next_at: 15.minutes.from_now
+    )
+    later = NextExercise.create!(
+      exercise: exercise,
+      next_at: 45.minutes.from_now
+    )
+
+    assert_equal earlier, NextExercise.next
+  end
 end
