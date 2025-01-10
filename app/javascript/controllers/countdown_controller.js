@@ -1,56 +1,42 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class extends Controller {
+  static targets = ["countdown", "exercise", "countdownElement"];
+
   connect() {
-    const timeElement = this.element.querySelector(".utc-time");
-    this.exerciseTime = new Date(timeElement.dataset.time);
-    this.exerciseContainer = document.getElementById("exercise-container");
-    this.countdownContainer = document.getElementById("countdown-container");
-    this.countdownElement = document.getElementById("countdown");
-    this.notificationSent = false;
+    const countdownContainer = this.countdownTarget;
+    const exerciseContainer = this.exerciseTarget;
+    const countdownElement = this.countdownElementTarget;
 
-    // Request notification permission on connect
-    if (Notification.permission === "default") {
-      Notification.requestPermission();
-    }
+    const workerPath = this.element.getAttribute("data-worker-path");
+    const exerciseTime = this.element.getAttribute("data-time");
 
-    this.updateCountdown();
-    this.interval = setInterval(this.updateCountdown.bind(this), 1000);
+    this.worker = new Worker(workerPath);
+    this.worker.onmessage = function (event) {
+      const { status, timeString } = event.data;
+
+      if (status === "exercise") {
+        countdownContainer.style.display = "none";
+        exerciseContainer.style.display = "flex";
+        document.title = "LiveLonger - Time to Exercise!";
+
+        if (!notificationSent && Notification.permission === "granted") {
+          new Notification("Time to Exercise!", {
+            body: "Your next exercise is ready",
+            icon: "/icon.png",
+          });
+          notificationSent = true;
+        }
+      } else if (status === "countdown") {
+        countdownElement.textContent = timeString;
+        document.title = `LiveLonger - Next in ${timeString}`;
+      }
+    };
+
+    this.worker.postMessage({ exerciseTime });
   }
 
   disconnect() {
-    if (this.interval) {
-      clearInterval(this.interval);
-    }
-  }
-
-  updateCountdown() {
-    const now = new Date();
-    const diff = this.exerciseTime - now;
-
-    if (diff <= 0) {
-      this.countdownContainer.style.display = "none";
-      this.exerciseContainer.style.display = "flex";
-      document.title = "LiveLonger - Time to Exercise!";
-
-      // Send notification if not already sent
-      if (!this.notificationSent && Notification.permission === "granted") {
-        new Notification("Time to Exercise!", {
-          body: "Your next exercise is ready",
-          icon: "/icon.png",
-        });
-        this.notificationSent = true;
-      }
-      return;
-    }
-
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    const timeString = `${minutes.toString().padStart(2, "0")}:${seconds
-      .toString()
-      .padStart(2, "0")}`;
-    this.countdownElement.textContent = timeString;
-    document.title = `LiveLonger - Next in ${timeString}`;
+    this.worker.terminate();
   }
 }
