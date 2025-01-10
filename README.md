@@ -1,24 +1,36 @@
-# README
+# LiveLonger 💪
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+LiveLonger is a web application designed to help you fight sedentarism by delivering simple exercises to do at your desk every hour. Stay active and healthy while working! 🧘‍♀️ 🏃‍♂️
 
-Things you may want to cover:
+## Contributing 🤝
 
-* Ruby version
+We welcome contributions to LiveLonger! Here's how you can help:
 
-* System dependencies
+1. Fork the repository 🍴
+2. Create a feature branch (`git checkout -b feature/amazing-feature`) 🌿
+3. Make your changes ✍️
+4. Run the test suite to ensure everything works ✅
+5. Commit your changes (`git commit -m 'Add amazing feature'`) 💾
+6. Push to your branch (`git push origin feature/amazing-feature`) 🚀
+7. Open a Pull Request 📬
 
-* Configuration
+Please make sure your PR:
 
-* Database creation
+- Includes tests for new functionality 🧪
+- Updates documentation as needed 📝
+- Follows the existing code style 🎨
+- Includes a clear description of the changes 📋
 
-* Database initialization
+For major changes, please open an issue first to discuss what you would like to change. 💭
 
-* How to run the test suite
+# Spread the ❤️
 
-* Services (job queues, cache servers, search engines, etc.)
+If you find LiveLonger helpful, please consider:
 
-* Deployment instructions
+- Starring the repository on GitHub ⭐
+- Sharing it with your colleagues and friends 🗣️
+- Writing about your experience using it ✍️
+- Providing feedback through GitHub issues 💡
+- Contributing improvements back to the project 🔄
 
-* ...
+The more people who use and contribute to LiveLonger, the healthier our community becomes! Together we can combat sedentary lifestyles and promote wellbeing in workplaces everywhere. 🌟 💪 🎉
