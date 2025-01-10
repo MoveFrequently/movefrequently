@@ -10,7 +10,18 @@ class NextExercise < ApplicationRecord
   end
 
   def self.record
-    self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
+    record = self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
+  end
+
+  def join!(latest_joined)
+    if latest_joined.nil? || latest_joined < self.id
+      self.class.connection.execute(<<-SQL)
+        UPDATE next_exercises
+        SET joined_by_count = COALESCE(joined_by_count, 0) + 1
+        WHERE id = #{id};
+      SQL
+      self.joined_by_count += 1
+    end
   end
 
   def self.create_next

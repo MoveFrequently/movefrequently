@@ -7,7 +7,10 @@
             <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>                        
         </div>        
         <% if demo %>
-            <p>This is a demo, real exercises start every <%= link_to "45 minutes", root_path, data: { turbo: false }, style: "z-index: 1000;" %>.</p>
+            <p>This is a demo, real exercises start every <%= link_to "45 minutes", root_path, data: { turbo: false }, style: "z-index: 1000;" %>.</p>            
+        <% else %>
+            <%= turbo_stream_from exercise %>
+            <p id="joined-by-count">Joined by <%= exercise.joined_by_count %> people</p>            
         <% end %>
     </div>
 

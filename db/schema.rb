@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_01_10_113250) do
+ActiveRecord::Schema[8.1].define(version: 2025_01_10_155718) do
   create_table "exercises", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "description"
@@ -22,6 +22,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_01_10_113250) do
 
   create_table "next_exercises", force: :cascade do |t|
     t.integer "exercise_id", null: false
+    t.integer "joined_by_count", default: 0
     t.datetime "next_at", null: false
     t.index ["exercise_id"], name: "index_next_exercises_on_exercise_id"
     t.index ["next_at"], name: "index_next_exercises_on_next_at", order: :desc
