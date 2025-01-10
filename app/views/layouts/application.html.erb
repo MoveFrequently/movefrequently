@@ -27,9 +27,13 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main class="mx-auto m-0 p-0 flex">
+  <body >
+    <main class="mx-auto m-0 p-0 flex min-h-[calc(100vh-3rem)]">
       <%= yield %>
     </main>
+    
+    <footer class="flex justify-center items-center h-[3rem]  bg-gray-700 text-gray-200">
+      <p>LiveLonger is <a href="https://github.com/miguelff/livelonger" target="_blank">FOSS</a>, made with <span class="heart">❤️</span> by <a href="https://x.com/ThisIsFernandez" target="_blank">Miguel</a> and <a href="https://x.com/esmaldan" target="_blank">Daniel</a> | Got ideas? <a href="https://github.com/miguelff/livelonger/issues" target="_blank">Let us know!</a></p>
+    </footer>
   </body>
 </html>

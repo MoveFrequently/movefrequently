@@ -3,7 +3,7 @@ class NextExercise < ApplicationRecord
 
   belongs_to :exercise
 
-  PERIOD = Rails.env.development? ? 10.seconds : 45.minutes
+  PERIOD = Rails.env.development? ? 20.seconds : 45.minutes
 
   def self.demo
     new(id: 1, next_at: Time.now.utc + 10.seconds, exercise: Exercise.first)
@@ -21,6 +21,13 @@ class NextExercise < ApplicationRecord
         WHERE id = #{id};
       SQL
       self.joined_by_count += 1
+
+      broadcast_replace_to(
+        self,
+        target: "joined-by-count",
+        partial: "exercises/joined_by_count",
+        locals: { exercise: self }
+      )
     end
   end
 

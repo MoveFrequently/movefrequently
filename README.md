@@ -21,16 +21,6 @@ Please make sure your PR:
 - Follows the existing code style
 - Includes a clear description of the changes
 
-For major changes, please open an issue first to discuss what you would like to change. 💭
+# Made with ❤️
 
-# Spread the ❤️
-
-If you find LiveLonger helpful, please consider:
-
-- Starring the repository on GitHub ⭐
-- Sharing it with your colleagues and friends 🗣️
-- Writing about your experience using it ✍️
-- Providing feedback through GitHub issues 💡
-- Contributing improvements back to the project 🔄
-
-The more people who use and contribute to LiveLonger, the healthier our community becomes! Together we can combat sedentary lifestyles and promote wellbeing in workplaces everywhere. 🌟 💪 🎉
+LiveLonger is [FOSS](https://github.com/miguelff/livelonger), made with ❤️ by [Miguel](https://github.com/miguelff) and [Daniel](https://x.com/esmaldan). Got ideas? [Let us know!](https://github.com/miguelff/livelonger/issues)
