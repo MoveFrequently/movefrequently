@@ -11,14 +11,22 @@ VCR.configure do |config|
   config.ignore_localhost = true
 end
 
+module Factories
+  def create_exercise(attributes = {})
+    Exercise.create!({
+      name: "Test Exercise",
+      description: "A test exercise description",
+      steps: [ "Step 1", "Step 2", "Step 3" ]
+    }.merge(attributes))
+  end
+end
+
 module ActiveSupport
   class TestCase
     # Run tests in parallel with specified workers
     parallelize(workers: :number_of_processors)
 
-    # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-    fixtures :all
-
     # Add more helper methods to be used by all tests here...
+    include Factories
   end
 end
