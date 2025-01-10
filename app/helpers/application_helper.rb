@@ -1,6 +1,5 @@
 module ApplicationHelper
-    def done_texts
-        [
+    DONE_TEXTS = [
           "I'm done!", "Nailed it!", "Feeling great!", "Mission accomplished!", "Exercise complete!",
           "Crushed it!", "Way to go!", "That felt good!", "Another one down!", "Staying healthy!",
           "Moving forward!", "Getting stronger!", "Health points +1!", "Level up!", "Achievement unlocked!",
@@ -12,10 +11,16 @@ module ApplicationHelper
           "Health happening!", "Movement matters!", "Exercise engaged!", "Wellness achieved!", "Power player!",
           "Health hustler!", "Movement made!", "Exercise executed!", "Wellness win secured!", "Body blessed!",
           "Health heightened!", "Movement mastered!", "Exercise elevated!", "Vitality victory!", "Strength secured!"
-        ]
-    end
+        ].freeze
+
+    BACKGROUND_COLORS = [ "bg-blue-100", "bg-cyan-100", "bg-teal-100", "bg-green-100", "bg-yellow-100", "bg-orange-100", "bg-red-100", "bg-pink-100", "bg-purple-100", "bg-indigo-100" ].freeze
+
 
     def done_text(id)
-        done_texts[id % done_texts.length]
+        DONE_TEXTS[id % DONE_TEXTS.length]
+    end
+
+    def bg_color(id)
+        BACKGROUND_COLORS[id % BACKGROUND_COLORS.length]
     end
 end

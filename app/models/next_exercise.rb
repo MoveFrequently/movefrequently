@@ -1,7 +1,13 @@
 class NextExercise < ApplicationRecord
+  delegate :name, :steps, :description, to: :exercise, allow_nil: true
+
   belongs_to :exercise
 
   PERIOD = Rails.env.development? ? 10.seconds : 45.minutes
+
+  def self.demo
+    new(id: 1, next_at: Time.now.utc + 10.seconds, exercise: Exercise.first)
+  end
 
   def self.record
     self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
