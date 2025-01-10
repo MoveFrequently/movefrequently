@@ -14,7 +14,9 @@ ActiveRecord::Schema[8.1].define(version: 2025_01_10_094828) do
   create_table "exercises", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.string "description"
-    t.string "see_also"
+    t.string "name"
+    t.json "steps", default: [], null: false
     t.datetime "updated_at", null: false
+    t.index ["created_at"], name: "index_exercises_on_created_at", order: :desc
   end
 end

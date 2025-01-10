@@ -1,5 +1,5 @@
-require '../config/environment'
-
+#! /usr/bin/env ruby
+require_relative '../config/environment'
 
 if __FILE__ == $0
     if ARGV.empty?
@@ -18,4 +18,6 @@ if __FILE__ == $0
     num_exercises.times do |i|
         Exercise.generate_and_save!
     end
+
+    Exercise.dump_fixture
 end

@@ -1,9 +1,203 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  description: MyString
-  see_also: MyString
-
-two:
-  description: MyString
-  see_also: MyString
+---
+- id: 1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:08:52.720655000 Z
+    zone: &1 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: 2025-01-10 11:08:52.720655000 Z
+  description: A lively exercise to improve mobility, balance, and engage your calf
+    muscles right at your desk.
+  name: Desk Tippy-Toes Reach
+  steps:
+  - Stand up straight with your feet hip-width apart, facing your desk.
+  - Gently lift onto your tippy-toes, reaching your arms up towards the ceiling as
+    if you're trying to touch the sky.
+  - Hold the reach for a couple of seconds, feeling a stretch in your calves and arms.
+  - Slowly lower your heels back to the floor and relax your arms by your sides.
+  - Repeat these steps 8 times, enjoying the stretch and your towering moment.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:08:52.720655000 Z
+    zone: *1
+    time: 2025-01-10 11:08:52.720655000 Z
+- id: 2
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:08:57.884562000 Z
+    zone: *1
+    time: 2025-01-10 11:08:57.884562000 Z
+  description: An engaging exercise to improve hip mobility and strengthen your core!
+  name: Desk Side Leg Circles
+  steps:
+  - Stand up and position yourself next to your desk for support.
+  - Place one hand lightly on the desk.
+  - Lift one leg slightly off the ground, keeping your core engaged.
+  - Draw small circles in the air with your lifted foot, using your hip.
+  - Perform for 30 seconds in a clockwise direction.
+  - Switch directions and make circles counterclockwise for another 30 seconds.
+  - Lower your leg and repeat with the other leg.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:08:57.884562000 Z
+    zone: *1
+    time: 2025-01-10 11:08:57.884562000 Z
+- id: 3
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:01.376374000 Z
+    zone: *1
+    time: 2025-01-10 11:09:01.376374000 Z
+  description: An energizing exercise that combines a side step with an overhead stretch
+    to improve mobility and circulation near your desk.
+  name: Desk Side Step Stretch
+  steps:
+  - Stand up straight next to your desk with your feet together and arms at your sides.
+  - Take a big step to the side with your right foot, bending slightly at the knee
+    as you stretch your left arm over your head to the right.
+  - Bring your right foot back to the starting position and lower your arm.
+  - Repeat the side step with your left foot, stretching your right arm over your
+    head to the left.
+  - Return to starting position and lower your arm.
+  - Repeat these steps alternating sides for a total of 5 times each side.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:01.376374000 Z
+    zone: *1
+    time: 2025-01-10 11:09:01.376374000 Z
+- id: 4
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:05.710774000 Z
+    zone: *1
+    time: 2025-01-10 11:09:05.710774000 Z
+  description: A quick and fun exercise to engage your legs and stretch your arms
+    all in one minute!
+  name: Desk Chair Squat and Reach
+  steps:
+  - Stand up straight in front of your desk chair, feet hip-width apart.
+  - Lower yourself into a squat as if you're about to sit down, keeping your weight
+    on your heels.
+  - As you squat, simultaneously reach your arms straight forward.
+  - Stand slowly back up and reach your arms overhead towards the ceiling.
+  - Repeat these movements for 10 times, maintaining a controlled pace.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:05.710774000 Z
+    zone: *1
+    time: 2025-01-10 11:09:05.710774000 Z
+- id: 5
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:08.268963000 Z
+    zone: *1
+    time: 2025-01-10 11:09:08.268963000 Z
+  description: Get your energy flowing with quick Desk Star Jumps! A fun way to wake
+    up your body right next to your desk.
+  name: Desk Star Jumps
+  steps:
+  - Stand up straight with your feet together and arms at your sides.
+  - Jump while spreading your legs wide and raising your arms overhead to form a star
+    shape.
+  - Jump again to return to the starting position with feet together and arms at your
+    sides.
+  - Repeat these steps for 8-10 times to boost your energy and improve mobility.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:08.268963000 Z
+    zone: *1
+    time: 2025-01-10 11:09:08.268963000 Z
+- id: 6
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:10.943947000 Z
+    zone: *1
+    time: 2025-01-10 11:09:10.943947000 Z
+  description: A dynamic exercise that combines a torso twist with a knee lift to
+    improve core strength and mobility.
+  name: Desk Twist and Lift
+  steps:
+  - Stand up straight behind your desk with feet hip-width apart, arms relaxed at
+    your sides.
+  - Gently twist your torso to the right and lift your left knee up towards your chest
+    at the same time.
+  - Return to the starting position with both feet on the ground.
+  - Repeat the twist to the left with your right knee lifting up towards your chest.
+  - Continue alternating sides for a total of 10 repetitions on each side.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:10.943947000 Z
+    zone: *1
+    time: 2025-01-10 11:09:10.943947000 Z
+- id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:13.857725000 Z
+    zone: *1
+    time: 2025-01-10 11:09:13.857725000 Z
+  description: Get energized with this quick march and punch combo that's perfect
+    to do near your desk!
+  name: Desk March and Punch
+  steps:
+  - Stand up tall behind your desk with your feet hip-width apart
+  - Start marching in place, bringing your knees up toward your chest
+  - As you march, punch forward with your arms, alternating each arm with each step
+  - Feel the momentum and engage your core as you punch
+  - Continue this rhythmic march and punch movement for 30 seconds
+  - Take a short 5-second breather, smile and keep moving
+  - Repeat the entire sequence once more
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:13.857725000 Z
+    zone: *1
+    time: 2025-01-10 11:09:13.857725000 Z
+- id: 8
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:16.248812000 Z
+    zone: *1
+    time: 2025-01-10 11:09:16.248812000 Z
+  description: Get energized with this dynamic exercise that involves lifting your
+    knees and clapping your hands to improve both mobility and coordination, all while
+    standing.
+  name: Desk Knee Lift and Clap
+  steps:
+  - Stand up from your chair and make sure you have a little space in front of your
+    desk.
+  - Lift your right knee up towards your chest as you clap your hands under your thigh.
+  - Quickly lower your right foot back to the floor and repeat with your left knee.
+  - As you alternate lifting your knees and clapping under each, keep a cheerful rhythm
+    going.
+  - Continue for about 30 seconds maintaining your balance and energy.
+  - Finish with a big smile and enjoy the refreshed feeling!
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:16.248812000 Z
+    zone: *1
+    time: 2025-01-10 11:09:16.248812000 Z
+- id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:18.536595000 Z
+    zone: *1
+    time: 2025-01-10 11:09:18.536595000 Z
+  description: An engaging exercise to improve mobility and strength by tapping your
+    desk and twisting your torso.
+  name: Desk Tap and Twist
+  steps:
+  - Stand tall facing your desk with feet shoulder-width apart.
+  - Extend your right arm to tap the desk, simultaneously twist your torso to the
+    left.
+  - Return to the starting position.
+  - Extend your left arm to tap the desk, simultaneously twist your torso to the right.
+  - Return to the starting position.
+  - Repeat the sequence 5 times, alternating sides and keeping the movement fluid
+    and controlled.
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:18.536595000 Z
+    zone: *1
+    time: 2025-01-10 11:09:18.536595000 Z
+- id: 10
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:21.664769000 Z
+    zone: *1
+    time: 2025-01-10 11:09:21.664769000 Z
+  description: Energize your body with a quick desk lunge and stretch combo to boost
+    both strength and mobility!
+  name: Desk Lunge and Stretch
+  steps:
+  - Stand up straight near your desk, with enough room to step forward comfortably
+  - Take a big step forward with your right foot, bending both knees into a lunge
+    position so that your front thigh is parallel to the ground
+  - As you go into the lunge, reach both arms overhead for a rewarding stretch
+  - Hold this position for a moment, enjoying the stretch
+  - Push off your front foot to return to the starting position
+  - Switch to the left foot and repeat the lunge and stretch on the opposite side
+  - Alternate sides and repeat the sequence a total of 5 times for each leg
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: 2025-01-10 11:09:21.664769000 Z
+    zone: *1
+    time: 2025-01-10 11:09:21.664769000 Z
