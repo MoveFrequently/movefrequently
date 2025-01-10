@@ -3,11 +3,16 @@ import JSConfetti from "js-confetti";
 
 // Connects to data-controller="confetti"
 export default class extends Controller {
-  connect() {}
+  connect() {
+    // // Create a copy of the button that is not displayed
+    this.button = this.element.querySelector("a").cloneNode(true);
+    this.button.removeAttribute("data-action");
+    this.button.style.display = "none";
+    this.element.appendChild(this.button);
+  }
 
   async launch(event) {
     event.preventDefault();
-    const target = event.currentTarget.href;
 
     const confetti = new JSConfetti();
     await confetti.addConfetti({
@@ -15,6 +20,6 @@ export default class extends Controller {
       confettiSize: 1,
     });
 
-    window.location.href = target;
+    this.button.click();
   }
 }

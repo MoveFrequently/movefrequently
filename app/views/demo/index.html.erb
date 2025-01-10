@@ -1,3 +1,4 @@
+<%= turbo_frame_tag "body", class: "flex w-full" do %>
 <div class="flex w-full bg-gray-100 p-8">
   <div class="flex flex-col items-center justify-center min-h-full w-full">
     <div class="flex flex-col items-left justify-center mb-8 max-w-xl space-y-8">
@@ -20,8 +21,9 @@
       </div>
 
       <p class="text-center">
-            <%= link_to "Let's go, join the fun", next_exercises_path, class: "bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-200", data: { turbo: false } %>
+          <%= link_to "Let's go, join the fun", next_exercises_path, class: "bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-200", data: { controller: "audio", action: "audio#resumeAudioContext", turbo_frame: "body" } %>
       </p>
     </div>
   </div>
 </div>
+<% end %>

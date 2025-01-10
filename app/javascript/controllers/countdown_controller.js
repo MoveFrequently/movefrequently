@@ -20,13 +20,19 @@ export default class extends Controller {
         exerciseContainer.style.display = "flex";
         document.title = "LiveLonger - Time to Exercise!";
 
-        if (!notificationSent && Notification.permission === "granted") {
+        if (Notification.permission === "granted") {
           new Notification("Time to Exercise!", {
             body: "Your next exercise is ready",
             icon: "/icon.png",
           });
-          notificationSent = true;
         }
+
+        const audio = new Audio(
+          "https://www.myinstants.com/media/sounds/bereal.mp3"
+        );
+        audio
+          .play()
+          .catch((error) => console.error("Error playing sound:", error));
       } else if (status === "countdown") {
         countdownElement.textContent = timeString;
         document.title = `LiveLonger - Next in ${timeString}`;

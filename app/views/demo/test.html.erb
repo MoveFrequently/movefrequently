@@ -1,7 +1,3 @@
-<% content_for :header do %>
-  <p>
-    <%= link_to "Why?", demo_path, class: "pr-4"%>
-  </p>
+<%= turbo_frame_tag "body", class: "flex w-full" do %>
+    <%= render "exercises/exercise", exercise: @exercise, demo: true %>
 <% end %>
-
-<%= render "exercises/exercise", exercise: @exercise, demo: true %>
