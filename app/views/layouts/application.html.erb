@@ -28,7 +28,16 @@
   </head>
 
   <body >
-    <main class="mx-auto m-0 p-0 flex min-h-[calc(100vh-3rem)]">
+    
+    <% if content_for(:header) %>
+      <header class="flex justify-end items-center h-[3rem]  bg-gray-700 text-gray-200">   
+        <%= yield :header %>        
+      </header>
+    <% end %>
+
+    <% min_h_class = content_for(:header).present? ? "min-h-[calc(100vh-6rem)]" : "min-h-[calc(100vh-3rem)]" %>
+
+    <main class="mx-auto m-0 p-0 flex <%= min_h_class %>">
       <%= yield %>
     </main>
     
