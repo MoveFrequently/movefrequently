@@ -6,6 +6,7 @@ if __FILE__ == $0
   fixture_path = Rails.root.join('test/fixtures/exercises.yml')
   exercises = YAML.safe_load(File.read(fixture_path), permitted_classes: [ Time, ActiveSupport::TimeZone, ActiveSupport::TimeWithZone ], aliases: true)
 
+  Exercise.delete_all
 
   exercises.each do |_, exercise_data|
     existing = Exercise.find_by(name: exercise_data['name'])
