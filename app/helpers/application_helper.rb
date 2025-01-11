@@ -7,8 +7,6 @@ module ApplicationHelper
           "Health streak!", "Power move!"
         ].freeze
 
-    STEP_COLORS = [ "teal-500", "green-500", "yellow-500", "orange-500", "red-500", "pink-500", "purple-500", "indigo-500" ].freeze
-
     PEOPLE_TEXTS = {
       singular: [
         "health enthusiast", "wellness warrior", "desk warrior", "wellness seeker", "health advocate"
@@ -29,9 +27,5 @@ module ApplicationHelper
 
     def done_text(id)
         DONE_TEXTS[id % DONE_TEXTS.length]
-    end
-
-    def step_color(id)
-        STEP_COLORS[id % STEP_COLORS.length]
     end
 end
