@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   get "demo", to: "demo#index"
   get "test", to: "demo#test"
 
-  resources :exercises do
+  resources :exercises, only: [ :index ] do
     collection do
-      get :next
+      get :join
     end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -19,5 +19,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  root "demo#index"
+  root "exercises#index"
 end

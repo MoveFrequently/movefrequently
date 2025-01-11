@@ -3,10 +3,11 @@ class NextExercise < ApplicationRecord
 
   belongs_to :exercise
 
-  PERIOD = Rails.env.development? ? 20.seconds : 45.minutes
+  PERIOD = Rails.env.development? ? 20.seconds : 60.minutes
+  DEMO_PERIOD = 3.seconds
 
   def self.demo
-    new(id: 1, next_at: Time.now.utc + 5.seconds, exercise: Exercise.first)
+    new(id: 1, next_at: Time.now.utc + DEMO_PERIOD, exercise: Exercise.first)
   end
 
   def self.record

@@ -1,0 +1,12 @@
+<% demo ||= false %>
+
+<div class="flex w-full">  
+      <div class="flex flex-col grow items-center justify-center space-y-4">
+          <p class="text-center">
+              <%= link_to "Join the exercises", join_exercises_path, class: "button-primary", data: { controller: "audio", action: "audio#resumeAudioContext", turbo_frame: "body" } %>
+          </p>
+          <p class="text-center">
+            <%= link_to "why?", demo_path, class: "text-sm", data: { controller: "audio", action: "audio#resumeAudioContext", turbo_frame: "body" } %>
+          </p>
+      </div>
+</div>

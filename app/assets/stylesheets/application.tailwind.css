@@ -7,3 +7,26 @@
     @apply underline;
   }
 }
+
+@layer components {
+  :root {
+    --primary: #ffdd00;
+  }
+
+  .button-primary {
+    @apply bg-[var(--primary)] hover:bg-[var(--primary)]/80 text-black font-bold py-4 px-8 rounded-xl transition duration-200;
+    text-decoration: none;
+  }
+
+  ol.steps {
+    @apply relative;
+    li {
+      @apply rounded-xl p-4 text-sm font-bold relative shadow-lg pl-12 bg-white bg-opacity-50;
+      counter-increment: step;
+      &:before {
+        content: counter(step);
+        @apply absolute left-3 top-3 text-black bg-[var(--yellow-primary)] w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold;
+      }
+    }
+  }
+}

@@ -1,53 +1,51 @@
-<% demo ||= false %>
-
 <div class="flex w-full" data-controller="countdown" data-worker-path="<%= asset_path('workers/countdown.js') %>" data-time="<%= exercise.next_at.utc.iso8601 %>">
-    <div class="flex flex-col items-center justify-center min-h-full <%= bg_color(exercise.id) %> w-full p-8" data-countdown-target="countdown">
-        <div class="next-time">
-            <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>                        
-        </div>        
-        <% if demo %>
-            <p>This is a demo, real exercises start every <%= link_to "45 minutes", root_path, data: { turbo: false }, style: "z-index: 1000;" %>.</p>            
-        <% else %>
-            <%= turbo_stream_from exercise %>
-            <%= render "exercises/joined_by_count", exercise: exercise %>
-            <div class="mt-12">
-                <a href="https://www.buymeacoffee.com/miguelff" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-            </div>
-        <% end %>
-    </div>
+  <div class="flex flex-col w-full">
+    <div class="flex flex-col grow items-center justify-center w-full space-y-4 pt-8" data-countdown-target="countdown">
+      <h2 class="text-3xl md:text-4xl font-bold text-center w-full">
+        <span class="block mb-2 text-xl md:text-2xl text-gray-700">Next exercise</span>
+        <span class="font-extrabold bg-white bg-opacity-50 px-6 py-3 rounded-lg shadow-lg inline-block text-black"><%= exercise.name %></span>
+      </h2>
+      <div class="next-time">
+        <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>                        
+      </div>    
+      <div class="flex flex-col items-center justify-center text-sm space-y-2">        
+          <%= turbo_stream_from exercise %>
+          <%= render "exercises/joined_by_count", exercise: exercise %>                        
+      </div>
 
-    <div style="display:none;" class="mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl min-h-[calc(100vh-6rem)] p-8" data-countdown-target="exercise">
-        <div class="flex flex-col items-start justify-center px-8">
-            <h1 class="text-4xl md:text-4xl font-bold text-center w-full mb-12">
-            <%= exercise.name %>
-            </h1>
+      <div class="flex justify-center">
+        <a href="https://www.buymeacoffee.com/miguelff" target="_blank">
+          <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+        </a>
+      </div>
+    </div>     
 
-            <ol class="steps space-y-4 list-none mb-8">
-            <% exercise.steps.each_with_index do |step, index| %>
-                <% colors = ['bg-blue-100', 'bg-cyan-100', 'bg-teal-100', 'bg-green-100', 'bg-yellow-100', 'bg-orange-100', 'bg-red-100', 'bg-pink-100', 'bg-purple-100', 'bg-indigo-100'] %>
-                <li class="text-base md:text-lg <%= step_color(index) %> p-4 rounded-lg">
-                <%= step %>
-                </li>
-            <% end %>
-            </ol>
+    <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-countdown-target="exercise">
+      <div class="flex flex-col items-start justify-center px-8 space-y-8">
+        <h1 class="text-4xl md:text-4xl font-bold text-center w-full">
+          <%= exercise.name %>
+        </h1>
 
-            <p class="description text-lg mb-8 w-full text-center">
-                <%= exercise.description %>
-            </p>
+        <ol class="steps space-y-4 list-none">
+          <% exercise.steps.each_with_index do |step, index| %>
+            <% colors = ['bg-cyan-100', 'bg-teal-100', 'bg-green-100', 'bg-yellow-100', 'bg-orange-100', 'bg-red-100', 'bg-pink-100', 'bg-purple-100', 'bg-indigo-100'] %>
+            <li>
+              <%= step %>
+            </li>
+          <% end %>
+        </ol>
 
-            <div class="w-full flex justify-center" data-controller="confetti">            
-            <% if demo %>
-                <%= link_to "Let's go, join the fun", 
-                    next_exercises_path, 
-                    class: "bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-200", 
-                    data: { turbo: false, turbo_frame: "body" } %>
-            <% else %>
-                <%= link_to done_text(exercise.id), 
-                    next_exercises_path, 
-                    class: "bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg transition duration-200", 
-                    data: { action: "confetti#launch", turbo_frame: "body" } %>
-            <% end %>
-            </div>
+        <p class="description text-lg w-full text-center">
+          <%= exercise.description %>
+        </p>
+
+        <div class="w-full flex justify-center" data-controller="confetti">                     
+            <%= link_to done_text(exercise.id), 
+                join_exercises_path, 
+                class: "button-primary", 
+                data: { action: "confetti#launch", turbo_frame: "body" } %>          
         </div>
-    </div>
+      </div>
+    </div>    
+  </div>  
 </div>

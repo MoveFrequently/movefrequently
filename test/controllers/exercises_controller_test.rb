@@ -5,7 +5,7 @@ class ExercisesControllerTest < ActionDispatch::IntegrationTest
 
   test "should get next" do
     create_exercise
-    get next_exercises_url
+    get join_exercises_url
     assert_response :success
     assert_match "Joined by 1 people", response.body
   end
