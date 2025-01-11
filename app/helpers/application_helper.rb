@@ -9,20 +9,16 @@ module ApplicationHelper
 
     PEOPLE_TEXTS = {
       singular: [
-        "health enthusiast", "wellness warrior", "desk warrior", "wellness seeker", "health advocate"
+        "%d person"
       ],
       plural: [
-        "health enthusiasts", "wellness warriors", "desk warriors", "wellness seekers", "health advocates"
+        "%d people"
       ]
     }.freeze
 
     def people_text(id, count)
         text = PEOPLE_TEXTS[count == 1 ? :singular : :plural][id % PEOPLE_TEXTS[count == 1 ? :singular : :plural].length]
-        if count == 1
-            "one more #{text}"
-        else
-            "another #{count} #{text}"
-        end
+        text.gsub("%d", count.to_s)
     end
 
     def done_text(id)

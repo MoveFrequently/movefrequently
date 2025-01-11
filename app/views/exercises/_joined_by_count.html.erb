@@ -1,6 +1,4 @@
-<p id="joined-by-count">
-<% if exercise.joined_by_count > 1 %>
-    <%= people_text(exercise.id, exercise.joined_by_count - 1) %> around the world will join you!
-<% end %>
+<p id="joined-by-count" class="text-sm text-gray-500 font-light text-pretty">
+    <%= people_text(exercise.id, exercise.joined_by_count) %> <%= exercise.joined_by_count == 1 ? "is" : "are" %> using Livelonger right now
 </p>
 
