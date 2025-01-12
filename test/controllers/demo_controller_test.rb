@@ -7,6 +7,6 @@ class DemoControllerTest < ActionDispatch::IntegrationTest
     create_exercise
     get demo_url
     assert_response :success
-    assert_match "demo", response.body
+    assert_match "We need to move frequently.", response.body
   end
 end

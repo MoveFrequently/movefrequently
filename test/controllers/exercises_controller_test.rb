@@ -7,6 +7,6 @@ class ExercisesControllerTest < ActionDispatch::IntegrationTest
     create_exercise
     get join_exercises_url
     assert_response :success
-    assert_match "Joined by 1 people", response.body
+    assert_match "1 person is using Livelonger right now", response.body
   end
 end

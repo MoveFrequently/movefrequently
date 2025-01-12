@@ -36,12 +36,10 @@ class Exercise < ApplicationRecord
                 * safe and effective for the user.
                 * easy to follow and understand.
                 * fun and engaging.
-                * short and able to be done in 1-3 minutes.
+                * short and able to be done in approximately 1.
                 * high-intensity.
 
             Exercises must be varied, they must improve strength, and mobility.
-
-            Some examples of exercises are: Burpees, Squats, Jumping Jacks, Mountain Climbers, etc.
 
             You are also provided a list of previous exercises, so you must not generate an exercise that is too similar to any of them.
 
