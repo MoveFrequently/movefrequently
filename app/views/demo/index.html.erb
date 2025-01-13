@@ -1,33 +1,29 @@
-<div class="flex flex-col w-full p-8">
-  <div class="flex flex-col grow items-center justify-center w-full">
-    <div class="flex flex-col items-left justify-center mb-8 max-w-xl space-y-8">
+<div class="flex flex-col mx-auto w-full max-w-lg lg:max-w-xl xl:max-w-2xl grow items-center justify-center p-8">
+  <div class="flex flex-col items-left w-full justify-center mb-8 space-y-8">
+    <h1 class="text-4xl md:text-4xl font-bold text-center">
+      Sitting is silently killing you
+    </h1>
 
-      <h1 class="text-4xl md:text-4xl font-bold text-center">
-        Sitting is silently killing you
-      </h1>
+    <p class="text-pretty text-center">
+      No matter how much you exercise, sitting for long periods of time is a risk factor for early death <sup><a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/sitting-disease-how-a-sedentary-lifestyle-affects-heart-health" target="_blank">1</a></sup> <sup><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832/" target="_blank">2</a></sup> <br><strong>We need to move frequently.</strong>
+    </p>
 
-      <p class="text-pretty text-center">
-        No matter how much you exercise, sitting for long periods of time is a risk factor for early death <sup><a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/sitting-disease-how-a-sedentary-lifestyle-affects-heart-health" target="_blank">1</a></sup> <sup><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832/" target="_blank">2</a></sup> <br><strong>We need to move frequently.</strong>
-      </p>
-
-      <div class="mb-8">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5Q0UDIFQrVI?si=b2bWQUPZsZTfNZL3&amp;controls=0" title="YouTube video explaining the risks of sitting for prolonged periods" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-
-
-      <p class="text-pretty text-center">
-        The good news is, incorporating short bursts of movement into your daily routine can counteract the negative effects of sitting.        
-      </p>
-
-      <hr class="w-full border-1 border-blue-200">
-
-      <p class="text-pretty text-center">        
-             <strong>Move Frequently</strong> is a world-wide initiative to perform a 1-minute mobility and strength exercise every 45 minutes.
-      </p>
-
-      <p class="text-center">
-          <%= link_to "Join the movement", join_exercises_path, class: "button-primary", data: { controller: "audio", action: "audio#resumeAudioContext", turbo_frame: "body" } %>
-      </p>
+    <div class="mb-8">
+      <iframe class="w-full" height="315" src="https://www.youtube-nocookie.com/embed/5Q0UDIFQrVI?si=b2bWQUPZsZTfNZL3&amp;controls=0" title="YouTube video explaining the risks of sitting for prolonged periods" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-  </div>  
+
+    <p class="text-pretty text-center">
+      The good news is, incorporating short bursts of movement into your daily routine can counteract the negative effects of sitting.        
+    </p>
+
+    <hr class="w-full border-1 border-blue-200">
+
+    <p class="text-pretty text-center">        
+      <strong>Move Frequently</strong> is a world-wide initiative to perform a 1-minute mobility and strength exercise every 45 minutes.
+    </p>
+
+    <p class="text-center">
+      <%= link_to "Join the movement", join_exercises_path, class: "button-primary", data: { controller: "audio", action: "audio#resumeAudioContext", turbo_frame: "body" } %>
+    </p>
+  </div>
 </div>

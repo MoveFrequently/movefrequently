@@ -1,4 +1,4 @@
-<div class="flex w-full" data-controller="countdown notification-permissions" data-time="<%= exercise.next_at.utc.iso8601 %>">
+<div class="flex w-full mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-controller="countdown notification-permissions" data-time="<%= exercise.next_at.utc.iso8601 %>">
   <div class="flex flex-col w-full">
     <div class="flex flex-col grow items-center justify-center w-full" data-countdown-target="countdown">
       <h2 class="text-xl font-bold text-center w-full">
@@ -9,8 +9,8 @@
         <span id="countdown" class="text-6xl lg:text-8xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>
       </div>
       <div class="flex flex-col items-center justify-center text-sm m-0">        
-          <%= turbo_stream_from exercise %>
-          <%= render "exercises/joined_by_count", exercise: exercise %>                        
+        <%= turbo_stream_from exercise %>
+        <%= render "exercises/joined_by_count", exercise: exercise %>                        
       </div>
 
       <div class="flex justify-center mt-4">
@@ -28,7 +28,7 @@
           <div class="bg-yellow-300 h-2 rounded-full" style="width: 0%" data-countdown-target="exerciseProgress" data-exercise-duration-seconds="<%= exercise.duration_seconds %>" data-exercise-target-url="<%= join_exercises_path %>"></div>
         </div>          
       </div>
-      
+
       <div class="flex flex-col items-start justify-center px-8">
         <h1 class="text-4xl md:text-4xl font-bold text-center w-full mb-8">
           <%= exercise.name %>
@@ -48,13 +48,12 @@
         </p>
 
         <div class="w-full flex justify-center" data-controller="confetti">                     
-            <%= link_to done_text(exercise.id), 
-                join_exercises_path, 
-                class: "button-primary", 
-                data: { action: "confetti#launch", turbo_frame: "body" } %>          
+          <%= link_to done_text(exercise.id), 
+              join_exercises_path, 
+              class: "button-primary", 
+              data: { action: "confetti#launch", turbo_frame: "body" } %>          
         </div>
-        </div>        
-      </div>
-    </div>    
-  </div>  
+      </div>        
+    </div>
+  </div>    
 </div>
