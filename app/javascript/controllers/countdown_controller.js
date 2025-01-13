@@ -111,6 +111,11 @@ export default class extends Controller {
 
   #finishExercise(exerciseTargetUrl) {
     clearInterval(this.exerciseInterval);
-    Turbo.visit(exerciseTargetUrl);
+
+    const link = document.createElement("a");
+    link.setAttribute("data-turbo-frame", "body");
+    link.href = exerciseTargetUrl;
+    document.body.appendChild(link);
+    link.click();
   }
 }
