@@ -37,6 +37,7 @@ export default class extends Controller {
       .toString()
       .padStart(2, "0")}`;
     countdownElement.textContent = timeString;
+    document.title = `LiveLonger - ${timeString} until next exercise`;
   }
 
   #finish(countdownContainer, exerciseContainer) {
