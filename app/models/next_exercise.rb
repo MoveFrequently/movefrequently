@@ -3,7 +3,7 @@ class NextExercise < ApplicationRecord
 
   belongs_to :exercise
 
-  PERIOD = Rails.env.development? ? 20.seconds : 50.minutes
+  PERIOD = Rails.env.development? ? 20.seconds : 45.minutes
   DEMO_PERIOD = 3.seconds
 
   def self.demo
