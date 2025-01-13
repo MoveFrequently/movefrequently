@@ -22,7 +22,7 @@
       <%= render "common/add_to_bookmarks" %>
     </div>     
 
-    <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-countdown-target="exercise">
+    <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-countdown-target="exercise" data-exercise-duration-seconds="<%= exercise.duration_seconds %>">
       <div class="flex flex-col items-start justify-center px-8 space-y-8">
         <h1 class="text-4xl md:text-4xl font-bold text-center w-full">
           <%= exercise.name %>

@@ -4,7 +4,12 @@ class NextExercise < ApplicationRecord
   belongs_to :exercise
 
   PERIOD = Rails.env.development? ? 20.seconds : 45.minutes
+  EXERCISE_DURATION = Rails.env.development? ? 10.seconds : 5.minutes
   DEMO_PERIOD = 3.seconds
+
+  def duration_seconds
+    EXERCISE_DURATION.to_i
+  end
 
   def self.demo
     new(id: 1, next_at: Time.now.utc + DEMO_PERIOD, exercise: Exercise.first)
