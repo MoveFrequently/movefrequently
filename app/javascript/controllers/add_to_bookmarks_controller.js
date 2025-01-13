@@ -1,8 +1,10 @@
 import { Controller } from "@hotwired/stimulus";
 
+const LOCAL_STORAGE_KEY = "livelonger::added-to-bookmarks";
+
 export default class extends Controller {
   connect() {
-    if (!localStorage.getItem("added-to-bookmarks")) {
+    if (!localStorage.getItem(LOCAL_STORAGE_KEY)) {
       const userAgent = navigator.userAgent.toLowerCase();
       if (this.isDesktop(userAgent)) {
         if (this.isMac(userAgent)) {
@@ -18,7 +20,7 @@ export default class extends Controller {
   }
 
   dismiss() {
-    localStorage.setItem("added-to-bookmarks", true);
+    localStorage.setItem(LOCAL_STORAGE_KEY, true);
     this.element.classList.add("hidden");
   }
 
