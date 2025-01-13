@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <%= yield :head %>
+  </head>
+  <body>
+    <%= turbo_frame_tag "body" do %>
+      <%= yield %>
+    <% end %>
+  </body>
+</html>

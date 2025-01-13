@@ -1,4 +1,6 @@
 class DemoController < ApplicationController
+  override_frame_layout
+
   def index
     session[:demo_seen] = true
   end

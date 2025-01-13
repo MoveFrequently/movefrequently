@@ -1,4 +1,6 @@
 class ExercisesController < ApplicationController
+  override_frame_layout
+
   def index
     @exercise = Exercise.next
   end

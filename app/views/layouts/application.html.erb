@@ -4,14 +4,14 @@
     <title><%= content_for(:title) || "Livelonger" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">    
-    <meta name="description" content="LiveLonger helps you fight sedentarism by delivering simple exercises to do at your desk every hour. Stay active and healthy while working!">
+    <meta name="description" content="Combat sedentary lifestyles with LiveLonger - delivering simple exercises to do at your desk every <%= NextExercise::PERIOD.inspect %>. Stay active and healthy while working!">
     <meta name="keywords" content="health, exercise, sedentarism, workplace wellness, desk exercises, fitness, wellbeing">
     <meta property="og:title" content="LiveLonger - Fight Sedentarism with Simple Desk Exercises">
-    <meta property="og:description" content="Combat sedentary lifestyles with LiveLonger - delivering simple exercises to do at your desk every hour. Stay active and healthy while working!">
+    <meta property="og:description" content="Combat sedentary lifestyles with LiveLonger - delivering simple exercises to do at your desk every <%= NextExercise::PERIOD.inspect %>. Stay active and healthy while working!">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="LiveLonger - Fight Sedentarism with Simple Desk Exercises">
-    <meta name="twitter:description" content="Combat sedentary lifestyles with LiveLonger - delivering simple exercises to do at your desk every hour. Stay active and healthy while working!">
+    <meta name="twitter:description" content="Combat sedentary lifestyles with LiveLonger - delivering simple exercises to do at your desk every <%= NextExercise::PERIOD.inspect %>. Stay active and healthy while working!">
     
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -29,7 +29,9 @@
 
   <body class="min-h-screen flex flex-col w-full bg-blue-100">
     <main class="mx-auto flex grow w-full">
-      <%= yield %>
+      <%= turbo_frame_tag "body", class: "flex w-full" do %>
+        <%= yield %>
+      <% end %>
     </main>
 
     <%= render "common/share" %>
