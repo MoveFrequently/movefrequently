@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus";
 
-const LOCAL_STORAGE_KEY = "livelonger::added-to-bookmarks";
+const LOCAL_STORAGE_KEY = "move_frequently::added-to-bookmarks";
 
 export default class extends Controller {
   connect() {

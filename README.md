@@ -1,10 +1,10 @@
-# LiveLonger: 🖕🏼 sedentarism
+# [Move Frequently](movefrequently.com): 🖕🏼 sedentarism
 
-LiveLonger is a web application designed to help you fight sedentarism by delivering simple exercises to do at your desk every hour. Stay active and healthy while working! 🧘‍♀️ 🏃‍♂️
+Move Frequently is a web application designed to help you fight sedentarism by delivering simple exercises to do at your desk every hour. Stay active and healthy while working! 🧘‍♀️ 🏃‍♂️
 
 ## Contributing
 
-We welcome contributions to LiveLonger! Here's how you can help:
+We welcome contributions to Move Frequently! Here's how you can help:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -23,4 +23,4 @@ Please make sure your PR:
 
 # Made with ❤️
 
-LiveLonger is [FOSS](https://github.com/miguelff/livelonger), made with ❤️ by [Miguel](https://github.com/miguelff) and [Daniel](https://x.com/esmaldan). Got ideas? [Let us know!](https://github.com/miguelff/livelonger/issues)
+Move Frequently is [FOSS](https://github.com/miguelff/movefrequently), made with ❤️ by [Miguel](https://github.com/miguelff) and [Daniel](https://x.com/esmaldan). Got ideas? [Let us know!](https://github.com/miguelff/movefrequently/issues)
