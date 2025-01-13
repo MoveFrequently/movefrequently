@@ -1,4 +1,4 @@
-<div class="flex w-full" data-controller="countdown" data-time="<%= exercise.next_at.utc.iso8601 %>">
+<div class="flex w-full" data-controller="countdown notification-permissions" data-time="<%= exercise.next_at.utc.iso8601 %>">
   <div class="flex flex-col w-full">
     <div class="flex flex-col grow items-center justify-center w-full" data-countdown-target="countdown">
       <h2 class="text-xl font-bold text-center w-full">
@@ -6,7 +6,7 @@
         <span class="font-extrabold text-2xl px-6 py-3 text-black"><%= exercise.name %></span>
       </h2>
       <div class="next-time">
-        <span id="countdown" class="text-4xl md:text-6xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>                        
+        <span id="countdown" class="text-6xl lg:text-8xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>                        
       </div>    
       <div class="flex flex-col items-center justify-center text-sm m-0">        
           <%= turbo_stream_from exercise %>

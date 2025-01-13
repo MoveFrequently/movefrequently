@@ -20,12 +20,12 @@ export default class extends Controller {
     );
 
     updater();
-    this.interval = setInterval(updater, 1000);
+    this.refreshInterval = setInterval(updater, 1000);
   }
 
   disconnect() {
-    if (this.interval) {
-      clearInterval(this.interval);
+    if (this.refreshInterval) {
+      clearInterval(this.refreshInterval);
     }
   }
 
@@ -37,18 +37,29 @@ export default class extends Controller {
       .toString()
       .padStart(2, "0")}`;
     countdownElement.textContent = timeString;
-    document.title = `LiveLonger - ${timeString} until next exercise`;
+    document.title = `${timeString} until next exercise`;
+  }
+
+  #sendNotification(exerciseContainer) {
+    const exerciseName = exerciseContainer.querySelector("h1").textContent;
+    new Notification(`Time to Exercise!`, {
+      body: `${exerciseName.trim()} is ready`,
+      icon: "/icon.png",
+    });
   }
 
   #finish(countdownContainer, exerciseContainer) {
     countdownContainer.style.display = "none";
     exerciseContainer.style.display = "flex";
-    document.title = "LiveLonger - Time to Exercise!";
+    document.title = "Time to Exercise!";
 
     if (Notification.permission === "granted") {
-      new Notification("Time to Exercise!", {
-        body: "Your next exercise is ready",
-        icon: "/icon.png",
+      this.#sendNotification(exerciseContainer);
+    } else if (Notification.permission !== "denied") {
+      Notification.requestPermission().then((permission) => {
+        if (permission === "granted") {
+          this.#sendNotification(exerciseContainer);
+        }
       });
     }
 
@@ -56,7 +67,7 @@ export default class extends Controller {
       "https://www.myinstants.com/media/sounds/bereal.mp3"
     );
     audio.play().catch((error) => console.error("Error playing sound:", error));
-    clearInterval(this.interval);
+    clearInterval(this.refreshInterval);
 
     return;
   }
