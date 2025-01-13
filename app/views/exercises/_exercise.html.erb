@@ -1,6 +1,6 @@
 <div class="flex w-full" data-controller="countdown" data-time="<%= exercise.next_at.utc.iso8601 %>">
   <div class="flex flex-col w-full">
-    <div class="flex flex-col grow items-center justify-center w-full space-y-4 pt-8" data-countdown-target="countdown">
+    <div class="flex flex-col grow items-center justify-center w-full" data-countdown-target="countdown">
       <h2 class="text-xl font-bold text-center w-full">
         <span class="mb-2 text-base text-gray-500 font-light">Next exercise</span><br>
         <span class="font-extrabold text-2xl px-6 py-3 text-black"><%= exercise.name %></span>
@@ -13,11 +13,13 @@
           <%= render "exercises/joined_by_count", exercise: exercise %>                        
       </div>
 
-      <div class="flex justify-center">
+      <div class="flex justify-center mt-4">
         <a href="https://www.buymeacoffee.com/miguelff" target="_blank">
           <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
         </a>
       </div>
+
+      <%= render "common/add_to_bookmarks" %>
     </div>     
 
     <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-countdown-target="exercise">
