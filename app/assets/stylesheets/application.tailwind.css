@@ -18,16 +18,4 @@
     @apply bg-[var(--primary)] hover:bg-[var(--primary-brighter)] text-black font-bold py-4 px-8 rounded-xl transition duration-200;
     text-decoration: none;
   }
-
-  ol.steps {
-    @apply relative;
-    li {
-      @apply rounded-xl p-4 text-pretty font-bold relative shadow-lg pl-12 bg-white bg-opacity-50;
-      counter-increment: step;
-      &:before {
-        content: counter(step);
-        @apply absolute left-3 top-3 text-black bg-[var(--primary)] w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold;
-      }
-    }
-  }
 }
