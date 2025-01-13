@@ -1,6 +1,6 @@
-# [Move Frequently](movefrequently.com): 🖕🏼 sedentarism
+# [Move Frequently](http://movefrequently.com)
 
-Move Frequently is a web application designed to help you fight sedentarism by delivering simple exercises to do at your desk every hour. Stay active and healthy while working! 🧘‍♀️ 🏃‍♂️
+Move Frequently is a web application designed to help you fight sedentary work habits by delivering simple exercises to do at your desk every 45 minutes. Stay active and healthy while working! 🧘‍♀️ 🏃‍♂️
 
 ## Contributing
 
