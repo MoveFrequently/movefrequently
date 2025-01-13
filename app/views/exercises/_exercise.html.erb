@@ -28,9 +28,9 @@
           <%= exercise.name %>
         </h1>
 
-        <div class="exercise-time w-full flex justify-center text-blue-300 font-bold font-mono mb-8">
-          <div class="w-full bg-blue-200 rounded-full h-2.5">
-            <div class="bg-yellow-300 h-2.5 rounded-full" style="width: 80%" data-countdown-target="exerciseProgress" data-exercise-duration-seconds="<%= exercise.duration_seconds %>" data-exercise-target-url="<%= join_exercises_path %>"></div>
+        <div class="fixed top-0 left-0 exercise-time w-full flex justify-center text-blue-300 font-bold font-mono mb-8">
+          <div class="w-full bg-blue-200 rounded-full h-2">
+            <div class="bg-yellow-300 h-2 rounded-full" style="width: 0%" data-countdown-target="exerciseProgress" data-exercise-duration-seconds="<%= exercise.duration_seconds %>" data-exercise-target-url="<%= join_exercises_path %>"></div>
           </div>          
         </div>
 
