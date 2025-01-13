@@ -5,7 +5,7 @@ class DemoControllerTest < ActionDispatch::IntegrationTest
 
   test "should get index" do
     create_exercise
-    get demo_url
+    get why_url
     assert_response :success
     assert_match "We need to move frequently.", response.body
   end
