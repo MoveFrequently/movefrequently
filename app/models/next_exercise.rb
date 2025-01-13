@@ -4,7 +4,7 @@ class NextExercise < ApplicationRecord
   belongs_to :exercise
 
   PERIOD = Rails.env.development? ? 20.seconds : 45.minutes
-  EXERCISE_DURATION = Rails.env.development? ? 10.seconds : 5.minutes
+  EXERCISE_DURATION = Rails.env.development? ? 10.seconds : 3.minutes
   DEMO_PERIOD = 3.seconds
 
   def duration_seconds
