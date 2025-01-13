@@ -1,0 +1,18 @@
+<div id="add-to-bookmarks" data-controller="add-to-bookmarks" class="hidden fixed w-[300px] top-2 right-2 bg-white shadow-lg rounded-lg p-3 border border-gray-200 z-50">
+    <div class="absolute -top-2 left-[50%] w-4 h-4 bg-white border-t border-l border-gray-200 transform rotate-45"></div>
+    <div class="flex flex-row items-start gap-2 text-xs">
+        <div class="flex w-5 -mt-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="var(--primary)" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 5v16l7-3.5 7 3.5V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            </svg>
+        </div>
+        <div class="flex flex-col space-y-2">
+            <p>
+                <b>Mara's tip:</b> Press <span id="shortcut-mac" class="text-gray-700 hover:text-gray-900 mono bg-gray-200 px-1">⌘ + D</span> <span id="shortcut-pc" class="text-sm text-gray-700 hover:text-gray-900 hidden mono font-bold">Ctrl + D</span> to add LiveLonger to your bookmarks, then pin your tab, and never miss an exercise again!
+            </p>
+            <p>
+                <%= link_to "Dismiss", "#", data: { action: "add-to-bookmarks#dismiss" }, class: "text-xs text-gray-700 hover:text-gray-900" %>
+            </p>    
+        </div>        
+    </div>    
+</div>
