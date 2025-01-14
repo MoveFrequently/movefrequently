@@ -9,7 +9,7 @@ export default class extends Controller {
   ];
 
   connect() {
-    if (Notification.permission === "default") {
+    if ("Notification" in window && Notification.permission === "default") {
       Notification.requestPermission().then((permission) => {
         console.log("permission granted", permission);
       });
