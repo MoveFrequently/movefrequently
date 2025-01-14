@@ -8,11 +8,15 @@ We welcome contributions to Move Frequently! Here's how you can help:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Run the test suite to ensure everything works
-5. Commit your changes (`git commit -m 'Add amazing feature'`)
-6. Push to your branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+3. Setup the repository.
+   - Update gems: (`bundle`)
+   - First time contributor? - Load the db (`bin/rails db:create db:setup`)
+   - Load some exercises: (`script/load_exercises`)
+4. Run the local server: (`bin/dev`)
+5. Run the test suite to ensure everything is ok: (`bin/rails test:all`)
+6. Commit your changes (`git commit -m 'Add amazing feature'`)
+7. Push to your branch (`git push origin feature/amazing-feature`)
+8. Open a Pull Request
 
 Please make sure your PR:
 
