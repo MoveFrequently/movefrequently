@@ -87,7 +87,7 @@ group :test do
   gem "vcr", "~> 6.3"
 end
 
-gem "tailwindcss-rails", "~> 3.1"
+gem "tailwindcss-rails", "~> 3.2"
 
 gem "dockerfile-rails", ">= 1.7", group: :development
 
