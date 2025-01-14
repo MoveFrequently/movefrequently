@@ -9,6 +9,12 @@ export default class extends Controller {
   ];
 
   connect() {
+    if (Notification.permission === "default") {
+      Notification.requestPermission().then((permission) => {
+        console.log("permission granted", permission);
+      });
+    }
+
     const countdownContainer = this.countdownTarget;
     const exerciseContainer = this.exerciseTarget;
     const countdownElement = this.countdownElementTarget;
@@ -72,12 +78,6 @@ export default class extends Controller {
     if (window.Notification) {
       if (Notification.permission === "granted") {
         sendNotification();
-      } else if (Notification.permission !== "denied") {
-        Notification.requestPermission().then((permission) => {
-          if (permission === "granted") {
-            sendNotification();
-          }
-        });
       }
     }
 
