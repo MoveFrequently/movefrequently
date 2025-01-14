@@ -42,7 +42,7 @@ gem "dry-schema", "~> 1.13"
 
 # AI/ML Integration
 gem "ruby-openai", "~> 7.3"
-gem "langchainrb", "~> 0.19.1"
+gem "langchainrb", "~> 0.19.3"
 
 gem "concurrent-ruby", require: "concurrent"
 gem "concurrent-ruby-edge", "~> 0.7.1", require: "concurrent/edge/promises"
