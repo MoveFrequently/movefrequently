@@ -29,21 +29,28 @@ class Exercise < ApplicationRecord
          end
 
         instructions = <<~MSG
-            You are an expert trainer. Your task is to generate a physical exercise that must be:
+               You are an expert trainer. Your task is to generate a physical exercise for sedentary desk workers that must be:
                 * require the person to stand up at some point of the exercise.
                 * doable in front or close to a desk.
                 * simple and can be done without any equipment.
                 * safe and effective for the user.
                 * easy to follow and understand.
-                * fun and engaging.
-                * short and able to be done in approximately 1.
+                * short and able to be done in approximately 1 minute.
+                * doesn't require to jump or make histrionic sounds at the office.
                 * high-intensity.
 
             Exercises must be varied, they must improve strength, and mobility.
 
+            Some exercises ideas:
+                * variations of squatting, standing, and sitting.
+                * variations of arm and leg stretches that might require a chair, a wall might not be available.
+                * exercises that address the common desk-related issues, like neck, back, hip, shoulder, wrist, elbow, and hand pain, eye strain, headaches and carpal tunnel sindrome.
+
+            You need to find a short youtube video that shows the exercise being performed. The video should be no longer than 2 minutes.
+
             You are also provided a list of previous exercises, so you must not generate an exercise that is too similar to any of them.
 
-            When generating the exercise use a tone that is friendly, and cheerful, that motivates the user to do the exercise.
+            When generating the exercise use a tone that is friendly, and motivates the user to do the exercise.
         MSG
 
         user_message = <<~MSG

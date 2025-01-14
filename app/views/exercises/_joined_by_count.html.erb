@@ -1,4 +1,6 @@
 <p id="joined-by-count" class="text-sm text-gray-500 font-light text-pretty">
-    <%= people_text(exercise.id, exercise.joined_by_count) %> <%= exercise.joined_by_count == 1 ? "is" : "are" %> going to exercise with you
+    <% if exercise.joined_by_count > 0 %>
+        <%= people_text(exercise.id, exercise.joined_by_count) %> <%= exercise.joined_by_count == 1 ? "is" : "are" %> going to exercise with you
+    <% end %>
 </p>
 
