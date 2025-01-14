@@ -22,14 +22,14 @@
       <%= render "common/add_to_bookmarks" %>
     </div>     
 
-    <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-countdown-target="exercise">
+    <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl" data-countdown-target="exercise">
       <div class="fixed top-0 left-0 exercise-time w-full flex justify-center text-blue-300 font-bold font-mono mb-8">
         <div class="w-full bg-blue-200 rounded-full h-2">
           <div class="bg-yellow-300 h-2 rounded-full" style="width: 0%" data-countdown-target="exerciseProgress" data-exercise-duration-seconds="<%= exercise.duration_seconds %>" data-exercise-target-url="<%= join_exercises_path %>"></div>
         </div>          
       </div>
 
-      <div class="flex flex-col items-start justify-center px-8">
+      <div class="flex flex-col items-start justify-center">
         <h1 class="text-4xl md:text-4xl font-bold text-center w-full mb-8">
           <%= exercise.name %>
         </h1>        
