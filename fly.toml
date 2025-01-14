@@ -1,9 +1,6 @@
-# fly.toml app configuration file generated for livelonger on 2025-01-10T16:16:14+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
-
-app = 'livelonger'
 primary_region = 'ams'
 console_command = '/rails/bin/rails console'
 
@@ -26,6 +23,30 @@ console_command = '/rails/bin/rails console'
   auto_start_machines = false
   min_machines_running = 1
   processes = ['app']
+
+  [[http_service.checks]]
+    interval = '10s'
+    timeout = '2s'
+    grace_period = '5s'
+    method = 'GET'
+    path = '/up'
+    protocol = 'http'
+    tls_skip_verify = false
+
+    [http_service.checks.headers]
+      X-Forwarded-Proto = 'https'
+
+  [[http_service.checks]]
+    interval = '10s'
+    timeout = '2s'
+    grace_period = '5s'
+    method = 'GET'
+    path = '/up'
+    protocol = 'http'
+    tls_skip_verify = false
+
+    [http_service.checks.headers]
+      X-Forwarded-Proto = 'https'
 
   [[http_service.checks]]
     interval = '10s'
