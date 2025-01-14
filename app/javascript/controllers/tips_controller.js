@@ -68,7 +68,7 @@ export default class extends Controller {
         <b>Pablo's tip:</b> Using Chrome? Install Move Frequently as an app on your desktop.
       </p>
       <p>
-        Find the download icon in the right side of the address bar,
+        Find the download icon in the right side of the address bar.
       </p>
     `;
     this.showTooltip(icon, inner, onDismiss);
