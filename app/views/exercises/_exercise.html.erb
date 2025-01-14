@@ -1,4 +1,4 @@
-<div class="flex w-full mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-controller="countdown notification-permissions" data-time="<%= exercise.next_at.utc.iso8601 %>">
+<div class="flex w-full mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-controller="countdown notification-permissions tips" data-time="<%= exercise.next_at.utc.iso8601 %>">
   <div class="flex flex-col w-full">
     <div class="flex flex-col grow items-center justify-center w-full" data-countdown-target="countdown">
       <h2 class="text-xl font-bold text-center w-full px-4 mb-2">
@@ -18,8 +18,6 @@
           <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
         </a>
       </div>
-
-      <%= render "common/add_to_bookmarks" %>
     </div>     
 
     <div style="display:none;" class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl" data-countdown-target="exercise">
