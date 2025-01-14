@@ -92,3 +92,6 @@ gem "tailwindcss-rails", "~> 3.1"
 gem "dockerfile-rails", ">= 1.7", group: :development
 
 gem "redis", "~> 5.3"
+
+gem "sentry-ruby"
+gem "sentry-rails"
