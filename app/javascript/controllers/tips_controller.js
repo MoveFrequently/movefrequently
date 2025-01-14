@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus";
 
-const LOCAL_STORAGE_KEY = "move_frequently::added-to-bookmarks::v7";
+const LOCAL_STORAGE_KEY = "move_frequently::tips::v1";
 
 export default class extends Controller {
   connect() {
@@ -14,10 +14,8 @@ export default class extends Controller {
 
       if (this.isDesktop(userAgent) && !this.isPWA()) {
         if (this.isChrome()) {
-          debugger;
           this.showInstallPWA(onDismiss);
         } else {
-          debugger;
           const saveShortcut = this.isMac(userAgent) ? "⌘ + D" : "Ctrl + D";
           this.showAddBookmarkTooltip(saveShortcut, onDismiss);
         }
