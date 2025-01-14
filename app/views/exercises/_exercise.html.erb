@@ -1,9 +1,9 @@
 <div class="flex w-full mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8" data-controller="countdown notification-permissions" data-time="<%= exercise.next_at.utc.iso8601 %>">
   <div class="flex flex-col w-full">
     <div class="flex flex-col grow items-center justify-center w-full" data-countdown-target="countdown">
-      <h2 class="text-xl font-bold text-center w-full">
-        <span class="mb-2 text-base text-gray-500 font-light">Next exercise</span><br>
-        <span class="font-extrabold text-2xl px-6 py-3 text-black"><%= exercise.name %></span>
+      <h2 class="text-xl font-bold text-center w-full px-4 mb-2">
+        <span class="block w-full text-base text-gray-500 font-light">Next exercise</span>
+        <span class="block w-full font-extrabold text-2xl text-black"><%= exercise.name %></span>
       </h2>
       <div class="next-time">
         <span id="countdown" class="text-6xl lg:text-8xl xl:text-9xl font-bold text-center font-mono" data-countdown-target="countdownElement"></span>
