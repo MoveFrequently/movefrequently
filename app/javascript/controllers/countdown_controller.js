@@ -69,20 +69,27 @@ export default class extends Controller {
     exerciseContainer.style.display = "flex";
     document.title = "Time to Exercise!";
 
-    if (Notification.permission === "granted") {
-      sendNotification();
-    } else if (Notification.permission !== "denied") {
-      Notification.requestPermission().then((permission) => {
-        if (permission === "granted") {
-          sendNotification();
-        }
-      });
+    if (window.Notification) {
+      if (Notification.permission === "granted") {
+        sendNotification();
+      } else if (Notification.permission !== "denied") {
+        Notification.requestPermission().then((permission) => {
+          if (permission === "granted") {
+            sendNotification();
+          }
+        });
+      }
     }
 
-    const audio = new Audio(
-      "https://www.myinstants.com/media/sounds/bereal.mp3"
-    );
-    audio.play().catch((error) => console.error("Error playing sound:", error));
+    if (window.Audio) {
+      const audio = new Audio(
+        "https://www.myinstants.com/media/sounds/bereal.mp3"
+      );
+      audio
+        .play()
+        .catch((error) => console.error("Error playing sound:", error));
+    }
+
     clearInterval(this.countdownInterval);
     this.#startExercise(exerciseProgress);
     return;
