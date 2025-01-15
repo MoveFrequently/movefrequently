@@ -5,3 +5,4 @@ options:
   label:
     fly_launch_runtime: rails
   redis: true
+  tigris: true

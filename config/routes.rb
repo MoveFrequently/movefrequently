@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :admin do
+    resources :features
+  end
   get "why", to: "demo#index"
   get "test", to: "demo#test"
 
