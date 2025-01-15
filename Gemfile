@@ -95,3 +95,5 @@ gem "redis", "~> 5.3"
 
 gem "sentry-ruby"
 gem "sentry-rails"
+
+gem "aws-sdk-s3", "~> 1.177", :require => false
