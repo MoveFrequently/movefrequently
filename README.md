@@ -27,4 +27,4 @@ Please make sure your PR:
 
 # Made with ❤️
 
-Move Frequently is [FOSS](https://github.com/miguelff/movefrequently), made with ❤️ by [Miguel](https://github.com/miguelff) and [Daniel](https://x.com/esmaldan). Got ideas? [Let us know!](https://github.com/miguelff/movefrequently/issues)
+Move Frequently is [FOSS](https://github.com/miguelff/movefrequently), made with ❤️ by [Miguel](https://x.com/ThisIsFernandez), [Daniel](https://x.com/esmaldan) and a [kind folk](https://github.com/miguelff/movefrequently/graphs/contributors). Got ideas? [Let us know!](https://github.com/miguelff/movefrequently/issues)
