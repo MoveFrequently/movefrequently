@@ -4,7 +4,6 @@ const LOCAL_STORAGE_KEY = "move_frequently::tips::v1";
 
 export default class extends Controller {
   connect() {
-    console.log("tips connected");
     if (!localStorage.getItem(LOCAL_STORAGE_KEY)) {
       const userAgent = navigator.userAgent.toLowerCase();
 

@@ -49,7 +49,7 @@
           <%= link_to done_text(exercise.id), 
               join_exercises_path, 
               class: "button-primary", 
-              data: { action: "confetti#launch", turbo_frame: "body" } %>          
+              data: { action: "confetti#launch", "analytics-event": "exercise_completed", turbo_frame: "body" } %>          
         </div>
       </div>        
     </div>
