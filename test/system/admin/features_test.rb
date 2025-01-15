@@ -1,6 +1,8 @@
 require "application_system_test_case"
 
 class Admin::FeaturesTest < ApplicationSystemTestCase
+  fixtures "admin/features"
+
   setup do
     @admin_feature = admin_features(:one)
   end

@@ -475,6 +475,7 @@ DEPENDENCIES
   redis (~> 5.3)
   rubocop-rails-omakase
   ruby-openai (~> 7.3)
+  ruby-vips
   selenium-webdriver
   sentry-rails
   sentry-ruby
