@@ -6,6 +6,7 @@ export default class extends Controller {
     "exercise",
     "countdownElement",
     "exerciseProgress",
+    "exerciseTimeLeft",
   ];
 
   connect() {
@@ -19,6 +20,7 @@ export default class extends Controller {
     const exerciseContainer = this.exerciseTarget;
     const countdownElement = this.countdownElementTarget;
     const exerciseProgress = this.exerciseProgressTarget;
+    const exerciseTimeLeft = this.exerciseTimeLeftTarget;
     const exerciseTime = new Date(
       this.element.getAttribute("data-time")
     ).getTime();
@@ -31,7 +33,8 @@ export default class extends Controller {
         this.#finishCountdown(
           countdownContainer,
           exerciseContainer,
-          exerciseProgress
+          exerciseProgress,
+          exerciseTimeLeft
         );
       } else {
         this.#updateCountdown(countdownElement, dueIn);
@@ -62,7 +65,12 @@ export default class extends Controller {
     document.title = `${timeString} until next exercise`;
   }
 
-  #finishCountdown(countdownContainer, exerciseContainer, exerciseProgress) {
+  #finishCountdown(
+    countdownContainer,
+    exerciseContainer,
+    exerciseProgress,
+    exerciseTimeLeft
+  ) {
     const sendNotification = () => {
       const exerciseName = exerciseContainer.querySelector("h1").textContent;
       new Notification(`Time to Exercise!`, {
@@ -91,11 +99,11 @@ export default class extends Controller {
     }
 
     clearInterval(this.countdownInterval);
-    this.#startExercise(exerciseProgress);
+    this.#startExercise(exerciseProgress, exerciseTimeLeft);
     return;
   }
 
-  #startExercise(exerciseProgress) {
+  #startExercise(exerciseProgress, exerciseTimeLeft) {
     const exerciseDuration = exerciseProgress.getAttribute(
       "data-exercise-duration-seconds"
     );
@@ -107,9 +115,17 @@ export default class extends Controller {
     const updater = () => {
       const timeElapsed = Date.now() - startTime;
       const percentComplete = (timeElapsed / (exerciseDuration * 1000)) * 100;
-      exerciseProgress.style.width = `${percentComplete}%`;
-      if (percentComplete >= 100) {
+      const timeLeft = exerciseDuration - timeElapsed / 1000;
+
+      if (percentComplete >= 100 || timeLeft <= 0) {
         this.#finishExercise(exerciseTargetUrl);
+      } else {
+        exerciseProgress.style.width = `${percentComplete}%`;
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = Math.floor(timeLeft % 60);
+        exerciseTimeLeft.textContent = `${minutes
+          .toString()
+          .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
       }
     };
 
