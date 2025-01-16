@@ -1,0 +1,19 @@
+<tr>
+  <td class="px-6 py-4 whitespace-nowrap">
+    <%= link_to admin_exercise.name, admin_exercise_path(admin_exercise) %>
+  </td>
+
+  <td class="px-6 py-4 whitespace-nowrap">
+    <%= admin_exercise.custom_instructions.present? ? "📷" : "-" %>
+  </td>
+  <td class="px-6 py-4 whitespace-nowrap">
+    <% if admin_exercise.active? %>
+      👍 <%= admin_exercise.active_at.strftime("%Y-%m-%d %H:%M") %>
+    <% else %>
+      🫥 <%= admin_exercise.active_at&.strftime("%Y-%m-%d %H:%M") %>
+    <% end %>
+  </td>
+  <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+    <%= link_to "Edit", edit_admin_exercise_path(admin_exercise), class: "text-indigo-600 hover:text-indigo-900" %>    
+  </td>
+</tr>

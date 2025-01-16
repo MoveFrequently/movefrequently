@@ -1,0 +1,47 @@
+<% content_for :title, "Exercises" %>
+
+<div class="flex flex-col w-full">
+  <% if notice.present? %>
+    <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-md inline-block" id="notice"><%= notice %></p>
+  <% end %>
+
+  <div class="flex justify-between items-center">
+    <h1 class="font-bold text-4xl">Exercises</h1>
+    <%= link_to "New exercise", new_admin_exercise_path, class: "rounded-md px-3.5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white block font-medium" %>
+  </div>
+
+  <div class="min-w-full my-4">
+    <% if @admin_exercises.any? %>
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Name
+              </th>              
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Custom?
+              </th>              
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Active At
+              </th>
+              <th scope="col" class="relative px-6 py-3">
+                <span class="sr-only">Edit</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            <% @admin_exercises.each do |admin_exercise| %>
+              <%= render partial: "admin/exercises/row", locals: { admin_exercise: admin_exercise } %>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-4 text-center">
+        <%= paginate @admin_exercises %>
+      </div>
+    <% else %>
+      <p class="text-center my-10">No exercises found.</p>
+    <% end %>
+  </div>
+</div>

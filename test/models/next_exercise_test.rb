@@ -11,7 +11,9 @@ class NextExerciseTest < ActiveSupport::TestCase
 
   test "create_next uses next exercise in sequence" do
     first = create_exercise(name: "First")
+    not_active_yet = create_exercise(name: "Not active yet", active_at: 1.hour.from_now)
     second = create_exercise(name: "Second")
+
 
     next_exercise = NextExercise.create!(exercise: first, next_at: 1.hour.ago)
     new_next = NextExercise.create_next

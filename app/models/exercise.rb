@@ -10,6 +10,11 @@ class Exercise < ApplicationRecord
     validates :steps, presence: true, length: { minimum: 3 }
     validates :name, presence: true
     validates :description, presence: true
+    default_scope -> { where("active_at <= ?", Time.now.utc) }
+
+    attribute :active, :boolean
+    before_save :override_active_at
+    before_save :reject_blank_steps
 
     def self.next
         NextExercise.record
@@ -18,7 +23,7 @@ class Exercise < ApplicationRecord
     def self.generate_and_save!
         previous_exercises = self.order(created_at: :desc).limit(50).select(:name)
         res = generate(previous_exercises)
-        self.create!(res)
+        self.create!(res.merge(active: false))
     end
 
     def self.generate(previous_exercises = [])
@@ -26,7 +31,7 @@ class Exercise < ApplicationRecord
             string :name, description: "A name for the exercise, don't include the word desk or desk exercise, just the name of the exercise"
             string :description, description: "A description of the exercise, should be concise and to the point"
             array :steps, items: :string, description: "Key instructions for step-by-step performing of the exercise. Don't include numbers or any other formatting"
-         end
+        end
 
         instructions = <<~MSG
                You are an expert trainer. Your task is to generate a physical exercise for sedentary desk workers that must be:
@@ -65,4 +70,18 @@ class Exercise < ApplicationRecord
 
         assist(user_message, instructions: instructions, model: "gpt-4o", temperature: 1, schema: output_schema)
     end
+
+    def active
+        active_at.present? && active_at <= Time.now.utc
+    end
+    alias_attribute :active?, :active
+
+    private
+        def override_active_at
+            self.active_at = nil if self.attributes["active"] == false
+        end
+
+        def reject_blank_steps
+            self.steps = self.steps.reject(&:blank?)
+        end
 end

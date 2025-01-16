@@ -1,0 +1,31 @@
+<div class="flex flex-col max-w-lg lg:max-w-xl xl:max-w- border border-gray-200 rounded-lg p-4 bg-white">
+    <div class="flex flex-col items-start justify-center">
+        <h1 class="text-4xl md:text-4xl font-bold text-center w-full mb-8">
+            <%= exercise.name %>            
+        </h1>        
+
+        <p class="text-xs mb-2 w-full m-auto text-center <%= exercise.active? ? "bg-green-300" : "bg-red-300"%> rounded-full px-2 py-2">
+            <%= exercise.active? ? "Active" : "Inactive" %>
+            <%= exercise.active_at&.strftime("%Y-%m-%d %H:%M") %>
+        </p>
+
+        <% if exercise.custom_instructions.present? %>
+            <div class="custom-instructions text-sm flex flex-col items-center justify-center">
+                <%= exercise.custom_instructions.html_safe %>
+            </div>
+        <% end %>
+
+        <ol class="steps space-y-4 list-none relative mb-8">
+            <% exercise.steps.each_with_index do |step, index| %>        
+            <li class="rounded-xl p-4 text-pretty relative shadow-lg bg-white bg-opacity-50">
+                <span class="absolute left-4 rounded-full bg-[var(--primary)] text-black w-6 h-6 flex items-center justify-center text-sm font-bold"><%= index + 1 %></span>
+                <span class="pl-10"><%= step %></span>              
+            </li>
+            <% end %>
+        </ol>
+
+        <p class="description text-lg w-full text-center mb-8">
+            <%= exercise.description %>
+        </p>
+    </div>        
+</div>    
