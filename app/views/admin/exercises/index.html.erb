@@ -17,13 +17,19 @@
           <thead class="bg-gray-50">
             <tr>
               <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                ID
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Name
               </th>              
               <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Custom?
               </th>              
               <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Active At
+                Created At <%= link_to "↑", admin_exercises_path(params.permit(:page, :show_inactive).to_h.merge(order: "created_at DESC")) %> <%= link_to "↓", admin_exercises_path(params.permit(:page, :show_inactive).to_h.merge(order: "created_at ASC")) %>
+              </th>
+              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Active At 
               </th>
               <th scope="col" class="relative px-6 py-3">
                 <span class="sr-only">Edit</span>
@@ -38,7 +44,14 @@
         </table>
       </div>
       <div class="mt-4 text-center">
-        <%= paginate @admin_exercises %>
+        <p>
+          <%= paginate @admin_exercises %>
+        </p>
+
+        <p>
+          <%= link_to "Clear filters", admin_exercises_path(params.permit(:page, :order).to_h) %> | <%= link_to "Show inactive", admin_exercises_path(params.permit(:page, :order).to_h.merge(show_inactive: true)) %> | <%= link_to "Hide inactive", admin_exercises_path(params.permit(:page, :order).to_h.merge(show_inactive: false)) %>
+        </p>
+
       </div>
     <% else %>
       <p class="text-center my-10">No exercises found.</p>

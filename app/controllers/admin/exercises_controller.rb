@@ -3,7 +3,14 @@ class Admin::ExercisesController < AdminController
 
   # GET /admin/exercises or /admin/exercises.json
   def index
-    @admin_exercises = Admin::Exercise.unscoped.page(params[:page])
+    order_criteria = params[:order] || "created_at ASC"
+    scope = Admin::Exercise
+
+    if params[:show_inactive] == "true"
+      scope = scope.unscoped
+    end
+
+    @admin_exercises = scope.order(order_criteria).page(params[:page])
   end
 
   # GET /admin/exercises/1 or /admin/exercises/1.json

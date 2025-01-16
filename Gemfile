@@ -100,3 +100,5 @@ gem "aws-sdk-s3", "~> 1.177", require: false
 gem "ruby-vips"
 
 gem "kaminari", "~> 1.2"
+
+gem "chronic", "~> 0.10.2"
