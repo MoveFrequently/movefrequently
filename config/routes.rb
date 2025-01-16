@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   namespace :admin do
     resources :features
-    resources :exercises
+    resources :exercises do
+      member do
+        get :preview
+      end
+    end
   end
 
   get "why", to: "demo#index"

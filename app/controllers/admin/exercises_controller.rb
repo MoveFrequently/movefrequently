@@ -1,5 +1,5 @@
 class Admin::ExercisesController < AdminController
-  before_action :set_admin_exercise, only: %i[ show edit update destroy ]
+  before_action :set_admin_exercise, only: %i[ show edit update destroy preview]
 
   # GET /admin/exercises or /admin/exercises.json
   def index
@@ -55,6 +55,11 @@ class Admin::ExercisesController < AdminController
       format.html { redirect_to admin_exercises_path, status: :see_other, notice: "Exercise was successfully destroyed." }
       format.json { head :no_content }
     end
+  end
+
+  def preview
+    @exercise = NextExercise.demo(@admin_exercise.unwrap)
+    render "exercises/join"
   end
 
   private

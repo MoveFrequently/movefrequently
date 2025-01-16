@@ -11,6 +11,7 @@ class Exercise < ApplicationRecord
     validates :name, presence: true
     validates :description, presence: true
     default_scope -> { where("active_at <= ?", Time.now.utc) }
+    has_rich_text :custom_instructions
 
     attribute :active, :boolean
     before_save :override_active_at
