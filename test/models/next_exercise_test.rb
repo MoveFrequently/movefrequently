@@ -2,7 +2,7 @@ require "test_helper"
 
 class NextExerciseTest < ActiveSupport::TestCase
   test "create_next creates first exercise when no exercises exist" do
-    exercise = create_exercise(name: "First Exercise")
+    exercise = create_exercise(name: "First")
     next_exercise = NextExercise.create_next
 
     assert_equal exercise.id, next_exercise.exercise_id

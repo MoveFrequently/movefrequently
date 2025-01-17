@@ -10,7 +10,7 @@ class ExerciseTest < ActiveSupport::TestCase
       end
     end
 
-    all = Exercise.where("created_at > ?", now)
+    all = Exercise.unscoped.where("created_at > ?", now)
     assert_equal times, all.count
     assert_equal times, all.pluck(:name).uniq.count
     assert_equal times, all.pluck(:description).uniq.count

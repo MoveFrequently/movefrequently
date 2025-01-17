@@ -16,7 +16,8 @@ module Factories
     Exercise.create!({
       name: "Test Exercise",
       description: "A test exercise description",
-      steps: [ "Step 1", "Step 2", "Step 3" ]
+      steps: [ "Step 1", "Step 2", "Step 3" ],
+      active_at: 1.minute.ago
     }.merge(attributes))
   end
 end

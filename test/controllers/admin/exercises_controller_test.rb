@@ -17,11 +17,11 @@ class Admin::ExercisesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should create admin_exercise" do
-    assert_difference("Admin::Exercise.count") do
+    assert_difference("Admin::Exercise.unscoped.count") do
       post admin_exercises_url, params: { admin_exercise: { name: "New Exercise", description: "New Exercise Description", steps: [ "Step 1", "Step 2", "Step 3" ] } }
     end
 
-    assert_redirected_to admin_exercise_url(Admin::Exercise.last)
+    assert_redirected_to admin_exercise_url(Admin::Exercise.unscoped.last)
   end
 
   test "should show admin_exercise" do
