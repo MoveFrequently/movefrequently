@@ -29,7 +29,24 @@
 
     <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   </head>  
-  <body class="min-h-screen flex flex-col w-full bg-blue-100" data-controller="analytics">
+
+  <% background_color = ENV["BG_COLOR"] || "bg-blue-100" %>
+  <body class="min-h-screen flex flex-col w-full <%= background_color %>" data-controller="analytics">
+    <header class="flex m-auto pt-8">
+      <div class="flex flex-col">
+        <h1 class="flex items-start">    
+          <%= link_to root_path, class: "flex no-underline", data: { turbo: false } do %>      
+          <div class="flex text-2xl font-bold">
+            <%= image_tag "/icon.png", alt: "Move Frequently Logo", class: "h-14 w-14 rounded-xl inline-block mr-2" %>            
+          </div>
+          <div class="flex flex-col">
+            <span class="text-2xl font-bold">movefrequently.com</span>
+            <p class="text-sm font-light">Because sitting is silently killing you</p>
+          </div>
+          <% end %>
+        </h1>
+      </div>
+    </header>
     <main class="mx-auto flex grow w-full">
       <%= turbo_frame_tag "body", class: "flex w-full" do %>
         <%= yield %>

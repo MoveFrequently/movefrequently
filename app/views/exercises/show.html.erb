@@ -1,3 +1,7 @@
+<% content_for :title do %>
+    <%= "#{@exercise.name} | Move Frequently" %>
+<% end %>
+
  <% exercise = @exercise %>
  <div class="flex w-full mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl p-8">
     <div class="flex flex-col mx-auto max-w-lg lg:max-w-xl xl:max-w-2xl">      
@@ -26,10 +30,10 @@
             </p>
 
             <div class="w-full flex justify-center" data-controller="confetti">                     
-                <%= link_to "Get back to the current exercise", 
+                <%= link_to "Ok!", 
                     join_exercises_path, 
-                    class: "button-primary", 
-                    data: { "analytics-event": "exercise_viewed", turbo_frame: "body" } %>
+                    class: "button-primary",
+                    data: { "analytics-event": "exercise_viewed", turbo: false } %>
             </div>
         </div>        
         </div>
