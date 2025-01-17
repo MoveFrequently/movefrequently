@@ -16,7 +16,7 @@ class NextExercise < ApplicationRecord
   end
 
   def self.record
-    record = self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
+    record = self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).includes(:custom_instructions).first || self.create_next
   end
 
   def join!(latest_joined)

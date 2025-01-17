@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get "why", to: "demo#index"
   get "test", to: "demo#test"
 
-  resources :exercises, only: [ :index ] do
+  resources :exercises, only: [ :index, :show ] do
     collection do
       get :join
     end

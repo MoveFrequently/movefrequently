@@ -9,8 +9,8 @@
             <%= exercise.active_at&.strftime("%Y-%m-%d %H:%M") %>
         </p>
 
-        <% if exercise.custom_instructions? %>
-            <div class="custom-instructions text-sm flex flex-col items-center justify-center">
+        <% if exercise.custom_instructions.present? %>
+            <div class="flex flex-col items-start w-full justify-center mb-8">
                 <%= exercise.custom_instructions %>
             </div>
         <% end %>

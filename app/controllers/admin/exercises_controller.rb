@@ -65,8 +65,8 @@ class Admin::ExercisesController < AdminController
   end
 
   def preview
-    @exercise = NextExercise.demo(@admin_exercise.unwrap)
-    render "exercises/join"
+    @exercise = Admin::Exercise.unscoped.find(params.expect(:id))
+    render template: "exercises/show"
   end
 
   private

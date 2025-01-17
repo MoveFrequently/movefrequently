@@ -13,6 +13,10 @@ class ExercisesController < ApplicationController
     @exercise
   end
 
+  def show
+    @exercise = Exercise.unscoped.find(params[:id])
+  end
+
   private
 
     def update_latest_joined(id)
