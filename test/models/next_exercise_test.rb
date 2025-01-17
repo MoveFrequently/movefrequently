@@ -2,7 +2,7 @@ require "test_helper"
 
 class NextExerciseTest < ActiveSupport::TestCase
   test "create_next creates first exercise when no exercises exist" do
-    exercise = create_exercise(name: "First Exercise")
+    exercise = create_exercise(name: "First")
     next_exercise = NextExercise.create_next
 
     assert_equal exercise.id, next_exercise.exercise_id
@@ -11,7 +11,9 @@ class NextExerciseTest < ActiveSupport::TestCase
 
   test "create_next uses next exercise in sequence" do
     first = create_exercise(name: "First")
+    not_active_yet = create_exercise(name: "Not active yet", active_at: 1.hour.from_now)
     second = create_exercise(name: "Second")
+
 
     next_exercise = NextExercise.create!(exercise: first, next_at: 1.hour.ago)
     new_next = NextExercise.create_next

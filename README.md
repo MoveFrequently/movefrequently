@@ -11,7 +11,6 @@ We welcome contributions to Move Frequently! Here's how you can help:
 3. Setup the repository.
    - Update gems: (`bundle`)
    - First time contributor? - Load the db (`bin/rails db:create db:setup`)
-   - Load some exercises: (`script/load_exercises`)
 4. Run the local server: (`bin/dev`)
 5. Run the test suite to ensure everything is ok: (`bin/rails test:all`)
 6. Commit your changes (`git commit -m 'Add amazing feature'`)
@@ -27,4 +26,4 @@ Please make sure your PR:
 
 # Made with ❤️
 
-Move Frequently is [FOSS](https://github.com/miguelff/movefrequently), made with ❤️ by [Miguel](https://x.com/ThisIsFernandez), [Daniel](https://x.com/esmaldan) and a [kind folk](https://github.com/miguelff/movefrequently/graphs/contributors). Got ideas? [Let us know!](https://github.com/miguelff/movefrequently/issues)
+Move Frequently is [FOSS](https://github.com/movefrequently/movefrequently), made with ❤️ by [Miguel](https://x.com/ThisIsFernandez), [Daniel](https://x.com/esmaldan) and a [kind folk](https://github.com/miguelff/movefrequently/graphs/contributors). Got ideas? [Let us know!](https://github.com/miguelff/movefrequently/issues)

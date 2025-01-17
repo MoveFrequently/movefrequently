@@ -1,0 +1,58 @@
+<%= form_with(model: admin_exercise, class: "contents") do |form| %>
+  <% if admin_exercise.errors.any? %>
+    <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-md mt-3">
+      <h2><%= pluralize(admin_exercise.errors.count, "error") %> prohibited this admin_exercise from being saved:</h2>
+
+      <ul class="list-disc ml-6">
+        <% admin_exercise.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="my-5">
+    <%= form.label :name %>
+    <%= form.text_field :name, class: "block shadow rounded-md border outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :description %>
+    <%= form.text_area :description, class: "block shadow rounded-md border outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :custom_instructions %>
+    <%= form.rich_text_area :custom_instructions, class: "block shadow rounded-md border outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+
+  <div class="my-5">
+    <%= form.label :steps, "Steps (up to 10)" %>
+    <div id="steps-container">
+      <% admin_exercise.steps.each_with_index do |step, index| %>
+        <div class="step-field" data-index="<%= index %>">          
+          <%= text_field_tag "admin_exercise[steps][]", step, class: "block shadow rounded-md border px-3 py-2 mt-2 w-full" %>          
+        </div>
+      <% end %>
+      <% (admin_exercise.steps.size...10).each do |index| %>
+        <div class="step-field" data-index="<%= index %>">          
+          <%= text_field_tag "admin_exercise[steps][]", "", class: "block shadow rounded-md border px-3 py-2 mt-2 w-full" %>          
+        </div>
+      <% end %>
+    </div>  
+  </div>
+
+    <div class="my-5">
+      <%= form.label :active_at %>
+      <%= form.datetime_select :active_at, class: "block shadow rounded-md border outline-none px-3 py-2 mt-2 w-full", id: "active_at_select" %>
+      
+      <div class="flex items-center mt-2">
+        <%= form.check_box :active, {}, class: "mr-2", id: "inactive_checkbox" %>
+        <%= form.label :active, "Mark as active", class: "inline" %>
+      </div>
+  </div>
+
+  <div class="inline">
+    <%= form.submit class: "rounded-md px-3.5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white inline-block font-medium cursor-pointer" %>
+  </div>
+<% end %>

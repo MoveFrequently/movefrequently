@@ -1,5 +1,5 @@
 class NextExercise < ApplicationRecord
-  delegate :name, :steps, :description, to: :exercise, allow_nil: true
+  delegate :name, :steps, :description, :custom_instructions, to: :exercise, allow_nil: true
 
   belongs_to :exercise
 
@@ -11,12 +11,12 @@ class NextExercise < ApplicationRecord
     EXERCISE_DURATION.to_i
   end
 
-  def self.demo
-    new(id: 1, next_at: Time.now.utc + DEMO_PERIOD, exercise: Exercise.first)
+  def self.demo(exercise = Exercise.first)
+    new(id: 1, next_at: Time.now.utc + DEMO_PERIOD, exercise: exercise)
   end
 
   def self.record
-    record = self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
+    self.order(next_at: :asc).where("next_at > ?", Time.now.utc).includes(:exercise).first || self.create_next
   end
 
   def join!(latest_joined)

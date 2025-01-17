@@ -1,11 +1,17 @@
 Rails.application.routes.draw do
   namespace :admin do
     resources :features
+    resources :exercises do
+      member do
+        get :preview
+      end
+    end
   end
+
   get "why", to: "demo#index"
   get "test", to: "demo#test"
 
-  resources :exercises, only: [ :index ] do
+  resources :exercises, only: [ :index, :show ] do
     collection do
       get :join
     end

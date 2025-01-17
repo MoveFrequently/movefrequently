@@ -120,7 +120,7 @@ export default class extends Controller {
       if (percentComplete >= 100 || timeLeft <= 0) {
         this.#finishExercise(exerciseTargetUrl);
       } else {
-        exerciseProgress.style.width = `${percentComplete}%`;
+        exerciseProgress.style.width = `${100 - percentComplete}%`;
         const minutes = Math.floor(timeLeft / 60);
         const seconds = Math.floor(timeLeft % 60);
         exerciseTimeLeft.textContent = `${minutes
