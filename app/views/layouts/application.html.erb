@@ -29,7 +29,9 @@
 
     <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   </head>  
-  <body class="min-h-screen flex flex-col w-full bg-blue-100" data-controller="analytics">
+
+  <% background_color = ENV["BG_COLOR"] || "bg-blue-100" %>
+  <body class="min-h-screen flex flex-col w-full <%= background_color %>" data-controller="analytics">
     <main class="mx-auto flex grow w-full">
       <%= turbo_frame_tag "body", class: "flex w-full" do %>
         <%= yield %>
