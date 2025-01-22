@@ -17,7 +17,6 @@ module MoveFrequently
     config.autoload_lib(ignore: %w[assets tasks])
 
     config.active_support.to_time_preserves_timezone = :zone
-
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
@@ -25,5 +24,8 @@ module MoveFrequently
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.x.domain = ENV.fetch("APP_DOMAIN", "movefrequently.com")
+    config.x.whatsapp_number = ENV.fetch("WHATSAPP_NUMBER", "+1 555 555 5555")
   end
 end
