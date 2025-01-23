@@ -11,6 +11,11 @@ class NextExercise < ApplicationRecord
     EXERCISE_DURATION.to_i
   end
 
+  def exercise_id
+    return nil if exercise.nil?
+    exercise.id
+  end
+
   def self.demo(exercise = Exercise.first)
     new(id: 1, next_at: Time.now.utc + DEMO_PERIOD, exercise: exercise)
   end
