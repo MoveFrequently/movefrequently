@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 8c7e39497f069e354d67ed14c63fa31383871e5d
+  revision: 20f6edf931c83e4f68b691c4861ef47a3774f409
   branch: main
   specs:
     actioncable (8.1.0.alpha)
@@ -212,7 +212,7 @@ GEM
     http-2 (1.0.2)
     httpx (1.4.0)
       http-2 (>= 1.0.0)
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     image_processing (1.13.0)
       mini_magick (>= 4.9.5, < 5)
@@ -222,7 +222,8 @@ GEM
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.8.0)
-    irb (1.14.3)
+    irb (1.15.1)
+      pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jbuilder (2.13.0)
@@ -282,32 +283,35 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.18.1-aarch64-linux-gnu)
+    nokogiri (1.18.2-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.1-aarch64-linux-musl)
+    nokogiri (1.18.2-aarch64-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.1-arm-linux-gnu)
+    nokogiri (1.18.2-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.1-arm-linux-musl)
+    nokogiri (1.18.2-arm-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.1-arm64-darwin)
+    nokogiri (1.18.2-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-darwin)
+    nokogiri (1.18.2-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-gnu)
+    nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-musl)
+    nokogiri (1.18.2-x86_64-linux-musl)
       racc (~> 1.4)
     ostruct (0.6.1)
     parallel (1.26.3)
     parser (3.3.6.0)
       ast (~> 2.4.1)
       racc
+    pp (0.6.2)
+      prettyprint
     pragmatic_segmenter (0.3.24)
+    prettyprint (0.2.0)
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    psych (5.2.2)
+    psych (5.2.3)
       date
       stringio
     public_suffix (6.0.1)
@@ -331,7 +335,7 @@ GEM
       nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
     rainbow (3.1.1)
     rake (13.2.1)
-    rdoc (6.10.0)
+    rdoc (6.11.0)
       psych (>= 4.0.0)
     redis (5.3.0)
       redis-client (>= 0.22.0)
