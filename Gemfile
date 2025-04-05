@@ -45,7 +45,7 @@ gem "ruby-openai", "~> 7.3"
 gem "langchainrb", "~> 0.19.1"
 
 gem "concurrent-ruby", require: "concurrent"
-gem "concurrent-ruby-edge", "~> 0.7.1", require: "concurrent/edge/promises"
+gem "concurrent-ruby-edge", "~> 0.7.2", require: "concurrent/edge/promises"
 
 gem "faraday"
 gem "faraday-follow_redirects"
